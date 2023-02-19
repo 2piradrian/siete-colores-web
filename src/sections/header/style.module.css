@@ -1,6 +1,6 @@
 .background {
-	height: 60px;
-	position: absolute;
+	height: 60px !important;
+	position: absolute !important;
 	z-index: 2;
 	background-color: var(--main);
 }
@@ -12,13 +12,13 @@
 	max-width: 1700px;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	position: relative;
 }
 
 .burger {
 	font-size: 25px;
-	color: var(--contrast);
+	color: var(--background);
 	cursor: pointer;
 }
 
@@ -32,6 +32,9 @@
 }
 
 @media (min-width: 900px) {
+	.subcontainer {
+		justify-content: center;
+	}
 	.burger {
 		display: none;
 	}

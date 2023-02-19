@@ -38,6 +38,7 @@
 
 .navRoutes > a {
 	text-decoration: none;
+	color: var(--contrast);
 }
 
 @media (min-width: 900px) {
@@ -64,7 +65,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		color: var(--contrast);
+		color: var(--background);
 	}
 
 	.navRoutes > a:hover::after {
@@ -74,7 +75,7 @@
 		margin-top: -2px;
 		top: 5px;
 		height: 2px;
-		background-color: var(--main);
+		background-color: var(--background);
 		animation-name: navHover;
 		animation-duration: 0.2s;
 		animation-timing-function: ease-out;
