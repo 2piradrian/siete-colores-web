@@ -1,0 +1,41 @@
+.background {
+	height: 60px;
+	position: absolute;
+	z-index: 2;
+	background-color: var(--main);
+}
+
+.subcontainer {
+	height: 100%;
+	width: 100%;
+	padding: 0px 30px;
+	max-width: 1700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.burger {
+	font-size: 25px;
+	color: var(--contrast);
+	cursor: pointer;
+}
+
+.cart {
+	font-size: 28px;
+	cursor: pointer;
+	position: absolute;
+	right: 30px;
+	top: 15px;
+	color: var(--background);
+}
+
+@media (min-width: 900px) {
+	.burger {
+		display: none;
+	}
+	.cart {
+		font-size: 28px;
+	}
+}
