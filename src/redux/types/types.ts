@@ -1,0 +1,10 @@
+export const SET_POSTALCODE = "SET_POSTALCODE";
+export const SET_ADDRESS = "SET_ADDRESS";
+export const SET_METHOD = "SET_METHOD";
+export const SET_OFFICE = "SET_OFFICE";
+export const SET_FILTERS = "SET_FILTERS";
+export const CLEAR_FILTERS = "CLEAR_FILTERS";
+export const ADD_ITEM = "ADD_ITEM";
+export const DELETE_ITEM = "DELETE_ITEM";
+export const UPDATE_ITEM = "UPDATE_ITEM";
+export const CLEAN_CART = "CLEAN_CART";
