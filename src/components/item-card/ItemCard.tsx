@@ -5,6 +5,7 @@ import { product } from "../../types";
 
 import { add_item } from "./../../redux/actions/creators";
 import Button from "./../button/Button";
+import ItemModal from "./../item-modal/ItemModal";
 import style from "./style.module.css";
 
 function ItemCard({ id, name, price, tamaprox, type, popular, weight, description }: product) {
@@ -54,9 +55,14 @@ function ItemCard({ id, name, price, tamaprox, type, popular, weight, descriptio
 			<div className={style.priceContainer}>
 				<p className={style.price}>$ {price}</p>
 				<div onClick={handleAdd}>
-					<Button isActive>Agregar</Button>
+					<Button isActive styles={style.addProduct}>
+						Agregar
+					</Button>
 				</div>
 			</div>
+			{modal && (
+				<ItemModal handleView={() => setModal(!modal)} handleAdd={handleAdd} item={item} />
+			)}
 			<Toaster />
 		</div>
 	);
