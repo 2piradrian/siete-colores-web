@@ -1,7 +1,12 @@
+import Hero from "../sections/hero/Hero";
 import Layout from "./../layout/Layout";
 
 function Home() {
-	return <Layout>Home</Layout>;
+	return (
+		<Layout>
+			<Hero />
+		</Layout>
+	);
 }
 
 export default Home;

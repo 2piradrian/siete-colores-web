@@ -1,0 +1,91 @@
+.subcontainer {
+	height: 100vh;
+	width: 100%;
+	padding: 0px 30px;
+	max-width: 1700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+}
+
+.subcontainer > img {
+	height: auto;
+	width: 350px;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.presentation {
+	width: 70%;
+	font-size: 20px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.decoration {
+	width: 100vw;
+	position: absolute;
+	height: auto;
+	max-width: 1000px;
+	bottom: 0;
+	transform: scale(1.5);
+}
+
+.button {
+	height: 50px;
+	width: 300px;
+	margin: 20px;
+}
+
+@media (min-width: 500px) {
+	.presentation {
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 600px) {
+	.subcontainer > img {
+		width: 440px;
+	}
+}
+
+@media (min-width: 800px) {
+	.presentation {
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 900px) {
+	.subcontainer {
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	.subcontainer > img {
+		width: 500px;
+		height: 900px;
+	}
+}
+
+@media (min-width: 1100px) {
+	.presentation {
+		width: 100%;
+		max-width: 500px;
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.subcontainer > img {
+		width: 600px;
+	}
+	.presentation {
+		font-size: 26px;
+	}
+}

@@ -10,10 +10,7 @@ function Button({ isActive, children, styles }: Props) {
 	const { activeButton, inactiveButton } = style;
 
 	return (
-		<div
-			className={`${isActive ? activeButton : inactiveButton} ${styles}`}>
-			{children}
-		</div>
+		<div className={`${isActive ? activeButton : inactiveButton} ${styles}`}>{children}</div>
 	);
 }
 
