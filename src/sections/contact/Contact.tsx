@@ -13,7 +13,7 @@ function Contact() {
 	};
 
 	return (
-		<div className={`smallcontainer ${style.background}`} id="contact">
+		<section className={`smallcontainer ${style.background}`} id="contact">
 			<Titles title="Contactanos" subtitle="Dejanos un email" />
 			<form className={style.subcontainer} onSubmit={handleSubmit}>
 				<input type="text" placeholder="Nombre" name="name" />
@@ -23,7 +23,7 @@ function Contact() {
 					<Button isActive>Contactar</Button>
 				</button>
 			</form>
-		</div>
+		</section>
 	);
 }
 

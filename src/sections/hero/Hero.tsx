@@ -9,14 +9,13 @@ const { subcontainer, content, presentation, decoration, button } = style;
 
 function Hero() {
 	return (
-		<div className="bigcontainer">
+		<section className="bigcontainer">
 			<div className={subcontainer}>
 				<img src={isoMobile} alt="isologotipo de marca" />
 				<div className={content}>
 					<p className={presentation}>
-						Diseñamos productos a medida, encontrá cortantes,
-						selladores, texturizadores y toppers para facilitar tu
-						trabajo.
+						Diseñamos productos a medida, encontrá cortantes, selladores, texturizadores
+						y toppers para facilitar tu trabajo.
 					</p>
 					<Link to="/products">
 						<Button isActive styles={button}>
@@ -27,14 +26,10 @@ function Hero() {
 			</div>
 			<img
 				className={decoration}
-				src={
-					window.innerWidth > 900
-						? circles_illustrationdesk
-						: circles_illustration
-				}
+				src={window.innerWidth > 900 ? circles_illustrationdesk : circles_illustration}
 				alt="imagen de decoración"
 			/>
-		</div>
+		</section>
 	);
 }
 

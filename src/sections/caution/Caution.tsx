@@ -5,7 +5,7 @@ import style from "./style.module.css";
 
 function Caution() {
 	return (
-		<div className={`smallcontainer ${style.noscroll}`}>
+		<section className={`smallcontainer ${style.noscroll}`}>
 			<Titles title="Leer con atención" subtitle="Antes de comprar" />
 			<h1>Siete Colores</h1>
 			<p>Recomienda:</p>
@@ -29,7 +29,7 @@ function Caution() {
 				src={window.innerWidth > 900 ? circles_illustrationdesk : circles_illustration}
 				alt="imagen de decoración"
 			/>
-		</div>
+		</section>
 	);
 }
 

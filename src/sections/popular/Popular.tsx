@@ -9,7 +9,7 @@ import style from "./style.module.css";
 function Popular() {
 	const { products, isLoading } = useProducts(true);
 	return (
-		<div className="smallcontainer" id="popular">
+		<section className="smallcontainer" id="popular">
 			<Titles title="Lo más destacado" subtitle="¿Qué es lo qué está de moda?" />
 			<div className={style.subcontainer}>
 				<div className={style.itemContainer}>
@@ -24,7 +24,7 @@ function Popular() {
 					</Button>
 				</Link>
 			</div>
-		</div>
+		</section>
 	);
 }
 
