@@ -1,0 +1,51 @@
+.background {
+	padding: 50px 0px;
+	background-color: var(--secondaryBackground);
+}
+
+.subcontainer {
+	width: 100%;
+	max-width: 1700px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.subcontainer > input {
+	height: 40px;
+	width: 80%;
+	margin: 10px 0px;
+	padding-left: 10px;
+	max-width: 650px;
+	border: 2px solid var(--main);
+	border-radius: 5px;
+	outline: none;
+}
+
+.subcontainer > textarea {
+	height: 150px !important;
+	width: 80% !important;
+	margin: 10px 0px;
+	padding: 10px;
+	max-width: 650px;
+	border: 2px solid var(--main);
+	border-radius: 5px;
+	resize: none;
+	outline: none;
+}
+
+.subcontainer > button {
+	height: 40px;
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px 0px;
+	border: none;
+	border-radius: 10px;
+	color: var(--background);
+	background-color: var(--main);
+	cursor: pointer;
+}

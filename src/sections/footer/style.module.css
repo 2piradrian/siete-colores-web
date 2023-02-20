@@ -1,0 +1,56 @@
+.background {
+	height: 200px;
+	background-color: var(--alternative3);
+}
+
+.separator {
+	position: relative;
+	background: var(--secondaryBackground);
+	width: 100%;
+	height: 10px;
+}
+
+.separator::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	left: -0%;
+	top: 100%;
+	z-index: 2;
+	display: block;
+	height: 50px;
+	background-size: 50px 100%;
+	background-image: linear-gradient(135deg, var(--secondaryBackground) 25%, transparent 25%),
+		linear-gradient(225deg, var(--secondaryBackground) 25%, transparent 25%);
+	background-position: 0 0;
+}
+
+.subcontainer {
+	width: 100%;
+	padding: 50px 30px;
+	max-width: 700px;
+	gap: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+
+.boxContent {
+	height: auto;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: flex-start;
+}
+
+.titles {
+	color: var(--background);
+	font-size: 22px;
+}
+
+.text {
+	color: var(--background);
+	font-size: 20px;
+}

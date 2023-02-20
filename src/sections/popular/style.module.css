@@ -29,7 +29,7 @@
 	font-weight: 500;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1100px) {
 	.itemContainer {
 		justify-content: center;
 	}
