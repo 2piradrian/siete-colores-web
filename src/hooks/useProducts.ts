@@ -3,6 +3,7 @@ import {
 	doc,
 	getDoc,
 	getDocs,
+	getDocsFromCache,
 	limit,
 	query,
 	where,
@@ -27,19 +28,26 @@ function useProducts(onlyPopulars: boolean = false) {
 		if (onlyPopulars) {
 			return fetchPopulars();
 		} else {
-			const dataDocs = getDocs(itemsCollection).then((snapshot) => {
+			/* Traer documentos desde cache */
+			const cacheData = await getDocsFromCache(itemsCollection).then((snapshot) => {
+				console.log("from cache");
 				return snapshot.docs.map((doc) => doc.data());
 			});
-			return dataDocs;
+			/* Si no hay entonces solicitar al servidor */
+			if (cacheData.length > 0) {
+				return cacheData;
+			} else {
+				const dataDocs = getDocs(itemsCollection).then((snapshot) => {
+					console.log("from server");
+					return snapshot.docs.map((doc) => doc.data());
+				});
+				return dataDocs;
+			}
 		}
 	};
 	/* Fetch de los productos del home page */
 	const fetchPopulars = () => {
-		const q = query(
-			itemsCollection,
-			where("popular", "==", true),
-			limit(3)
-		);
+		const q = query(itemsCollection, where("popular", "==", true), limit(3));
 		const dataDocs = getDocs(q).then((snapshot) => {
 			return snapshot.docs.map((doc) => doc.data());
 		});
@@ -74,14 +82,10 @@ function useProducts(onlyPopulars: boolean = false) {
 		setProducts(dividedData);
 	};
 
-	const { data, isLoading, refetch } = useQuery(
-		["products"],
-		() => fetchProducts(onlyPopulars),
-		{
-			onSuccess,
-			refetchOnWindowFocus: false,
-		}
-	);
+	const { data, isLoading, refetch } = useQuery(["products"], () => fetchProducts(onlyPopulars), {
+		onSuccess,
+		refetchOnWindowFocus: false,
+	});
 
 	return { data, products, isLoading, refetch };
 }
