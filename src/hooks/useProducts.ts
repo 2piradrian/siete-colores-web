@@ -34,7 +34,7 @@ function useProducts(onlyPopulars: boolean = false) {
 				return snapshot.docs.map((doc) => doc.data());
 			});
 			/* Si no hay entonces solicitar al servidor */
-			if (cacheData.length > 0) {
+			if (cacheData.length > 4) {
 				return cacheData;
 			} else {
 				const dataDocs = getDocs(itemsCollection).then((snapshot) => {
