@@ -1,6 +1,7 @@
 import { QueryClient, QueryClientProvider } from "react-query";
 import { Navigate, Route, Routes } from "react-router-dom";
 import Cart from "./routes/Cart";
+import Dashboard from "./routes/Dashboard";
 import Home from "./routes/Home";
 import Login from "./routes/Login";
 import Products from "./routes/Products";
@@ -18,6 +19,7 @@ function App() {
 					<Route path="/products" element={<Products />} />
 					<Route path="/cart" element={<Cart />} />
 					<Route path="/login" element={<Login />} />
+					<Route path="/dashboard" element={<Dashboard />} />
 					<Route path="/" element={<Navigate to="/home" />} />
 					<Route path="*" element={<Navigate to="/home" />} />
 				</Routes>

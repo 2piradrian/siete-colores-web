@@ -8,3 +8,4 @@ export const ADD_ITEM = "ADD_ITEM";
 export const DELETE_ITEM = "DELETE_ITEM";
 export const UPDATE_ITEM = "UPDATE_ITEM";
 export const CLEAN_CART = "CLEAN_CART";
+export const SET_AUTH = "SET_AUTH";
