@@ -1,4 +1,3 @@
-import { User } from "firebase/auth";
 import { product } from "../../types";
 
 import {
@@ -12,7 +11,6 @@ import {
 	SET_OFFICE,
 	SET_POSTALCODE,
 	UPDATE_ITEM,
-	SET_AUTH,
 } from "../types/types";
 
 export const set_postalcode = (data: object) => ({
@@ -62,9 +60,4 @@ export const update_item = (item: product) => ({
 
 export const clean_cart = () => ({
 	type: CLEAN_CART,
-});
-
-export const set_auth = (user: User | null | undefined) => ({
-	type: SET_AUTH,
-	payload: user,
 });

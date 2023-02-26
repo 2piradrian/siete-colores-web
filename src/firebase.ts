@@ -26,3 +26,4 @@ export const auth = getAuth(app);
 /* Cache */
 clearIndexedDbPersistence(db);
 enableIndexedDbPersistence(db);
+auth.signOut();
