@@ -18,9 +18,8 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-
 export const db = getFirestore(app);
 
+/* Cache */
 clearIndexedDbPersistence(db);
-console.log("cache deleted");
 enableIndexedDbPersistence(db);

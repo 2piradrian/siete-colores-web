@@ -30,7 +30,6 @@ function useProducts(onlyPopulars: boolean = false) {
 		} else {
 			/* Traer documentos desde cache */
 			const cacheData = await getDocsFromCache(itemsCollection).then((snapshot) => {
-				console.log("from cache");
 				return snapshot.docs.map((doc) => doc.data());
 			});
 			/* Si no hay entonces solicitar al servidor */
@@ -38,7 +37,6 @@ function useProducts(onlyPopulars: boolean = false) {
 				return cacheData;
 			} else {
 				const dataDocs = getDocs(itemsCollection).then((snapshot) => {
-					console.log("from server");
 					return snapshot.docs.map((doc) => doc.data());
 				});
 				return dataDocs;
