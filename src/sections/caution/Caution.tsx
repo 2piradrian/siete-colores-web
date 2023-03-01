@@ -10,18 +10,27 @@ function Caution() {
 			<h1>Siete Colores</h1>
 			<p>Recomienda:</p>
 			<div className={style.container}>
+				<p className={style.text}>Si no encontrás algún cortante envianos un mensaje.</p>
 				<p className={style.text}>
 					Los productos se deben <span>lavar a mano</span>, con agua fria o tibia. No son
-					aptos para lavavajillas, no deben exponerse a altas temperaturas. Secar bien
-					antes de guardar.
+					aptos para lavavajillas, no deben exponerse a altas temperaturas.
 				</p>
+				<p className={style.text}>
+					Prestar atención al lavado puesto que algunas piezas tienen detalles que pueden
+					llegar a romperse.
+				</p>
+				<p className={style.text}>Secar muy bien antes de guardar</p>
 				<p className={style.text}>
 					<span>No contamos</span> con stock del producto para
 					<span> entrega inmediata.</span> Nuestros productos se fabrican
 					<span> bajo pedido.</span>
 				</p>
 				<p className={style.text}>
-					Los tiempos estimados de fabricación son de <span> 6 a 10 días</span>
+					Los tiempos estimados de fabricación son de <span> 6 a 10 días</span>.
+				</p>
+				<p className={style.text}>Precios exclusivos para compras por mayor.</p>
+				<p className={style.text}>
+					Tu consulta no molesta, gracias por visitar nuestra página.
 				</p>
 			</div>
 			<img

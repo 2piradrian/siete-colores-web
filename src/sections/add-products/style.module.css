@@ -1,0 +1,60 @@
+.background {
+	padding: 50px 0px;
+}
+
+.subcontainer {
+	width: 100%;
+	max-width: 1700px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.subcontainer input {
+	height: 40px;
+	width: 410px;
+	margin: 10px 5px;
+	padding-left: 10px;
+	max-width: 450px;
+	border: 2px solid var(--main);
+	border-radius: 5px;
+	outline: none;
+}
+
+.subcontainer > button {
+	height: 40px;
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px 0px;
+	border: none;
+	border-radius: 10px;
+	color: var(--background);
+	background-color: var(--main);
+	cursor: pointer;
+}
+
+.subcontainer > button > div {
+	height: 20px;
+	font-size: 18px;
+}
+
+.arrowInputs {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.columnInputs {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.columnInputs > input {
+	width: 200px;
+}
