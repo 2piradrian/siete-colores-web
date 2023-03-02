@@ -1,10 +1,10 @@
 export type product = {
 	id: string;
 	name: string;
-	price: number;
 	tamaprox: string;
 	weight: number;
 	type: string;
+	price: number;
 	popular?: boolean;
 	quantity?: number;
 	description?: Array<String>;

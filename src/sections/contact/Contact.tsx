@@ -6,8 +6,11 @@ function Contact() {
 	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 		const contactData = Object.fromEntries(new FormData(e.currentTarget));
-		if (!contactData.subject || !contactData.name || !contactData.text) {
-			return alert("Debes llenar todos los campos");
+		for (const value of Object.values(contactData)) {
+			if (typeof value === "string" && value.trim() === "") {
+				alert("Por favor, rellena todos los campos.");
+				return;
+			}
 		}
 		window.location.href = `mailto:rodriguezcadr@gmail.com?subject=${contactData.subject}&body=${contactData.text}`;
 	};

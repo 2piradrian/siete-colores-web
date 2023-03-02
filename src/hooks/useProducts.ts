@@ -6,8 +6,10 @@ import {
 	getDocsFromCache,
 	limit,
 	query,
+	setDoc,
 	where,
 } from "firebase/firestore";
+
 import { useState } from "react";
 import { useQuery } from "react-query";
 import { useSelector } from "react-redux";
@@ -80,12 +82,16 @@ function useProducts(onlyPopulars: boolean = false) {
 		setProducts(dividedData);
 	};
 
+	const addProduct = (item: any) => {
+		setDoc(doc(itemsCollection, item.id), item);
+	};
+
 	const { data, isLoading, refetch } = useQuery(["products"], () => fetchProducts(onlyPopulars), {
 		onSuccess,
 		refetchOnWindowFocus: false,
 	});
 
-	return { data, products, isLoading, refetch };
+	return { data, products, isLoading, refetch, addProduct };
 }
 
 export default useProducts;

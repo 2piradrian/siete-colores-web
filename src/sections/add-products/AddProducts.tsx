@@ -1,17 +1,41 @@
+import { useEffect } from "react";
+import { toast, Toaster } from "react-hot-toast";
 import Button from "../../components/button/Button";
 import Titles from "../../components/titles/Titles";
+import useProducts from "../../hooks/useProducts";
+import { product } from "../../types";
 import style from "./style.module.css";
 
 function AddProducts() {
+	const { addProduct } = useProducts();
+
 	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 		const itemData = Object.fromEntries(new FormData(e.currentTarget));
+
+		for (const [key, value] of Object.entries(itemData)) {
+			if (!value || (typeof value === "string" && value.trim() === "")) {
+				alert(`El campo ${key} no puede estar vacío.`);
+				return;
+			}
+		}
+
+		const item = {
+			id: itemData.id.toString(),
+			name: itemData.id.toString(),
+			tamaprox: itemData.id.toString(),
+			type: itemData.id.toString(),
+			weight: parseInt(itemData.weight.toString()),
+		};
+
+		addProduct(item);
+		toast("😎 Producto agregado.");
 	};
 
 	return (
 		<section className={`bigcontainer ${style.background}`}>
-			<Titles title="Agregá productos" subtitle="al catálogo" />
-			<form className={style.subcontainer} onSubmit={handleSubmit}>
+			<Titles title="Editá o Agregá productos" subtitle="al catálogo" />
+			<form className={style.subcontainer} onSubmit={handleSubmit} id="addForm">
 				<div className={style.arrowInputs}>
 					<div className={style.columnInputs}>
 						<label>Nombre del Item</label>
@@ -40,6 +64,7 @@ function AddProducts() {
 					<Button isActive>Agregar</Button>
 				</button>
 			</form>
+			<Toaster />
 		</section>
 	);
 }
