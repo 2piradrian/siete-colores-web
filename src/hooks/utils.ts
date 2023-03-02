@@ -11,19 +11,15 @@ export const divideProducts = (data: Array<product>, size: number) => {
 const filterByName = (data: Array<product>, filterData: any) => {
 	data = data.filter(
 		(product) =>
-			product.name
-				.toLowerCase()
-				.includes(filterData.name.toLowerCase()) ||
-			product.type.toLowerCase().includes(filterData.name.toLowerCase())
+			product.name.toLowerCase().includes(filterData.name.toLowerCase()) ||
+			product.type.toLowerCase().includes(filterData.name.toLowerCase()) ||
+			product.id.toLowerCase().includes(filterData.name.toLowerCase())
 	);
 	return data;
 };
 
 const filterByType = (data: Array<product>, filterData: any) => {
-	data = data.filter(
-		(product) =>
-			product.type.toLowerCase() === filterData.type.toLowerCase()
-	);
+	data = data.filter((product) => product.type.toLowerCase() === filterData.type.toLowerCase());
 	return data;
 };
 
