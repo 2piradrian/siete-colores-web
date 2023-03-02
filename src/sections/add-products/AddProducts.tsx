@@ -22,9 +22,9 @@ function AddProducts() {
 
 		const item = {
 			id: itemData.id.toString(),
-			name: itemData.id.toString(),
-			tamaprox: itemData.id.toString(),
-			type: itemData.id.toString(),
+			name: itemData.name.toString(),
+			tamaprox: itemData.tamaprox.toString(),
+			type: itemData.type.toString(),
 			weight: parseInt(itemData.weight.toString()),
 		};
 
