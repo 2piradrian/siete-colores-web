@@ -1,0 +1,56 @@
+.navBox {
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	background-color: var(--background);
+	transform: translateX(-100%);
+	transition: transform 0.3s ease;
+}
+
+.navBoxActive {
+	transform: translateX(0%);
+}
+.navBoxInctive {
+	transform: translateX(-100%);
+}
+
+.close {
+	height: 55px;
+	width: 55px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+	z-index: 10;
+}
+
+.navList {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
+}
+
+@media (min-width: 900px) {
+	.close {
+		display: none;
+	}
+	.navBox {
+		height: auto;
+		width: auto;
+		position: initial;
+		background-color: transparent;
+		transform: translateX(0%);
+	}
+	.navList {
+		width: auto;
+		flex-direction: row;
+		gap: 15px;
+	}
+}

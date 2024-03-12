@@ -1,0 +1,33 @@
+.activeButton {
+	height: 40px;
+	width: 200px;
+	margin: 5px 0px;
+	font-weight: 400;
+	font-size: 22px;
+	border: none;
+	border-radius: 5px;
+	color: var(--contrast);
+	background-color: var(--secondary);
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+
+.inactiveButton {
+	height: 40px;
+	width: 200px;
+	margin: 5px 0px;
+	font-weight: 400;
+	font-size: 22px;
+	border: 1px solid var(--contrast);
+	border-radius: 5px;
+	color: var(--contrast);
+	background-color: var(--background);
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}

@@ -1,0 +1,20 @@
+.subcontainer {
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
+	margin: 25px 0px;
+	padding: 0px 30px;
+	max-width: 1200px;
+	gap: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+    .subcontainer {
+        padding: 0px 20px;
+		justify-content: center;
+    }    
+}
