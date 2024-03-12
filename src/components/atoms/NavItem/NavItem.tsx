@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import style from "./style.module.css";
 
 type Props = {
@@ -9,9 +10,9 @@ type Props = {
 export default function NavItem({ href, arialabel, title }: Props) {
 	return (
 		<li className={style.navRoutes}>
-			<a href={href} aria-label={arialabel}>
+			<Link to={href} aria-label={arialabel}>
 				{title}
-			</a>
+			</Link>
 		</li>
 	);
 }

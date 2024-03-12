@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../../molecules/Navbar/Navbar";
 import menuicon from "../../../assets/icons/menu.svg";
 import iso from "../../../assets/icons/isotipo.svg";
@@ -15,9 +16,9 @@ export default function Header() {
     return (
         <header className={style.header}>
             <div className={style.container}>
-				<a href="/" >
+				<Link to="/" >
                 	<img src={iso} alt="isotipo" className={style.isotype}/>
-				</a>
+				</Link>
                 <img
 					src={menuicon}
 					alt="burger icon"
