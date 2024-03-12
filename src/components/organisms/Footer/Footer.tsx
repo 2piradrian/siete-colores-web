@@ -1,5 +1,5 @@
 import style from "./style.module.css";
-import isologo from "@/assets/images/isologo.svg"
+import isologo from "../../../assets/images/isologo.svg"
 
 function Footer() {
 	return (
