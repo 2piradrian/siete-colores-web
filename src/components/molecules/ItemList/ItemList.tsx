@@ -10,11 +10,11 @@ type Props = {
 
 export default function ItemList({ product, editQuantity }: Props) {
 
-	const { id, name, type, price, quantity } = product;
+	const { code, name, category, price, quantity } = product;
 
 	let image;
 	try {
-		image = require(`../../assets/products/${id}.jpg`);
+		image = require(`../../assets/products/${code}.jpg`);
 	} catch {
 		image = noimage;
 	}
@@ -25,9 +25,9 @@ export default function ItemList({ product, editQuantity }: Props) {
 				<img src={image} alt={name} />
 				<div className={style.textDivisor}>
 					<h3>
-						{id} | {name}
+						{code} | {name}
 					</h3>
-					<p>{type}</p>
+					<p>{category}</p>
 				</div>
 			</div>
 			<div className={style.smallDivisor}>

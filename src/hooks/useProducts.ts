@@ -4,7 +4,6 @@ import { Filters } from "../types/filters";
 import { Product } from "../types/products";
 // ---
 import db from "../data/db.json";
-import price from "../data/price.json";
 
 /*
  * This hook is responsible for fetching and managing the products list.
@@ -34,7 +33,7 @@ export default function useProducts() {
 	// Gets all products
 	const fetchProducts = async () => {
 		const products: Product[] = db.map((product: any) => {
-			return { ...product, price: product.weight * price.weight, id: product.code };
+			return { ...product };
 		});
 
 		const randomProducts = products.sort(() => Math.random() - Math.random()).slice(0, 6); // Get 6 random products
@@ -56,11 +55,11 @@ export default function useProducts() {
 			
 
 			const words =
-				product.name.toLowerCase().includes(filters.words.toLowerCase()) ||
+				product.code.toLowerCase().includes(filters.words.toLowerCase()) ||
 				product.name.toLowerCase().includes(filters.words.toLowerCase());
 
 			if (filters.category !== "Todos" ) { 
-				const category = filters.category.includes(product.type);
+				const category = filters.category.includes(product.category);
 
 				return category && words;
 			}else{

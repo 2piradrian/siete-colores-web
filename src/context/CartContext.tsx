@@ -24,7 +24,7 @@ export const CartProvider = ({ children }: CartProviderProps) => {
     }, [products]);
 
     const editQuantity = (product: Product, changes: number) => {
-        const productIndex = products.findIndex((p) => p.id === product.id);
+        const productIndex = products.findIndex((p) => p.code === product.code);
 
         if (productIndex === -1) {
             return setProducts([...products, { ...product, quantity: 1 }]);
@@ -34,7 +34,7 @@ export const CartProvider = ({ children }: CartProviderProps) => {
         productCopy.quantity = productCopy.quantity! + changes;
 
         if (productCopy.quantity < 1) {
-            return setProducts(products.filter((p) => p.id !== product.id));
+            return setProducts(products.filter((p) => p.code !== product.code));
         }
 
         const newProducts = [...products];

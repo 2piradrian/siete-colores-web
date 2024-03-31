@@ -7,20 +7,20 @@ import MainButton from "../MainButton/MainButton";
 import noimage from "../../../assets/images/no-image.jpg";
 import style from "./style.module.css";
 
-function ItemCard({ id, name, price, size, type, weight }: Product) {
-	const { products, editQuantity } = useContext(CartContext);
+function ItemCard({ code, name, price, size, category }: Product) {
+	const { editQuantity } = useContext(CartContext);
 
-	const item = {id, name, price, size, type, weight};
+	const item = {code, name, price, size, category};
 
 	const handleAdd = () => {
 		toast("🛒Producto agregado");
-		if (products.some((cart: any) => cart.id === id)) return;
+		console.log(item);
 		editQuantity(item as Product, 1);
 	};
 
 	let image;
 	try {
-		image = require(`../../../assets/products/${id}.jpg`);
+		image = require(`../../../assets/products/${code}.jpg`);
 	} catch {
 		image = noimage;
 	}
@@ -29,11 +29,11 @@ function ItemCard({ id, name, price, size, type, weight }: Product) {
 		<div className={style.box}>
 			<img src={image} alt={name} />
 			<h3 className={style.title}>
-				{id} | {name}
+				{code} | {name}
 			</h3>
 			<div className={style.descBox}>
 				<p className={style.itemDesc} style={{ textAlign: "start" }}>
-					{type}
+					{category}
 				</p>
 				<p className={style.itemDesc} style={{ textAlign: "end" }}>
 					{size}

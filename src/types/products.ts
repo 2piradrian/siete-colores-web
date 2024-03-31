@@ -1,9 +1,9 @@
 export type Product = {
 	id: string;
+	code: string;
 	name: string;
 	size: string;
-	weight: number;
-	type: string;
 	price: number;
+	category: string;
 	quantity?: number; // Only for cart
 };
