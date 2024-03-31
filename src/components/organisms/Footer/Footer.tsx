@@ -18,7 +18,7 @@ function Footer() {
 				</div>
 				<div className={style.boxContent}>
 					<h4 className={style.titles}>Contáctanos</h4>
-					<p className={style.text}>sietecolores@gmail.com</p>
+					<p className={style.text}>sietecolores.3d@gmail.com</p>
 					<p className={style.text}>sietecolores3d</p>
 					<p className={style.text}>351 2742036</p>
 				</div>
