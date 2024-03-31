@@ -1,12 +1,22 @@
-"use client"
-
 import style from "./style.module.css";
-import price from "../../../data/price.json"
+import { useEffect, useState } from "react";
 
 export default function HeaderMessage() {
+  const [minAmount, setMinAmount] = useState(0);
+  
+  useEffect(() => {
+    const fetchMinAmount = async () => {
+      const response = await fetch("/data/price.json");
+      const data = await response.json();
+
+      setMinAmount(data["min-amount"]);
+    };
+
+    fetchMinAmount();
+  }, [minAmount]);
   return (
     <div className={style.container}>
-        Compra mínima de AR$ {price["min-amount"]}
+        Compra mínima de AR$ {minAmount}
     </div>
   );
 }

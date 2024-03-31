@@ -2,8 +2,6 @@ import useScroll from "./useScroll";
 import { useEffect, useState } from "react";
 import { Filters } from "../types/filters";
 import { Product } from "../types/products";
-// ---
-import db from "../data/db.json";
 
 /*
  * This hook is responsible for fetching and managing the products list.
@@ -32,6 +30,8 @@ export default function useProducts() {
 
 	// Gets all products
 	const fetchProducts = async () => {
+		const response = await fetch("/data/db.json");
+		const db = await response.json();
 		const products: Product[] = db.map((product: any) => {
 			return { ...product };
 		});
