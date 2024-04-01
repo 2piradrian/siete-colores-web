@@ -1,5 +1,5 @@
 import style from "./style.module.css"
-import portada from "../../../assets/images/portada.png"
+import portada from "../../../assets/images/portada.jpg"
 
 export default function Hero() {
     return (

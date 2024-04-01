@@ -27,7 +27,10 @@ function ItemCard({ code, name, price, size, category }: Product) {
 
 	return (
 		<div className={style.box}>
-			<img src={image} alt={name} />
+			<img src={image} alt={name} onError={({ currentTarget }) => {
+                currentTarget.onerror = null;
+                currentTarget.src= noimage;
+            }} />
 			<h3 className={style.title}>
 				{code} | {name}
 			</h3>

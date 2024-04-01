@@ -22,7 +22,10 @@ export default function ItemList({ product, editQuantity }: Props) {
 	return (
 		<div className={style.container}>
 			<div className={style.bigDivisor}>
-				<img src={image} alt={name} />
+				<img src={image} alt={name} onError={({ currentTarget }) => {
+                	currentTarget.onerror = null;
+                	currentTarget.src= noimage;
+            	}} />
 				<div className={style.textDivisor}>
 					<h3>
 						{code} | {name}
