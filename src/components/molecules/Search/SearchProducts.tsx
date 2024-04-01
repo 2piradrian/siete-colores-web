@@ -16,11 +16,16 @@ export default function SearchProducts({ setFilters }: { setFilters: Dispatch<Se
 			}
 			 
 	    	setFilters((prevFilters) => ({ ...prevFilters, ...formData }));
-	  };
+	  	};
+
+		const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+			e.preventDefault();
+		}
+
 
 	return (
 		<div className={style.container}>
-			<form className={style.form} onChange={handleChange}>
+			<form className={style.form} onChange={handleChange} onSubmit={handleSubmit}>
 				<input type="text" placeholder="Buscar por nombre" name="name" ref={name} />
 				<div className={style.selector}>
 					<select name="type" className={style.select} ref={category}>
