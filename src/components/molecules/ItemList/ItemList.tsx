@@ -14,7 +14,7 @@ export default function ItemList({ product, editQuantity }: Props) {
 
 	let image;
 	try {
-		image = require(`../../assets/products/${code}.jpg`);
+		image = require(`/products/${code}.jpg`);
 	} catch {
 		image = noimage;
 	}
