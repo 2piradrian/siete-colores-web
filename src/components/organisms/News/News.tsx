@@ -18,7 +18,7 @@ export default function News() {
                     <ItemCard key={product.id} {...product} />
                 ))}
             </div>
-            <Link href="/products" className={style.button}>
+            <Link to="/products" className={style.button}>
                 <MainButton isActive>
                     Ver más
                 </MainButton>
