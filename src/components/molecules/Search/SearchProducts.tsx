@@ -42,6 +42,7 @@ export default function SearchProducts({ setFilters }: { setFilters: Dispatch<Se
 						<option>Profesiones</option>
 						<option>Scrapers</option>
 						<option>Sellos</option>
+						<option>Rodillos</option>
 						<option>Texturizadores</option>
 						<option>Toppers</option>
 						<option>Transportes</option>
