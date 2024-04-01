@@ -18,7 +18,7 @@ export default function CartButtons({products}: Props){
 
 	const getOrder = () => {
 		const text = `Hola, me gustaría consultar por los siguientes articulos
-		${products?.map((products: Product) => {return `\n${products.name} (${products.id}) x (${products.quantity}un.)\n`}).join("")}`;
+		${products?.map((products: Product) => {return `\n${products.name} (${products.code}) x (${products.quantity}un.)\n`}).join("")}`;
 		return `https://api.whatsapp.com/send?phone=543512742036&text=${encodeURI(text)}`;
 	};
 
