@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import useProducts from "../../../hooks/useProducts";
 import ItemCard from "../../atoms/ItemCard/ItemCard";
 import MainButton from "../../atoms/MainButton/MainButton";
@@ -17,11 +18,11 @@ export default function News() {
                     <ItemCard key={product.id} {...product} />
                 ))}
             </div>
-            <a href="/products" className={style.button}>
+            <Link href="/products" className={style.button}>
                 <MainButton isActive>
                     Ver más
                 </MainButton>
-            </a>
+            </Link>
         </section>
     )
 }
