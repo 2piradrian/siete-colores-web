@@ -20,7 +20,7 @@ function ItemCard({ code, name, price, size, category }: Product) {
 
 	let image;
 	try {
-		image = `/products/${code}.jpg`;
+		image = `/product-images/${code}.jpg`;
 	} catch {
 		image = noimage;
 	}
