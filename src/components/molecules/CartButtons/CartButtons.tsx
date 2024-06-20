@@ -3,6 +3,7 @@ import { Product } from "../../../types/products";
 import toast from "react-hot-toast";
 import style from "./style.module.css";
 import MainButton from "../../atoms/MainButton/MainButton";
+import { Link } from "react-router-dom";
 
 type Props = {
 	products: Product[];
@@ -25,9 +26,9 @@ export default function CartButtons({products}: Props){
     return (
         <div className={style.container}>
 			<div className={style.subcontainer}>
-				<a href="/products">
+				<Link to="/products">
 					<MainButton isActive>Más productos</MainButton>
-				</a>
+				</Link>
 				{products.length ? (
 					<a
 						href={order}
