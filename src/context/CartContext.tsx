@@ -19,10 +19,6 @@ type CartProviderProps = {
 export const CartProvider = ({ children }: CartProviderProps) => {
     const [products, setProducts] = useState<Product[]>([]);
 
-    useEffect(() => {
-        console.log(products);
-    }, [products]);
-
     const editQuantity = (product: Product, changes: number) => {
         const productIndex = products.findIndex((p) => p.code === product.code);
 

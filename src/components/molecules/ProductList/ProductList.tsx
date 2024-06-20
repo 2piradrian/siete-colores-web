@@ -11,7 +11,7 @@ export default function ProductList({ list }: { list: Product[] }) {
         <section>
             <div className={style.subcontainer}>
 				{list?.map((item: any) => (
-					<ItemCard {...item} key={item.id} />
+					<ItemCard {...item} key={item.code} />
 				))}
 			</div>
         </section>

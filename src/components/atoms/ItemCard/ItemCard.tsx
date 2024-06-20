@@ -14,7 +14,6 @@ function ItemCard({ code, name, price, size, category }: Product) {
 
 	const handleAdd = () => {
 		toast("🛒Producto agregado");
-		console.log(item);
 		editQuantity(item as Product, 1);
 	};
 

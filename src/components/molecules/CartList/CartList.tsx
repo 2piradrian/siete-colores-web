@@ -14,7 +14,7 @@ export default function CartList({ products, editQuantity }: Props) {
 			<div className={style.content}>
 				<div className={style.itemList}>
 					{products.map((item: Product) => (
-						<ItemList product={item} editQuantity={editQuantity} key={item.id} />
+						<ItemList product={item} editQuantity={editQuantity} key={item.code} />
 					))}
 					{products.length === 0 && (
 						<p className={style.noItems}>
