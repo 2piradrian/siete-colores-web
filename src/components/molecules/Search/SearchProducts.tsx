@@ -25,7 +25,6 @@ export default function SearchProducts({ setFilters }: { setFilters: Dispatch<Se
 		e.preventDefault();
 	}
 
-
 	return (
 		<div className={style.container}>
 			<form className={style.form} onChange={handleChange} onSubmit={handleSubmit}>

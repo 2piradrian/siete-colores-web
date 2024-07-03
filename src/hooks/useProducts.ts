@@ -62,7 +62,8 @@ export default function useProducts() {
 				const category = filters.category.includes(product.category);
 
 				return category && words;
-			}else{
+			}
+			else{
 				return words;
 			}
 		});
@@ -70,7 +71,8 @@ export default function useProducts() {
 		// Sort the list of products
 		if (filters.sort === "highest") {
 			filteredProducts.sort(sortHigherPrice);
-		} else if (filters.sort === "lowest") {
+		} 
+		else if (filters.sort === "lowest") {
 			filteredProducts.sort(sortLowerPrice);
 		}
 

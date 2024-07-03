@@ -17,8 +17,6 @@ export default function useCategories() {
             return category.name;
         });
 
-        console.log(categories);
-
         setCategories(categories);
     };
 
