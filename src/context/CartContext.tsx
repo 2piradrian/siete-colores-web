@@ -19,6 +19,17 @@ type CartProviderProps = {
 export const CartProvider = ({ children }: CartProviderProps) => {
     const [products, setProducts] = useState<Product[]>([]);
 
+    useEffect(() => {
+        const productsList = products;
+        productsList.sort((a, b) => {
+            if (a.code < b.code) return -1;
+            if (a.code > b.code) return 1;
+            return 0;
+        });
+
+        setProducts(productsList);
+    }, [products.length]);
+
     const editQuantity = (product: Product, changes: number) => {
         const productIndex = products.findIndex((p) => p.code === product.code);
 
@@ -33,7 +44,7 @@ export const CartProvider = ({ children }: CartProviderProps) => {
             return setProducts(products.filter((p) => p.code !== product.code));
         }
 
-        const newProducts = [...products];
+        const newProducts = [...products]
         newProducts[productIndex] = productCopy;
 
         return setProducts(newProducts);
