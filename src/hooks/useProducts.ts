@@ -56,9 +56,10 @@ export default function useProducts() {
 
 			const words =
 				product.code.toLowerCase().includes(filters.words.toLowerCase()) ||
-				product.name.toLowerCase().includes(filters.words.toLowerCase());
+				product.name.toLowerCase().includes(filters.words.toLowerCase()) ||
+				product.category.toLowerCase().includes(filters.words.toLowerCase());
 
-			if (filters.category !== "Todos" ) { 
+			if (filters.category !== "Todos") {
 				const category = filters.category.includes(product.category);
 
 				return category && words;
