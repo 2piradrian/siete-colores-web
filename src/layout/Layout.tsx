@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../components/organisms/Header/Header";
-import HeaderMessage from "../components/molecules/HeaderMessage/HeaderMessage";
 import Footer from "../components/organisms/Footer/Footer";
 
 type Props = {
@@ -11,7 +10,7 @@ function Layout({ children }: Props) {
 	return (
 		<>
 			<Header />
-			<HeaderMessage />
+			{/* <HeaderMessage /> */}
 			<main>{children}</main>
 			<Footer />
 		</>
