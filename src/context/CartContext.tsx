@@ -24,10 +24,10 @@ export const CartProvider = ({ children }: CartProviderProps) => {
     }, []);
 
     useEffect(() => {
-        if (firstLoad) {
+        if (firstLoad) { // prevent from saving empty cart to local storage on first load
             return setFirstLoad(false);
         }
-        
+
         const productsList = products;
         productsList.sort((a, b) => {
             if (a.code < b.code) return -1;
