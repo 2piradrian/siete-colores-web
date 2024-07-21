@@ -73,6 +73,13 @@
     color: var(--background);
 }
 
+.categorySelected {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--background);
+    border-bottom: 2px solid var(--background);
+}
+
 .categories::-webkit-scrollbar {
     display: none;  /* Chrome, Safari, Opera */
 }

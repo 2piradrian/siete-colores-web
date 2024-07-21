@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import iso from "../../../assets/icons/isotipo.svg";
 import cart from "../../../assets/icons/cart.svg";
 import search from "../../../assets/icons/search.svg";
@@ -8,6 +8,7 @@ import useCategories from "../../../hooks/useCategories";
 export default function Header() {
 
 	const {categories} = useCategories();
+	const params = useParams<{category: string}>();
 
     return (
         <header className={style.header}>
@@ -28,7 +29,11 @@ export default function Header() {
 				<nav className={style.categories}>
 					<Link to={'/products'} className={style.category}>Todos</Link>
 					{categories.map((category, index) => (
-						<Link to={`/products/${category.toLowerCase()}`} key={index} className={style.category}>
+						<Link 
+							to={`/products/${category.toLowerCase()}`} 
+							key={index} 
+							className={(params.category === category.toLowerCase()) ? style.categorySelected : style.category}
+						>
 							{category}
 						</Link>
 					))}

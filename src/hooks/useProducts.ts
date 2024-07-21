@@ -66,7 +66,6 @@ export default function useProducts() {
        		for (const filterWord of filterArray) {
        		    for (const keyword of keywordsArray) {
        		        if (keyword.includes(filterWord)) {
-       		            console.log(`Match found: "${filterWord}" in "${keyword}"`);
        		            words = true;
        		            break;
        		        }
