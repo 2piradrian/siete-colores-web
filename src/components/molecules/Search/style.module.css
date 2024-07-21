@@ -6,9 +6,8 @@
 }
 
 .form {
-	width: 70%;
+	width: 75%;
 	max-width: 550px;
-	margin-top: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -20,7 +19,7 @@
 	border-radius: 8px;
 	border: 2px solid var(--main);
 	outline: none;
-	padding: 20px;
+	padding: 0px 20px;
 }
 
 .form > input::placeholder {
