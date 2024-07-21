@@ -1,7 +1,7 @@
 .header{
-    height: 100px;
+    height: 110px;
     width: 100vw;
-    padding: 20px 0px;
+    padding: 20px 10px;
     gap: 10px;
     display: flex;
     flex-direction: column;
@@ -55,15 +55,30 @@
     gap: 20px;
 }
 
-.categories{
+.categories {
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 28px;
+    gap: 20px;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: none;  /* Edge */
+    scrollbar-width: none;
 }
 
-.category{
+.category {
     font-size: 20px;
     text-decoration: none;
     color: var(--background);
+}
+
+.categories::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, Opera */
+}
+
+@media screen and (max-width: 570px) {
+    .categories {
+        justify-content: flex-start;
+    }
 }
