@@ -4,9 +4,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     background-color: var(--main);
     color: var(--background);
+    z-index: 1000;
 }
 
 .isotype {
@@ -17,7 +21,6 @@
 .container {
     width: 100%;
     max-width: var(--max-width);
-    padding: 0 20px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;

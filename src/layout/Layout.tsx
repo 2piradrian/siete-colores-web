@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/organisms/Header/Header";
 import Footer from "../components/organisms/Footer/Footer";
+import style from "./style.module.css";
 
 type Props = {
 	children: React.ReactNode;
@@ -10,8 +11,7 @@ function Layout({ children }: Props) {
 	return (
 		<>
 			<Header />
-			{/* <HeaderMessage /> */}
-			<main>{children}</main>
+			<main className={style.layoutContainer}>{children}</main>
 			<Footer />
 		</>
 	);
