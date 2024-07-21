@@ -3,8 +3,12 @@ import iso from "../../../assets/icons/isotipo.svg";
 import cart from "../../../assets/icons/cart.svg";
 import search from "../../../assets/icons/search.svg";
 import style from "./style.module.css"
+import useCategories from "../../../hooks/useCategories";
 
 export default function Header() {
+
+	const {categories} = useCategories();
+
     return (
         <header className={style.header}>
             <div className={style.container}>
@@ -20,6 +24,16 @@ export default function Header() {
 					</Link>
 				</div>
             </div>
+			<div className={style.categoriesContainer}>
+				<nav className={style.categories}>
+					<Link to={'/products'} className={style.category}>Todos</Link>
+					{categories.map((category, index) => (
+						<Link to={`/products/${category.toLowerCase()}`} key={index} className={style.category}>
+							{category}
+						</Link>
+					))}
+				</nav>
+			</div>
         </header>
     );
 }

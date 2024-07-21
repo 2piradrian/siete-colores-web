@@ -15,7 +15,7 @@ export default function useCategories() {
 
         const categories = json.map((category: any) => {
             return category.name;
-        });
+        }).sort();
 
         setCategories(categories);
     };

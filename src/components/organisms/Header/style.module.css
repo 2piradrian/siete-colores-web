@@ -1,7 +1,10 @@
 .header{
-    height: 60px;
+    height: 100px;
     width: 100vw;
+    padding: 20px 0px;
+    gap: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -41,4 +44,26 @@
 .cart {
     height: 40px;
     width: 38px;
+}
+
+.categoriesContainer {
+    width: 100%;
+    max-width: var(--max-width);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.categories{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+
+.category{
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--background);
 }
