@@ -24,10 +24,20 @@
     align-items: center;
 }
 
-.burger {
-	height: 42px;
-	width: 42px;
-	cursor: pointer;
+.linkContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.search {
+    height: 38px;
+    width: 38px;
+}
+
+.cart {
+    height: 40px;
+    width: 38px;
 }
 
 @media (min-width: 900px) {

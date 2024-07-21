@@ -16,7 +16,7 @@ export default function Sellers() {
             </div>
             <div className={style.card}>
                 <img src={store} alt="compra" />
-                <p>Compra mayorista</p>
+                <p>Compra por encargo</p>
             </div>
         </section>
     )
