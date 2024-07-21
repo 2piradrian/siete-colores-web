@@ -14,8 +14,8 @@ export default function News() {
                 <Subtitle subtitle="Novedades" />
             </div>
             <div className={style.products}>
-                {randomProducts?.map((product) => (
-                    <ItemCard key={product.id} {...product} />
+                {randomProducts?.map((product, index) => (
+                    <ItemCard key={index} {...product} />
                 ))}
             </div>
             <Link to="/products" className={style.button}>

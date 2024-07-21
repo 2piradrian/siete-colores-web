@@ -39,9 +39,3 @@
     height: 40px;
     width: 38px;
 }
-
-@media (min-width: 900px) {
-	.burger {
-		display: none;
-	}
-}
