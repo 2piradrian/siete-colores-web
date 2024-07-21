@@ -1,113 +1,8 @@
 [{
   "_id": {
-    "$oid": "668581cec95221a1dbcd021e"
-  },
-  "name": "Animales",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668582a3c95221a1dbcd0226"
-  },
-  "name": "Artesanos",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668582a8c95221a1dbcd022a"
-  },
-  "name": "Bautismo",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668582abc95221a1dbcd022e"
-  },
-  "name": "Comunión",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668582b4c95221a1dbcd0236"
-  },
-  "name": "Deportes",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668582b8c95221a1dbcd023a"
-  },
-  "name": "Formas",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668582bcc95221a1dbcd023e"
-  },
-  "name": "Halloween",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668582c2c95221a1dbcd0242"
-  },
-  "name": "Letras y números",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668582cbc95221a1dbcd024a"
-  },
-  "name": "Navidad",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668582cfc95221a1dbcd024e"
-  },
-  "name": "Pascuas",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668582d3c95221a1dbcd0252"
-  },
-  "name": "Personajes",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668582d7c95221a1dbcd0256"
-  },
-  "name": "Plantas",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668582dbc95221a1dbcd025a"
-  },
-  "name": "Profesiones",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668582dfc95221a1dbcd025e"
-  },
-  "name": "Scrapers",
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "668582e4c95221a1dbcd0262"
   },
   "name": "Sellos",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668582e8c95221a1dbcd0266"
-  },
-  "name": "Rodillos",
   "__v": 0
 },
 {
@@ -119,22 +14,22 @@
 },
 {
   "_id": {
-    "$oid": "668582efc95221a1dbcd026e"
-  },
-  "name": "Toppers",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668582f3c95221a1dbcd0272"
-  },
-  "name": "Transportes",
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "668582f7c95221a1dbcd0276"
   },
   "name": "Varios",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669c3984bd5e27408e980704"
+  },
+  "name": "Cortantes",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669c510235b4b539edbea046"
+  },
+  "name": "Abecedarios",
   "__v": 0
 }]

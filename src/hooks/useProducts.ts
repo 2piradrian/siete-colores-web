@@ -52,12 +52,12 @@ export default function useProducts() {
 
 		// Apply filters, and return the list of products
 		const filteredProducts = products.filter((product) => {
-			
 
 			const words =
-				product.code.toLowerCase().includes(filters.words.toLowerCase()) ||
-				product.name.toLowerCase().includes(filters.words.toLowerCase()) ||
-				product.category.toLowerCase().includes(filters.words.toLowerCase());
+				product.code.toLowerCase().includes(filters.words.toLowerCase()) 	 ||
+				product.name.toLowerCase().includes(filters.words.toLowerCase()) 	 ||
+				product.category.toLowerCase().includes(filters.words.toLowerCase()) ||
+				product.keywords.some((keyword) => keyword.toLowerCase().includes(filters.words.toLowerCase()));
 
 			if (filters.category !== "Todos") {
 				const category = filters.category.includes(product.category);
