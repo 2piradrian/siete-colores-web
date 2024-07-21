@@ -1,16 +1,16 @@
 import { Dispatch, SetStateAction, useRef } from "react";
 import { Filters } from "../../../types/filters";
 import style from "./style.module.css";
+import { useParams } from "react-router-dom";
 
 export default function SearchProducts({ setFilters }: { setFilters: Dispatch<SetStateAction<Filters>> }) {
 
 	const name = useRef<any>();
-	const category = useRef<any>();
 	const order = useRef<any>();
 
 	const handleChange = () => {
 		const formData: Filters = {
-			category: category.current.value,
+			category: "category.current.value",
 			words: name.current.value,
 			sort: order.current.value === "Menor Precio" ? "lowest" : order.current.value === "Mayor Precio" ? "highest" : "default",
 		}
