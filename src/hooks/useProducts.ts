@@ -60,21 +60,26 @@ export default function useProducts() {
 
 		// Apply filters, and return the list of products
 		const filteredProducts = products.filter((product) => {
-			const keywordsArray = [product.code.toLowerCase(), product.name.toLowerCase(), product.category.toLowerCase(), ...product.keywords.map(k => k.toLowerCase())];
+			const keywordsArray = [product.code.toLowerCase(), product.name.toLowerCase(), ...product.keywords.map(k => k.toLowerCase())];
 
        		let words = false;
-       		for (const filterWord of filterArray) {
-       		    for (const keyword of keywordsArray) {
-       		        if (keyword.includes(filterWord)) {
-       		            words = true;
-       		            break;
-       		        }
-       		    }
-       		    if (words) break;
-       		}
-
+			if (filters.words !== "") {	
+				for (const filterWord of filterArray) {
+					for (const keyword of keywordsArray) {
+						if (keyword.includes(filterWord)) {
+							words = true;
+							break;
+						}
+					}
+					if (words) break;
+				}
+			}
+			else {
+				words = true;
+			}
+       		
 			if (filters.category !== "Todos") {
-				const category = filters.category.includes(product.category.toLowerCase());
+				const category = filters.category.toLowerCase() === product.category.toLowerCase();
 				return category && words;
 			}
 			else{
