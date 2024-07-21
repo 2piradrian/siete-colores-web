@@ -50,18 +50,32 @@ export default function useProducts() {
 			return setList(dividedProducts);
 		}
 
+		const filterArray: string[] = [];
+		if (filters.words) {
+			filterArray.push(...filters.words.split(" ").flat().map((word) => word.toLowerCase()));
+		}
+		if (filters.category !== "Todos") {
+			filterArray.push(filters.category);
+		}
+
 		// Apply filters, and return the list of products
 		const filteredProducts = products.filter((product) => {
+			const keywordsArray = [product.code.toLowerCase(), product.name.toLowerCase(), product.category.toLowerCase(), ...product.keywords.map(k => k.toLowerCase())];
 
-			const words =
-				product.code.toLowerCase().includes(filters.words.toLowerCase()) 	 ||
-				product.name.toLowerCase().includes(filters.words.toLowerCase()) 	 ||
-				product.category.toLowerCase().includes(filters.words.toLowerCase()) ||
-				product.keywords.some((keyword) => keyword.toLowerCase().includes(filters.words.toLowerCase()));
+       		let words = false;
+       		for (const filterWord of filterArray) {
+       		    for (const keyword of keywordsArray) {
+       		        if (keyword.includes(filterWord)) {
+       		            console.log(`Match found: "${filterWord}" in "${keyword}"`);
+       		            words = true;
+       		            break;
+       		        }
+       		    }
+       		    if (words) break;
+       		}
 
 			if (filters.category !== "Todos") {
-				const category = filters.category.includes(product.category);
-
+				const category = filters.category.includes(product.category.toLowerCase());
 				return category && words;
 			}
 			else{

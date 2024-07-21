@@ -1,16 +1,20 @@
 import { Dispatch, SetStateAction, useRef } from "react";
 import { Filters } from "../../../types/filters";
 import style from "./style.module.css";
-import { useParams } from "react-router-dom";
 
-export default function SearchProducts({ setFilters }: { setFilters: Dispatch<SetStateAction<Filters>> }) {
+type Props = {
+	setFilters: Dispatch<SetStateAction<Filters>>;
+	category?: string;
+}
+
+export default function SearchProducts({ setFilters, category }: Props) {
 
 	const name = useRef<any>();
 	const order = useRef<any>();
 
 	const handleChange = () => {
 		const formData: Filters = {
-			category: "category.current.value",
+			category: category || "Todos",
 			words: name.current.value,
 			sort: order.current.value === "Menor Precio" ? "lowest" : order.current.value === "Mayor Precio" ? "highest" : "default",
 		}
@@ -20,8 +24,8 @@ export default function SearchProducts({ setFilters }: { setFilters: Dispatch<Se
 
 	return (
 		<div className={style.container}>
-			<form className={style.form} onChange={handleChange}>
-				<input type="text" placeholder="Buscar productos" name="name" ref={name} />
+			<form className={style.form} onChange={handleChange} onSubmit={(e: any) => {e.preventDefault()}}>
+				<input type="text" placeholder={`Buscar ${category ? category : "productos"}`} name="name" ref={name} />
 				<div className={style.selector}>
 					<select name="order" className={style.select} ref={order}>
 						<option>Sin orden</option>
