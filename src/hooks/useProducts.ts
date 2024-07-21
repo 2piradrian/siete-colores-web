@@ -45,7 +45,7 @@ export default function useProducts() {
 	// Apply filters to the list of products
 	const filterProducts = (filters: Filters) => {
 		// If there are no filters, return the original list of products
-		if (filters.category === "" && filters.words === "" && filters.sort === "default") {
+		if (filters.category === "Todos" && filters.words === "" && filters.sort === "default") {
 			const dividedProducts = divideProducts(products, 8);
 			return setList(dividedProducts);
 		}
