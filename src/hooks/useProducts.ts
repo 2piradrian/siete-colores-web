@@ -11,6 +11,7 @@ import { Product } from "../types/products";
  */
 
 export default function useProducts() {
+	const [loading, setLoading] = useState(true);
 	const [list, setList] = useState<Product[][]>([]);
 	const [products, setProducts] = useState<Product[]>([]);
 	const [randomProducts, setRandomProducts] = useState<Product[]>([]);
@@ -40,6 +41,12 @@ export default function useProducts() {
 
 		setRandomProducts(randomProducts);
 		setProducts(products);
+		setLoading(false);
+	};
+
+	// Get one product by its code
+	const getProduct = (code: string) => {
+		return products.find((product) => product.code === code);
 	};
 
 	// Apply filters to the list of products
@@ -127,5 +134,5 @@ export default function useProducts() {
 		return dividedProducts;
 	};
 
-	return { list, ...paginatedList, setFilters, randomProducts }
+	return { list, ...paginatedList, setFilters, randomProducts, getProduct, loading };
 }

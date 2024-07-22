@@ -6,6 +6,7 @@ import MainButton from "../MainButton/MainButton";
 
 import noimage from "../../../assets/images/no-image.jpg";
 import style from "./style.module.css";
+import { Link } from "react-router-dom";
 
 function ItemCard({ code, name, price, size, category }: Product) {
 	const { editQuantity } = useContext(CartContext);
@@ -25,32 +26,28 @@ function ItemCard({ code, name, price, size, category }: Product) {
 	}
 
 	return (
-		<div className={style.box}>
-			<img src={image} alt={name} onError={({ currentTarget }) => {
-                currentTarget.onerror = null;
-                currentTarget.src= noimage;
-            }} />
+		<article className={style.box}>
+			<Link to={`/details/${code}`} className={style.link}>
+				<img src={image} alt={name} onError={({ currentTarget }) => {
+            	    currentTarget.onerror = null;
+            	    currentTarget.src= noimage;
+            	}} />
+			</Link>
 			<h3 className={style.title}>
 				{code} | {name}
 			</h3>
-			<div className={style.descBox}>
-				<p className={style.itemDesc} style={{ textAlign: "start" }}>
-					{category}
-				</p>
-				<p className={style.itemDesc} style={{ textAlign: "end" }}>
-					{size}
-				</p>
-			</div>
+			<p className={style.itemDesc} style={{ textAlign: "start" }}>
+				{category}
+			</p>
 			<div className={style.priceContainer}>
 				<p className={style.price}>$ {price.toFixed(2)}</p>
 				<div onClick={handleAdd}>
 					<MainButton isActive styles={style.addProduct}>
-						Agregar
+						Comprar
 					</MainButton>
 				</div>
 			</div>
-			<Toaster />
-		</div>
+		</article>
 	);
 }
 
