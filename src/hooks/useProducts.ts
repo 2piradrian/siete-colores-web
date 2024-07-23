@@ -68,25 +68,26 @@ export default function useProducts() {
 		const filterArray: string[] = [];
 		if (filters.words) {
 			filterArray.push(...filters.words.split(" ").flat().map((word) => word.toLowerCase()));
-		}
-		if (filters.category !== "Todos") {
-			filterArray.push(filters.category);
+			console.log(filterArray);
 		}
 
 		// Apply filters, and return the list of products
 		const filteredProducts = products.filter((product) => {
-			const keywordsArray = [product.code.toLowerCase(), product.name.toLowerCase(), ...product.keywords.map(k => k.toLowerCase())];
-
+			const keywordsArray = [
+				product.code.toLowerCase(), 
+				...product.name.toLowerCase().split(" ").flat(), 
+				...product.keywords.map(k => k.toLowerCase())
+			];
+			
        		let words = false;
-			if (filters.words !== "") {	
-				for (const filterWord of filterArray) {
+			if (filters.words !== "") {
+				for (const word of filterArray) {
 					for (const keyword of keywordsArray) {
-						if (keyword.includes(filterWord)) {
+						if (keyword === word || keyword.startsWith(word)) {
 							words = true;
 							break;
 						}
 					}
-					if (words) break;
 				}
 			}
 			else {
@@ -101,6 +102,8 @@ export default function useProducts() {
 				return words;
 			}
 		});
+
+		console.log(filteredProducts);
 
 		// Sort the list of products
 		if (filters.sort === "highest") {
