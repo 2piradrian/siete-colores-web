@@ -14,6 +14,10 @@ function Products() {
 		setFilters((prevFilters) => ({ ...prevFilters, category: params.category || "Todos" }));
 	}, [params.category]);
 
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, [params.category]);
+
 	return (
 		<Layout>
 			<Title title={params.category ? `Estás viendo ${params.category}` : "Mirá lo que tenemos para ofrecerte"} />

@@ -18,6 +18,10 @@ export default function Details() {
         }
     }, [params.code, loading]);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
       <Layout>
         {(!product && <ProductNotFound />)}
