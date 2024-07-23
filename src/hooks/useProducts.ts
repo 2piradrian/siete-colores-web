@@ -14,7 +14,6 @@ export default function useProducts() {
 	const [loading, setLoading] = useState(true);
 	const [list, setList] = useState<Product[][]>([]);
 	const [products, setProducts] = useState<Product[]>([]);
-	const [randomProducts, setRandomProducts] = useState<Product[]>([]);
 	const [filters, setFilters] = useState<Filters>({category: "", words: "", sort: "default"});
 
 	const paginatedList = useScroll(list);
@@ -37,9 +36,6 @@ export default function useProducts() {
 			return { ...product };
 		});
 
-		const randomProducts = products.sort(() => Math.random() - Math.random()).slice(0, 6); // Get 6 random products
-
-		setRandomProducts(randomProducts);
 		setProducts(products);
 		setLoading(false);
 	};
@@ -48,6 +44,18 @@ export default function useProducts() {
 	const getProduct = (code: string) => {
 		return products.find((product) => product.code === code);
 	};
+
+	// Get random products
+	const getRandomProducts = (quantity: number) => {
+		if (products.length === 0) return [];
+
+		const randomProducts: Product[] = [];
+		for(let i = 0; i < quantity; i++){
+			const random = Math.floor(Math.random() * products.length);
+			randomProducts.push(products[random]);
+		}
+		return randomProducts;
+	}
 
 	// Apply filters to the list of products
 	const filterProducts = (filters: Filters) => {
@@ -134,5 +142,5 @@ export default function useProducts() {
 		return dividedProducts;
 	};
 
-	return { list, ...paginatedList, setFilters, randomProducts, getProduct, loading };
+	return { list, ...paginatedList, setFilters, getProduct, getRandomProducts, loading };
 }

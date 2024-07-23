@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+import { Product } from "../../../types/products";
 import { Link } from "react-router-dom";
 import useProducts from "../../../hooks/useProducts";
 import ItemCard from "../../atoms/ItemCard/ItemCard";
@@ -6,7 +8,15 @@ import Subtitle from "../../atoms/Subtitle/Subtitle";
 import style from "./style.module.css";
 
 export default function News() {
-    const { randomProducts } = useProducts();
+    const { getRandomProducts, loading } = useProducts();
+    const [randomProducts, setRandomProducts] = useState<Product[]>([]);
+
+    useEffect(() => {
+        if (!loading) {
+            const products = getRandomProducts(6);
+            setRandomProducts(products);
+        }
+    }, [loading]);
 
     return (
         <section className={style.container}>
