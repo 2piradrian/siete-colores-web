@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { CartContext } from "../context/CartContext";
 import CartList from "../components/molecules/CartList/CartList";
 import CartPrices from "../components/molecules/CartPrices/CartPrices";
@@ -7,6 +7,10 @@ import Layout from "../layout/Layout";
 
 function Cart() {
     const { products, editQuantity } = useContext(CartContext);
+
+	useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
 	return (
 		<Layout>
