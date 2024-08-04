@@ -68,7 +68,6 @@ export default function useProducts() {
 		const filterArray: string[] = [];
 		if (filters.words) {
 			filterArray.push(...filters.words.split(" ").flat().map((word) => word.toLowerCase()));
-			console.log(filterArray);
 		}
 
 		// Apply filters, and return the list of products
@@ -102,8 +101,6 @@ export default function useProducts() {
 				return words;
 			}
 		});
-
-		console.log(filteredProducts);
 
 		// Sort the list of products
 		if (filters.sort === "highest") {
