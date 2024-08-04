@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { CartContext } from "../../../context/CartContext";
 import { Product } from "../../../types/products";
-import toast, { Toaster } from "react-hot-toast";
+import toast from "react-hot-toast";
 import MainButton from "../MainButton/MainButton";
 
 import noimage from "../../../assets/images/no-image.jpg";
