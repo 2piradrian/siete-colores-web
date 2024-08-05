@@ -15,7 +15,7 @@ export default function Categories() {
                 <Subtitle subtitle="Categorías" />
             </div>
             <div className={style.categories}>
-                <Link to="/products/todos" aria-label='todos'>
+                <Link to="/products/" aria-label='todos'>
                     <img src={todos} alt="Todos" />
                 </Link>
                 <Link to="/products/abecedarios" aria-label='abecedarios'>
