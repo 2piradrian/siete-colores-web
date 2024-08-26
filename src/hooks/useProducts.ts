@@ -61,7 +61,7 @@ export default function useProducts() {
 	const filterProducts = (filters: Filters) => {
 		// If there are no filters, return the original list of products
 		if (filters.category === "Todos" && filters.words === "" && filters.sort === "default") {
-			const dividedProducts = divideProducts(products, 8);
+			const dividedProducts = divideProducts(products, 12);
 			return setList(dividedProducts);
 		}
 
@@ -73,7 +73,8 @@ export default function useProducts() {
 		// Apply filters, and return the list of products
 		const filteredProducts = products.filter((product) => {
 			const keywordsArray = [
-				product.code.toLowerCase(), 
+				product.code.toLowerCase(),
+				product.code.slice(1).toLowerCase(),
 				...product.name.toLowerCase().split(" ").flat(), 
 				...product.keywords.map(k => k.toLowerCase())
 			];
