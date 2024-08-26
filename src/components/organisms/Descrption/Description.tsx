@@ -22,7 +22,7 @@ export default function Description({ product }: Props) {
     
     let image;
 	try {
-		image = `/product-images/${product.code}.jpg`;
+		image = `/product-images/${product.code}.jpg` || `/product-images/${product.code}.jpeg`;
 	} catch {
 		image = noimage;
 	}
