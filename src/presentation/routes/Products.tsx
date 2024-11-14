@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
-import useProducts from "../../hooks/useProducts";
+import useProducts from "../../core/hooks/useProducts";
 import Layout from "../layout/Layout";
 import Title from "../components/atoms/Title/Title";
 import SearchProducts from "../components/molecules/Search/SearchProducts";

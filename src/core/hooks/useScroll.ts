@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Product } from "../types/products";
+import { Product } from "../../types/products";
 
 export default function useScroll(list: Product[][]) {
 	const [position, setPosition] = useState<number>(0);

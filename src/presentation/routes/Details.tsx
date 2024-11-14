@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Product } from "../../types/products";
-import useProducts from "../../hooks/useProducts";
+import useProducts from "../../core/hooks/useProducts";
 import Layout from "../layout/Layout";
 import ProductNotFound from "../components/atoms/ProductNotFound/ProductNotFound";
 import Description from "../components/organisms/Descrption/Description";

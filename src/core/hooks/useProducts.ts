@@ -1,7 +1,7 @@
 import useScroll from "./useScroll";
 import { useEffect, useState } from "react";
-import { Filters } from "../types/filters";
-import { Product } from "../types/products";
+import { Filters } from "../../types/filters";
+import { Product } from "../../types/products";
 
 /*
  * This hook is responsible for fetching and managing the products list.
