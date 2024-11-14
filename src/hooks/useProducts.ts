@@ -30,7 +30,7 @@ export default function useProducts() {
 
 	// Gets all products
 	const fetchProducts = async () => {
-		const response = await fetch("/data/db.json");
+		const response = await fetch("/data/sietecolores.products.json");
 		const db = await response.json();
 		const products: Product[] = db.map((product: any) => {
 			return { ...product };

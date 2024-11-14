@@ -10,7 +10,7 @@ export default function useCategories() {
 
     // Gets all categories
     const fetchCategories = async () => {
-        const response = await fetch("/data/categories.json");
+        const response = await fetch("/data/sietecolores.categories.json");
         const json = await response.json();
 
         const categories = json.map((category: any) => {
