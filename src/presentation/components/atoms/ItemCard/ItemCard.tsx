@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { CartContext } from "../../../context/CartContext";
-import { Product } from "../../../types/products";
+import { CartContext } from "../../../../context/CartContext";
+import { Product } from "../../../../types/products";
 import toast from "react-hot-toast";
 import MainButton from "../MainButton/MainButton";
 

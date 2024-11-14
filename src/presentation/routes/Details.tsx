@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { Product } from "../types/products";
+import { Product } from "../../types/products";
+import useProducts from "../../hooks/useProducts";
 import Layout from "../layout/Layout";
-import useProducts from "../hooks/useProducts";
-import Description from "../components/organisms/Descrption/Description";
 import ProductNotFound from "../components/atoms/ProductNotFound/ProductNotFound";
+import Description from "../components/organisms/Descrption/Description";
 
 export default function Details() {
     const [product, setProduct] = useState<Product | null>(null);

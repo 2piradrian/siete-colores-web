@@ -1,4 +1,4 @@
-import { Product } from "../../../types/products";
+import { Product } from "../../../../types/products";
 import { useEffect } from "react";
 import ItemCard from "../../atoms/ItemCard/ItemCard";
 import style from "./style.module.css";

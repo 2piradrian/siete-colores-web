@@ -1,4 +1,4 @@
-import { Product } from "../../../types/products";
+import { Product } from "../../../../types/products";
 import ItemList from "../ItemList/ItemList";
 import style from "./style.module.css";
 

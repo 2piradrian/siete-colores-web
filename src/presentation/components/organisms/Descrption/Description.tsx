@@ -1,6 +1,6 @@
-import { Product } from "../../../types/products";
+import { Product } from "../../../../types/products";
 import { useContext } from "react";
-import { CartContext } from "../../../context/CartContext";
+import { CartContext } from "../../../../context/CartContext";
 import MainButton from "../../atoms/MainButton/MainButton";
 import noimage from "../../../assets/images/no-image.jpg";
 import toast from "react-hot-toast";

@@ -1,9 +1,9 @@
 import { CartProvider } from './context/CartContext';
 import { Navigate, Route, Routes } from 'react-router-dom';
-import Home from './routes/Home';
-import Cart from './routes/Cart';
-import Products from './routes/Products';
-import Details from './routes/Details';
+import Home from './presentation/routes/Home';
+import Products from './presentation/routes/Products';
+import Details from './presentation/routes/Details';
+import Cart from './presentation/routes/Cart';
 
 function App() {
   return (

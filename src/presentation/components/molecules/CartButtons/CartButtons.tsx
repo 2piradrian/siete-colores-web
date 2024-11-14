@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Product } from "../../../types/products";
+import { Product } from "../../../../types/products";
 import toast from "react-hot-toast";
 import style from "./style.module.css";
 import MainButton from "../../atoms/MainButton/MainButton";

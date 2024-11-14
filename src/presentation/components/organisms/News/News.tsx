@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { Product } from "../../../types/products";
+import { Product } from "../../../../types/products";
 import { Link } from "react-router-dom";
-import useProducts from "../../../hooks/useProducts";
+import useProducts from "../../../../hooks/useProducts";
 import ItemCard from "../../atoms/ItemCard/ItemCard";
 import MainButton from "../../atoms/MainButton/MainButton";
 import Subtitle from "../../atoms/Subtitle/Subtitle";
