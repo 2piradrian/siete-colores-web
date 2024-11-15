@@ -4,7 +4,7 @@ import News from "../components/organisms/News/News";
 import Sellers from "../components/organisms/Sellers/Sellers";
 import Layout from "../layout/Layout";
 
-function Home() {
+export default function Home() {
 	return (
 		<Layout>
 			<Hero />
@@ -14,5 +14,3 @@ function Home() {
 		</Layout>
 	);
 }
-
-export default Home;

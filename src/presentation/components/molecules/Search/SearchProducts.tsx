@@ -1,42 +1,42 @@
-import { useRef } from "react";
 import { Filters } from "../../../../domain/types/filters";
-import style from "./style.module.css";
 import MainButton from "../../atoms/MainButton/MainButton";
+import style from "./style.module.css";
 
 type Props = {
+	filters: Filters;
+	clearFilters: () => void;
 	setFilters: (newFilters: Partial<Filters>) => void;
 	category?: string;
 	subCategories: string[];
 }
 
-export default function SearchProducts({ setFilters, category, subCategories }: Props) {
+export default function SearchProducts({ filters, setFilters, clearFilters, category, subCategories }: Props) {
 
-	const words = useRef<any>();
-	const order = useRef<any>();
-	const subcategory = useRef<any>();
+	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+		e.preventDefault();
+		const filters = Object.fromEntries(new FormData(e.currentTarget));
 
-	const handleChange = () => {
 		const formData: Filters = {
-			category: category || "Todos",
-			subcategories: [],
-			words: words.current.value,
-			sort: order.current.value === "Menor Precio" ? "lowest" : order.current.value === "Mayor Precio" ? "highest" : "default",
+			category: category as string,
+			subcategory: filters.subcategory as string,
+			words: filters.words as string,
+			sort: filters.order as string,
 		}
-		 
+
 		setFilters({...formData });
 	};
 
 	return (
 		<div className={style.container}>
-			<form className={style.form} onChange={handleChange} onSubmit={(e: any) => {e.preventDefault()}}>
+			<form className={style.form} onSubmit={handleSubmit}>
 				<div className={style.inputContainer}>
 					<label htmlFor="words">Buscar:</label>
-					<input type="text" placeholder={`Buscar ${category ? category : "productos"}`} name="words" ref={words} />
+					<input type="text" placeholder={`Buscar ${category ? category : "productos"}`} name="words" defaultValue={filters.words} />
 				</div>
 				<div className={style.selectorContainer}>
 					<div className={style.selector}>
 						<label htmlFor="subcategory">Subcategoría:</label>
-						<select name="subcategory" className={style.select} ref={subcategory}>
+						<select name="subcategory" className={style.select} defaultValue={filters.subcategory}>
 							<option value="Todos">Todos</option>
 							{subCategories?.map((subCategory, index) => (
 								<option key={index} value={subCategory}>{subCategory}</option>
@@ -45,7 +45,7 @@ export default function SearchProducts({ setFilters, category, subCategories }: 
 					</div>
 					<div className={style.selector}>
 						<label htmlFor="order">Ordenar por:</label>
-						<select name="order" className={style.select} ref={order}>
+						<select name="order" className={style.select} defaultValue={filters.sort}>
 							<option>Sin orden</option>
 							<option>Menor Precio</option>
 							<option>Mayor Precio</option>
@@ -53,8 +53,12 @@ export default function SearchProducts({ setFilters, category, subCategories }: 
 					</div>
 				</div>
 				<div className={style.buttonContainer}>
-					<MainButton isActive styles={style.button}>Reiniciar filtros</MainButton>
-					<MainButton isActive styles={style.button}>Buscar</MainButton>
+					<MainButton isActive styles={style.button} type="button" onClick={clearFilters}>
+						Reiniciar filtros
+					</MainButton>
+					<MainButton isActive styles={style.button} type="submit">
+						Buscar
+					</MainButton>
 				</div>
 			</form>
 		</div>

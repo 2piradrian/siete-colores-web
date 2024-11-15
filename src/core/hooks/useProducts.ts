@@ -6,7 +6,7 @@ export default function useProducts() {
 
     const [products, setProducts] = useState<Product[]>([]);
     const [news, setNews] = useState<Product[]>([]);
-    const [filters, setFilters] = useState<Filters>({ category: "", subcategories: [], words: "", sort: "default" });
+    const [filters, setFilters] = useState<Filters>({ category: "", subcategory: "", words: "", sort: "default" });
 
     const [page, setPage] = useState(1);
     const [totalPages, setTotalPages] = useState(1);
@@ -68,6 +68,10 @@ export default function useProducts() {
         setPage(1); // Reinicia a la primera página al cambiar filtros.
     };
 
+    const clearFilters = () => {
+        setFilters({ category: "", subcategory: "", words: "", sort: "default" });
+    };
+
     const nextPage = () => {
         if (page < totalPages) setPage(page + 1);
     };
@@ -83,8 +87,10 @@ export default function useProducts() {
         error,
         page,
         totalPages,
-        updateFilters,
         nextPage,
         prevPage,
+        filters,
+        updateFilters,
+        clearFilters,
     };
 }

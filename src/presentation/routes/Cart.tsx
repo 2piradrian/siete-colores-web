@@ -1,11 +1,11 @@
+import { CartContext } from "../../core";
 import { useContext, useEffect } from "react";
 import Layout from "../layout/Layout";
 import CartList from "../components/molecules/CartList/CartList";
 import CartPrices from "../components/molecules/CartPrices/CartPrices";
 import CartButtons from "../components/molecules/CartButtons/CartButtons";
-import { CartContext } from "../../core";
 
-function Cart() {
+export default function Cart() {
     const { products, editQuantity } = useContext(CartContext);
 
 	useEffect(() => {
@@ -20,5 +20,3 @@ function Cart() {
 		</Layout>
 	);
 }
-
-export default Cart;

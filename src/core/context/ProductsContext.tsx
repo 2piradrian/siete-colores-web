@@ -11,11 +11,13 @@ type ProductsContextType = {
     error: string | null;
     page: number;
     totalPages: number;
-    updateFilters: (newFilters: Partial<Filters>) => void;
     nextPage: () => void;
     prevPage: () => void;
     categories: string[];
     subCategories: string[];
+    filters: Filters;
+    updateFilters: (newFilters: Partial<Filters>) => void;
+    clearFilters: () => void;
 };
 
 export const ProductsContext = createContext<ProductsContextType>({
@@ -25,11 +27,13 @@ export const ProductsContext = createContext<ProductsContextType>({
     error: null,
     page: 1,
     totalPages: 1,
-    updateFilters: () => {},
     nextPage: () => {},
     prevPage: () => {},
     categories: [],
     subCategories: [],
+    filters: { category: "", subcategory: "", words: "", sort: "default" },
+    updateFilters: () => {},
+    clearFilters: () => {},
 });
 
 type ProductProviderProps = {
