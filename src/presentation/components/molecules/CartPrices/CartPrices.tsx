@@ -1,4 +1,4 @@
-import { Product } from "../../../../types/products";
+import { Product } from "../../../../domain/types/products";
 import style from "./style.module.css";
 import { useEffect, useState } from "react";
 

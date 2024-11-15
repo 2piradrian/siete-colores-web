@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Product } from "../../../../types/products";
+import { Product } from "../../../../domain/types/products";
 import { Link } from "react-router-dom";
 import useProducts from "../../../../core/hooks/useProducts";
 import ItemCard from "../../atoms/ItemCard/ItemCard";

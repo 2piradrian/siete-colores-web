@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from 'react';
-import { Product } from '../types/products';
+import { Product } from '../domain/types/products';
 
 type CartContextType = {
     products: Product[];

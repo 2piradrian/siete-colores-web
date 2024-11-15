@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction, useRef } from "react";
-import { Filters } from "../../../../types/filters";
+import { Filters } from "../../../../domain/types/filters";
 import style from "./style.module.css";
 
 type Props = {
