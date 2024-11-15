@@ -1,5 +1,6 @@
 export type Filters = {
-	category: string;
 	words: string;
+	category: string;
+	subcategories: string[];
 	sort: "highest" | "lowest" | "default";
 };

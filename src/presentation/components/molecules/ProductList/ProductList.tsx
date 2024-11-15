@@ -1,11 +1,8 @@
 import { Product } from "../../../../domain/types/products";
-import { useEffect } from "react";
 import ItemCard from "../../atoms/ItemCard/ItemCard";
 import style from "./style.module.css";
 
 export default function ProductList({ list }: { list: Product[] }) {
-
-    useEffect(() => {}, [list]);
 
     return (
         <section>

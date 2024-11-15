@@ -1,13 +1,14 @@
+import { useContext } from "react";
 import { Link, useParams } from "react-router-dom";
+import { ProductsContext } from "../../../../core";
 import iso from "../../../assets/icons/isotipo.svg";
 import cart from "../../../assets/icons/cart.svg";
 import search from "../../../assets/icons/search.svg";
 import style from "./style.module.css"
-import useCategories from "../../../../core/hooks/useCategories";
 
 export default function Header() {
 
-	const {categories} = useCategories();
+	const { categories } = useContext(ProductsContext);
 	const params = useParams<{category: string}>();
 
     return (

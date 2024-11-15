@@ -1,12 +1,11 @@
+import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { Product } from "../../../../domain/types/products";
+import { CartContext } from "../../../../core";
 import toast from "react-hot-toast";
 import MainButton from "../MainButton/MainButton";
-
 import noimage from "../../../assets/images/no-image.jpg";
 import style from "./style.module.css";
-import { Link } from "react-router-dom";
-import { CartContext } from "../../../../core";
 
 function ItemCard({ code, name, price, size, category }: Product) {
 	const { editQuantity } = useContext(CartContext);
@@ -40,12 +39,10 @@ function ItemCard({ code, name, price, size, category }: Product) {
 				{category}
 			</p>
 			<div className={style.priceContainer}>
-				<p className={style.price}>$ {price.toFixed(2)}</p>
-				<div onClick={handleAdd}>
-					<MainButton isActive styles={style.addProduct}>
+				<p className={style.price}>$ {price}</p>
+					<MainButton isActive styles={style.addProduct} onClick={handleAdd}>
 						Comprar
 					</MainButton>
-				</div>
 			</div>
 		</article>
 	);

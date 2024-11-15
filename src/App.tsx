@@ -1,12 +1,13 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
+import { CartProvider, ProductProvider } from './core';
 import Home from './presentation/routes/Home';
 import Products from './presentation/routes/Products';
 import Details from './presentation/routes/Details';
 import Cart from './presentation/routes/Cart';
-import { CartProvider } from './core';
 
 function App() {
   return (
+	<ProductProvider>
 	<CartProvider>
     	<Routes>
 			<Route path="/" element={<Home />} />
@@ -18,6 +19,7 @@ function App() {
 			<Route path="*" element={<Navigate to="/" />} />
 		</Routes>
 	</CartProvider>
+	</ProductProvider>
   );
 }
 

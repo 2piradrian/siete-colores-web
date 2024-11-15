@@ -1,23 +1,19 @@
 import { useEffect, useState } from "react";
+import { CategoriesRepository } from "../../infrastructure";
 
 export default function useCategories() {
     const [categories, setCategories] = useState<string[]>([]);
 
-    // Just load a list of categories from a JSON file
+    const categoriesRepository = new CategoriesRepository();
+
     useEffect(() => {
         fetchCategories();
     }, []);
 
     // Gets all categories
     const fetchCategories = async () => {
-        const response = await fetch("/data/sietecolores.categories.json");
-        const json = await response.json();
-
-        const categories = json.map((category: any) => {
-            return category.name;
-        }).sort();
-
-        setCategories(categories);
+        const categories = await categoriesRepository.getCategories();
+        setCategories(categories.map(category => category.name));
     };
 
     return { categories };

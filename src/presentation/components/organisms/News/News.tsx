@@ -1,33 +1,24 @@
-import { useEffect, useState } from "react";
-import { Product } from "../../../../domain/types/products";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
-import useProducts from "../../../../core/hooks/useProducts";
+import { ProductsContext } from "../../../../core";
 import ItemCard from "../../atoms/ItemCard/ItemCard";
 import MainButton from "../../atoms/MainButton/MainButton";
 import Subtitle from "../../atoms/Subtitle/Subtitle";
 import style from "./style.module.css";
 
 export default function News() {
-    const { getRandomProducts, loading } = useProducts();
-    const [randomProducts, setRandomProducts] = useState<Product[]>([]);
-
-    useEffect(() => {
-        if (!loading) {
-            const products = getRandomProducts(6);
-            setRandomProducts(products);
-        }
-    }, [loading]);
+    const { loading, news } = useContext(ProductsContext);
 
     return (
         <section className={style.container}>
             <div className={style.subtitle}>
                 <Subtitle subtitle="Novedades" />
             </div>
-            <div className={style.products}>
-                {randomProducts?.map((product, index) => (
+            {!loading ? <div className={style.products}>
+                {news?.map((product, index) => (
                     <ItemCard key={index} {...product} />
                 ))}
-            </div>
+            </div> : <p>Cargando...</p>}
             <Link to="/products" className={style.button}>
                 <MainButton isActive>
                     Ver más

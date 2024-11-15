@@ -9,11 +9,21 @@
 	width: 75%;
 	max-width: 550px;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	gap: 10px;
 }
 
-.form > input {
+.inputContainer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.inputContainer > input {
 	height: 40px;
 	width: 100%;
 	border-radius: 8px;
@@ -22,16 +32,36 @@
 	padding: 0px 20px;
 }
 
+.buttonContainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.button {
+	width: 100%;
+}
+
 .form > input::placeholder {
 	margin: 20px;
 }
 
+.selectorContainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+
 .selector {
 	width: 100%;
-	margin: 20px;
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 }
 
 .selector > select {

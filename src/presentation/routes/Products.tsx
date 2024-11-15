@@ -1,17 +1,17 @@
 import { useParams } from "react-router-dom";
-import { useEffect } from "react";
-import useProducts from "../../core/hooks/useProducts";
+import { ProductsContext } from "../../core";
+import { useContext, useEffect } from "react";
 import Layout from "../layout/Layout";
 import Title from "../components/atoms/Title/Title";
 import SearchProducts from "../components/molecules/Search/SearchProducts";
 import ProductList from "../components/molecules/ProductList/ProductList";
 
 function Products() {
-    const { paginatedList: list, setFilters } = useProducts();
+	const { products, updateFilters, loading, subCategories } = useContext(ProductsContext);
 	const params = useParams<{ category: string }>();
 
 	useEffect(() => {
-		setFilters((prevFilters) => ({ ...prevFilters, category: params.category || "Todos" }));
+		updateFilters({ category: params.category || "Todos" });
 	}, [params.category]);
 
 	useEffect(() => {
@@ -21,8 +21,8 @@ function Products() {
 	return (
 		<Layout>
 			<Title title={params.category ? `Estás viendo ${params.category}` : "Mirá lo que tenemos para ofrecerte"} />
-            <SearchProducts setFilters={setFilters} category={params.category} />
-            <ProductList list={list} />
+            <SearchProducts setFilters={updateFilters} category={params.category} subCategories={subCategories} />
+           {!loading ? <ProductList list={products} /> : <p>Cargando...</p>} 
 		</Layout>
 	);
 }
