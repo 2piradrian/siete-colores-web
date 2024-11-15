@@ -1,5 +1,5 @@
 import { SubCategory } from "../types/subcategory";
 
-export abstract class CategoriesDataSourceI {
+export abstract class SubCategoriesDataSourceI {
     abstract getCategories(): Promise<SubCategory[]>;
 }
