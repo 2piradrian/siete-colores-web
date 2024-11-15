@@ -1,11 +1,11 @@
 import { Product } from "../../../../domain/types/products";
 import { useContext } from "react";
-import { CartContext } from "../../../../context/CartContext";
 import MainButton from "../../atoms/MainButton/MainButton";
 import noimage from "../../../assets/images/no-image.jpg";
 import toast from "react-hot-toast";
 import style from "./style.module.css";
 import ProductDescription from "../../atoms/ProductDescription/ProductDescription";
+import { CartContext } from "../../../../core";
 
 type Props = {
     product: Product;

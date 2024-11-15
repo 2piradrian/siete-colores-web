@@ -1,9 +1,9 @@
 import { useContext, useEffect } from "react";
-import { CartContext } from "../../context/CartContext";
 import Layout from "../layout/Layout";
 import CartList from "../components/molecules/CartList/CartList";
 import CartPrices from "../components/molecules/CartPrices/CartPrices";
 import CartButtons from "../components/molecules/CartButtons/CartButtons";
+import { CartContext } from "../../core";
 
 function Cart() {
     const { products, editQuantity } = useContext(CartContext);
