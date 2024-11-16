@@ -53,8 +53,6 @@ export const ProductProvider = ({ children }: ProductProviderProps) => {
         subCategories
     }), [productsState, categories, subCategories]);
 
-    console.log(contextValue.filters);
-
     return (
         <ProductsContext.Provider value={{ ...contextValue }}>
             {children}

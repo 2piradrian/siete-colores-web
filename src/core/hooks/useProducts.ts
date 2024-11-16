@@ -17,7 +17,7 @@ export default function useProducts() {
 
     useEffect(() => {
         fetchProducts(page, 20);
-    }, [page]);
+    }, [page, filters]);
     
     useEffect(() => {
         fetchNews();
@@ -72,6 +72,7 @@ export default function useProducts() {
 
     const clearFilters = () => {
         setFilters({ category: "", subcategory: "", words: "", sort: "default" });
+        setPage(1);
     };
 
     const nextPage = () => {

@@ -13,9 +13,10 @@ export default function Products() {
 	const params = useParams<{ category: string }>();
 	
 	useEffect(() => {
-		window.scrollTo(0, 0);
-		updateFilters({ category: params.category });
-	}, []);
+		if (params.category && params.category !== filters.category) {
+			updateFilters({ category: params.category });
+		}
+	}, [params.category]);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -29,7 +30,7 @@ export default function Products() {
 				setFilters={updateFilters} 
 				clearFilters={clearFilters} 
 				category={params.category} 
-				subCategories={subCategories} 
+				subCategories={subCategories}
 			/>
 			<PageSelector currentPage={page} totalPages={totalPages} prevPage={prevPage} nextPage={nextPage} />
 			{ loading && <span>Cargando...</span> }
