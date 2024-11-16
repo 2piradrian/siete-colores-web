@@ -14,6 +14,17 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
         if (filters.subcategory === "Todos") {
             filters.subcategory = undefined;
         }
+        
+        if (filters.sort === "Menor Precio") {
+            filters.sort = "asc";
+        }
+        else if (filters.sort === "Mayor Precio") {
+            filters.sort = "desc";
+        }
+        else {
+            filters.sort = undefined;
+        }
+
         return {
             words: filters.words?.toLowerCase(),
             category: filters.category?.toLowerCase(),
@@ -48,27 +59,42 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
                     if (found || product.name.toLowerCase().split(" ").includes(filters.words)) {
                         return true;
                     }
+                    else {
+                        if (filters.sort) return false
+                    }
+                    
                 }
 
                 return true;
             });
 
-            const scoredProducts = filteredProducts.map((product: Product) => {
-                let score = 0;
-    
-                if (filters.words) {
-                    const words = filters.words.split(" ");
-                    score = words.reduce((acc, word) => {
-                        const occurrences = (product.name.match(new RegExp(word, "gi")) || []).length;
-                        return acc + occurrences;
-                    }, 0);
-                }
-    
-                return { ...product, score };
-            });
+            let scoredProducts, sortedProducts;
 
-            const sortedProducts = scoredProducts.sort((a: any, b: any) => b.score - a.score);
-    
+            if (!filters.sort) {
+                scoredProducts = filteredProducts.map((product: Product) => {
+                    let score = 0;
+        
+                    if (filters.words) {
+                        const words = filters.words.split(" ");
+                        score = words.reduce((acc, word) => {
+                            const occurrences = (product.name.match(new RegExp(word, "gi")) || []).length;
+                            return acc + occurrences;
+                        }, 0);
+                    }
+        
+                    return { ...product, score };
+                });
+                sortedProducts = scoredProducts.sort((a: any, b: any) => b.score - a.score);
+            }
+            else {
+                if (filters.sort === "asc") {
+                    sortedProducts = filteredProducts.sort((a: Product, b: Product) => a.price - b.price);
+                }
+                else {
+                    sortedProducts = filteredProducts.sort((a: Product, b: Product) => b.price - a.price);
+                }
+            }
+
             const start = (page - 1) * size;
             const end = start + size;
     

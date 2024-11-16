@@ -103,6 +103,7 @@ export default function SearchProducts({ filters, setFilters, clearFilters, cate
 					</MainButton>
 				</div>
 			</form>
+			<hr className={style.divider} />
 		</div>
 	);
 }

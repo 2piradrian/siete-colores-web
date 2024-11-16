@@ -24,9 +24,8 @@ export default function useProducts() {
 		setLoading(true);
         try {
             const result = await productsRepository.getProducts(page, size, filters);
-
             setProducts(result.products);
-            setTotalPages(result.pages || 1);
+            setTotalPages(result.pages);
         } 
 		catch (error) {
             setError("Error obteniendo los productos.");
@@ -69,7 +68,6 @@ export default function useProducts() {
     };
 
     const clearFilters = () => {
-        console.log("clearFilters");
         setFilters({ category: "", subcategory: "", words: "", sort: "default" });
     };
 

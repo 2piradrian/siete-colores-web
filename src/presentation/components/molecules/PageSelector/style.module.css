@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+}
+
+.button {
+    width: 50px;
+}
+
+.pageNumber {
+    width: 50px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+}
