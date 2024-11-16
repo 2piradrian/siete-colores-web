@@ -1,6 +1,6 @@
 export type Filters = {
-	words: string;
-	category: string;
-	subcategory: string;
-	sort: string;
+	words: string | undefined;
+	category: string | undefined;
+	subcategory: string | undefined;
+	sort: string | undefined;
 };
