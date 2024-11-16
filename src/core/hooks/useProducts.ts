@@ -69,6 +69,7 @@ export default function useProducts() {
     };
 
     const clearFilters = () => {
+        console.log("clearFilters");
         setFilters({ category: "", subcategory: "", words: "", sort: "default" });
     };
 

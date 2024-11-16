@@ -1,4 +1,5 @@
-import { Filters } from "../../../../domain/types/filters";
+import { useEffect, useState } from "react";
+import { Filters } from "../../../../domain";
 import MainButton from "../../atoms/MainButton/MainButton";
 import style from "./style.module.css";
 
@@ -11,19 +12,44 @@ type Props = {
 }
 
 export default function SearchProducts({ filters, setFilters, clearFilters, category, subCategories }: Props) {
+	const [inputValues, setInputValues] = useState({
+		words: filters.words || '',
+		subcategory: filters.subcategory || 'Todos',
+		order: filters.sort || 'Sin orden'
+	});
+
+	useEffect(() => {
+		setInputValues({
+			words: filters.words || '',
+			subcategory: filters.subcategory || 'Todos',
+			order: filters.sort || 'Sin orden'
+		});
+	}, [filters]);
+
+	const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+		const { name, value } = e.target;
+		setInputValues(prev => ({ ...prev, [name]: value }));
+	};
 
 	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
-		const filters = Object.fromEntries(new FormData(e.currentTarget));
-
 		const formData: Filters = {
 			category: category as string,
-			subcategory: filters.subcategory as string,
-			words: filters.words as string,
-			sort: filters.order as string,
-		}
+			subcategory: inputValues.subcategory,
+			words: inputValues.words,
+			sort: inputValues.order,
+		};
 
-		setFilters({...formData });
+		setFilters(formData);
+	};
+
+	const handleClearFilters = () => {
+		clearFilters();
+		setInputValues({
+			words: '',
+			subcategory: 'Todos',
+			order: 'Sin orden'
+		});
 	};
 
 	return (
@@ -31,12 +57,23 @@ export default function SearchProducts({ filters, setFilters, clearFilters, cate
 			<form className={style.form} onSubmit={handleSubmit}>
 				<div className={style.inputContainer}>
 					<label htmlFor="words">Buscar:</label>
-					<input type="text" placeholder={`Buscar ${category ? category : "productos"}`} name="words" defaultValue={filters.words} />
+					<input 
+						type="text" 
+						placeholder={`Buscar ${category ? category : "productos"}`} 
+						name="words" 
+						value={inputValues.words} 
+						onChange={handleInputChange} 
+					/>
 				</div>
 				<div className={style.selectorContainer}>
 					<div className={style.selector}>
 						<label htmlFor="subcategory">Subcategoría:</label>
-						<select name="subcategory" className={style.select} defaultValue={filters.subcategory}>
+						<select 
+							name="subcategory" 
+							className={style.select} 
+							value={inputValues.subcategory} 
+							onChange={handleInputChange}
+						>
 							<option value="Todos">Todos</option>
 							{subCategories?.map((subCategory, index) => (
 								<option key={index} value={subCategory}>{subCategory}</option>
@@ -45,7 +82,12 @@ export default function SearchProducts({ filters, setFilters, clearFilters, cate
 					</div>
 					<div className={style.selector}>
 						<label htmlFor="order">Ordenar por:</label>
-						<select name="order" className={style.select} defaultValue={filters.sort}>
+						<select 
+							name="order" 
+							className={style.select} 
+							value={inputValues.order} 
+							onChange={handleInputChange}
+						>
 							<option>Sin orden</option>
 							<option>Menor Precio</option>
 							<option>Mayor Precio</option>
@@ -53,7 +95,7 @@ export default function SearchProducts({ filters, setFilters, clearFilters, cate
 					</div>
 				</div>
 				<div className={style.buttonContainer}>
-					<MainButton isActive styles={style.button} type="button" onClick={clearFilters}>
+					<MainButton isActive styles={style.button} type="button" onClick={handleClearFilters}>
 						Reiniciar filtros
 					</MainButton>
 					<MainButton isActive styles={style.button} type="submit">

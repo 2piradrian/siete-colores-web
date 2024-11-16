@@ -35,7 +35,7 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
                 }
 
                 product.subcategories = product.subcategories.map((subcategory: string) => subcategory.toLowerCase());
-                if (filters.subcategory && product.subcategories.includes(filters.subcategory) === false) {
+                if (filters.subcategory && !product.subcategories.includes(filters.subcategory)) {
                     return false;
                 }
 
