@@ -1,4 +1,4 @@
-import { createContext } from "react";
+import { createContext, useEffect } from "react";
 import { Filters, Product } from "../../domain";
 import useProducts from "../hooks/useProducts";
 import useCategories from "../hooks/useCategories";
@@ -18,6 +18,7 @@ type ProductsContextType = {
     filters: Filters;
     updateFilters: (newFilters: Partial<Filters>) => void;
     clearFilters: () => void;
+    fetchProductByCode: (code: string) => Promise<Product | undefined>;
 };
 
 export const ProductsContext = createContext<ProductsContextType>({
@@ -34,6 +35,7 @@ export const ProductsContext = createContext<ProductsContextType>({
     filters: { category: "", subcategory: "", words: "", sort: "default" },
     updateFilters: () => {},
     clearFilters: () => {},
+    fetchProductByCode: async () => undefined,
 });
 
 type ProductProviderProps = {

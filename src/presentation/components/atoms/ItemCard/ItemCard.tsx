@@ -40,7 +40,7 @@ function ItemCard({ code, name, price, size, category }: Product) {
 			</p>
 			<div className={style.priceContainer}>
 				<p className={style.price}>$ {price}</p>
-					<MainButton isActive styles={style.addProduct} onClick={handleAdd}>
+					<MainButton isActive type="button" styles={style.addProduct} onClick={handleAdd}>
 						Comprar
 					</MainButton>
 			</div>

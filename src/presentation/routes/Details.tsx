@@ -1,21 +1,25 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { ProductsContext } from "../../core";
 import { useParams } from "react-router-dom";
 import { Product } from "../../domain/types/products";
-import useProducts from "../../core/hooks/useProducts";
 import Layout from "../layout/Layout";
 import ProductNotFound from "../components/atoms/ProductNotFound/ProductNotFound";
 import Description from "../components/organisms/Descrption/Description";
 
 export default function Details() {
     const [product, setProduct] = useState<Product | null>(null);
-    const { getProduct, loading} = useProducts();
+
+    const { fetchProductByCode, loading } = useContext(ProductsContext);
 
     const params = useParams<{ code: string }>();
     useEffect(() => {
-        const product = getProduct(params.code ? params.code : "");
-        if (product) {
-            setProduct(product);
-        }
+        const fetchProduct = async () => {
+            const product = params.code ? await fetchProductByCode(params.code) : undefined;
+            if (product) {
+                setProduct(product || null);
+            }
+        };
+        fetchProduct();
     }, [params.code, loading]);
 
     useEffect(() => {

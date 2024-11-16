@@ -91,5 +91,6 @@ export default function useProducts() {
         filters,
         updateFilters,
         clearFilters,
+        fetchProductByCode
     };
 }
