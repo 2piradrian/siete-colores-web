@@ -10,6 +10,9 @@ export default function ProductList({ list }: { list: Product[] }) {
 				{list?.map((item: any) => (
 					<ItemCard {...item} key={item.code} />
 				))}
+                {
+                    list.length === 0 && <span className={style.message}>No hay productos para mostrar 😓</span>
+                }
 			</div>
         </section>
     );

@@ -11,6 +11,14 @@
 	justify-content: space-between;
 }
 
+.message {
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 700;
+	margin: 50px 0px;
+}
+
 @media screen and (max-width: 1200px) {
     .subcontainer {
         padding: 0px 20px;
