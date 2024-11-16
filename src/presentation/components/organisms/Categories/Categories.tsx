@@ -1,9 +1,10 @@
 import todos from '../../../assets/images/categories/todos.webp';
-import varios from '../../../assets/images/categories/varios.webp';
+import herramientas from '../../../assets/images/categories/herramientas.webp';
 import sellos from '../../../assets/images/categories/sellos.webp';
 import abecedarios from '../../../assets/images/categories/abecedarios.webp';
 import cortantes from '../../../assets/images/categories/cortantes.webp';
 import texturizadores from '../../../assets/images/categories/texturizadores.webp';
+import toppers from '../../../assets/images/categories/toppers.webp';
 import Subtitle from '../../atoms/Subtitle/Subtitle';
 import style from "./style.module.css";
 import { Link } from 'react-router-dom';
@@ -30,8 +31,11 @@ export default function Categories() {
                 <Link to="/products/texturizadores" aria-label='texturizadores'>
                     <img src={texturizadores} alt="Texturizadores" />
                 </Link>
-                <Link to="/products/varios" aria-label='varios'>
-                    <img src={varios} alt="Varios" />
+                <Link to="/products/toppers" aria-label='toppers'>
+                    <img src={toppers} alt="Toppers" />
+                </Link>
+                <Link to="/products/herramientas" aria-label='herramientas'>
+                    <img src={herramientas} alt="Herramientas" />
                 </Link>
             </div>
         </section>
