@@ -17,8 +17,11 @@ export default function useProducts() {
 
     useEffect(() => {
         fetchProducts(page, 20);
+    }, [page]);
+    
+    useEffect(() => {
         fetchNews();
-    }, [page, filters]);
+    }, []);
 
     const fetchProducts = async (page: number, size: number) => {
 		setLoading(true);

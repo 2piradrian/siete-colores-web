@@ -43,19 +43,20 @@ type ProductProviderProps = {
 };
 
 export const ProductProvider = ({ children }: ProductProviderProps) => {
-    const contextValue = useProducts();    
+    const productsState = useProducts();    
     const { categories } = useCategories();
     const { subCategories } = useSubCategories();
 
-    const categoriesAndSubCategories = useMemo(() => ({
+    const contextValue = useMemo(() => ({
+        ...productsState,
         categories,
         subCategories
-    }), [categories, subCategories]);
+    }), [productsState, categories, subCategories]);
 
-    console.log('ProductProvider mounted');
+    console.log(contextValue.filters);
 
     return (
-        <ProductsContext.Provider value={{ ...contextValue, ...categoriesAndSubCategories }}>
+        <ProductsContext.Provider value={{ ...contextValue }}>
             {children}
         </ProductsContext.Provider>
     );
