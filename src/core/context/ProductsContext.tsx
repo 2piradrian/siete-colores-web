@@ -47,6 +47,12 @@ export const ProductProvider = ({ children }: ProductProviderProps) => {
     const { categories } = useCategories();
     const { subCategories } = useSubCategories();
 
+    console.log('ProductProvider mounted');
+    
+    useEffect(() => {
+        console.log('ProductProvider re-rendered');
+      }, []);
+
     return (
         <ProductsContext.Provider value={{ ...contextValue, categories, subCategories }}>
             {children}

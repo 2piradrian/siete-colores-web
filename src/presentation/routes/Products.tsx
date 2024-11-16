@@ -15,7 +15,7 @@ export default function Products() {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 		updateFilters({ category: params.category });
-	}, [params.category]);
+	}, []);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);

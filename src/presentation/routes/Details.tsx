@@ -9,7 +9,7 @@ import Description from "../components/organisms/Descrption/Description";
 export default function Details() {
     const [product, setProduct] = useState<Product | null>(null);
 
-    const { fetchProductByCode, loading } = useContext(ProductsContext);
+    const { fetchProductByCode } = useContext(ProductsContext);
 
     const params = useParams<{ code: string }>();
     useEffect(() => {
@@ -20,7 +20,7 @@ export default function Details() {
             }
         };
         fetchProduct();
-    }, [params.code, loading]);
+    }, [params.code]);
 
     useEffect(() => {
         window.scrollTo(0, 0);
