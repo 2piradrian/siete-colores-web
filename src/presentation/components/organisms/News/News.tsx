@@ -20,7 +20,7 @@ export default function News() {
                 ))}
             </div> : <p>Cargando...</p>}
             <Link to="/products" className={style.button}>
-                <MainButton isActive>
+                <MainButton isActive type="button">
                     Ver más
                 </MainButton>
             </Link>

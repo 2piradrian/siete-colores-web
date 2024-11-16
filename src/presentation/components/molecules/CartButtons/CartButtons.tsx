@@ -27,7 +27,7 @@ export default function CartButtons({products}: Props){
         <div className={style.container}>
 			<div className={style.subcontainer}>
 				<Link to="/products">
-					<MainButton isActive>Más productos</MainButton>
+					<MainButton isActive type="button">Más productos</MainButton>
 				</Link>
 				{products.length ? (
 					<a
@@ -35,7 +35,7 @@ export default function CartButtons({products}: Props){
 						onClick={() => {
 							localStorage.clear();
 						}}>
-						<MainButton isActive>
+						<MainButton isActive type="button">
 							Solicitar al vendedor
 						</MainButton>
 					</a>
@@ -45,7 +45,7 @@ export default function CartButtons({products}: Props){
 						onClick={() => {
 							toast("😬Tu carrito está vacio");
 						}}>
-						<MainButton isActive={false}>
+						<MainButton isActive={false} type="button">
 							Solicitar al vendedor
 						</MainButton>
 					</a>
