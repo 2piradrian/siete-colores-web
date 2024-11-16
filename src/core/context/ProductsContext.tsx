@@ -1,4 +1,4 @@
-import { createContext, useEffect } from "react";
+import { createContext, useMemo } from "react";
 import { Filters, Product } from "../../domain";
 import useProducts from "../hooks/useProducts";
 import useCategories from "../hooks/useCategories";
@@ -47,14 +47,15 @@ export const ProductProvider = ({ children }: ProductProviderProps) => {
     const { categories } = useCategories();
     const { subCategories } = useSubCategories();
 
+    const categoriesAndSubCategories = useMemo(() => ({
+        categories,
+        subCategories
+    }), [categories, subCategories]);
+
     console.log('ProductProvider mounted');
-    
-    useEffect(() => {
-        console.log('ProductProvider re-rendered');
-      }, []);
 
     return (
-        <ProductsContext.Provider value={{ ...contextValue, categories, subCategories }}>
+        <ProductsContext.Provider value={{ ...contextValue, ...categoriesAndSubCategories }}>
             {children}
         </ProductsContext.Provider>
     );
