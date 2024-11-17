@@ -8,7 +8,7 @@ export class CategoriesJsonDataSource implements CategoriesDataSourceI {
 
     public async getCategories(): Promise<Category[]> {
         try {
-            const response = await fetch("/data/sietecolores.categories.json");
+            const response = await fetch("/data/categories.json");
             const categories = await response.json();
 
             return categories;

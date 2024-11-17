@@ -8,7 +8,7 @@ export class SubCategoriesJsonDataSource implements SubCategoriesDataSourceI {
 
     public async getSubCategories(): Promise<SubCategory[]> {
         try {
-            const response = await fetch("/data/sietecolores.subcategories.json");
+            const response = await fetch("/data/subcategories.json");
             const categories = await response.json();
 
             return categories;

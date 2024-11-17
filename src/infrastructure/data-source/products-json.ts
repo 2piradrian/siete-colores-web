@@ -35,7 +35,7 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
 
     public async getProducts(page: number, size: number, filters: Filters): Promise<PaginatedProducts> {
         try {
-            const response = await fetch("/data/sietecolores.products.json");
+            const response = await fetch("/data/products.json");
             const products = await response.json();
     
             filters = this.normalizeFilters(filters);
@@ -112,7 +112,7 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
 
     public async getProductByCode(code: string): Promise<Product> {
         try {
-            const response = await fetch("/data/sietecolores.products.json");
+            const response = await fetch("/data/products.json");
             const products = await response.json();
 
             return products.find((product: Product) => product.code === code);
@@ -124,7 +124,7 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
 
     public async getNews(size: number): Promise<Product[]> {
         try {
-            const response = await fetch("/data/sietecolores.products.json");
+            const response = await fetch("/data/products.json");
             const products = await response.json();
 
             return products.sort((a: Product, b: Product) => {
