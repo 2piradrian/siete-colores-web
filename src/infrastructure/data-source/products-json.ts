@@ -56,7 +56,10 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
                         return product.keywords.includes(keyword);
                     });
 
-                    if (found || product.name.toLowerCase().split(" ").includes(filters.words)) {
+                    const nameMatch = product.name.toLowerCase().split(" ").includes(filters.words);
+                    const codeMatch = filters.words.toLowerCase() === product.code.toLowerCase();
+                    
+                    if (found || nameMatch || codeMatch) {
                         return true;
                     }
                     else {
@@ -90,9 +93,13 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
                 if (filters.sort === "asc") {
                     sortedProducts = filteredProducts.sort((a: Product, b: Product) => a.price - b.price);
                 }
-                else {
+                else if (filters.sort === "desc") {
                     sortedProducts = filteredProducts.sort((a: Product, b: Product) => b.price - a.price);
                 }
+            }
+            const codeFiltered = sortedProducts.filter((product: Product) => product.code.toLowerCase() === filters.words?.toLowerCase());
+            if (codeFiltered.length > 0) {
+                sortedProducts = codeFiltered;
             }
 
             const start = (page - 1) * size;

@@ -1,11 +1,11 @@
 import { Product } from "../../../../domain/types/products";
 import { useContext } from "react";
+import { CartContext } from "../../../../core";
 import MainButton from "../../atoms/MainButton/MainButton";
 import noimage from "../../../assets/images/no-image.jpg";
 import toast from "react-hot-toast";
-import style from "./style.module.css";
 import ProductDescription from "../../atoms/ProductDescription/ProductDescription";
-import { CartContext } from "../../../../core";
+import style from "./style.module.css";
 
 type Props = {
     product: Product;
@@ -53,7 +53,7 @@ export default function Description({ product }: Props) {
                     </div>
                 </div>
                 <h2 className={style.subtitle}>Descripción</h2>
-                <ProductDescription code={product.code} />
+                <ProductDescription code={product.code} description={product.description} />
                 <div className={style.buttonContainer}>
 					<MainButton isActive styles={style.addProduct} onClick={handleAdd} type="button">
                         Comprar

@@ -8,5 +8,6 @@ export type Product = {
 	subcategories: string[];
 	keywords: string[];
 	createdAt: Date;
+	description: string;
 	quantity?: number; // Only for cart
 };
