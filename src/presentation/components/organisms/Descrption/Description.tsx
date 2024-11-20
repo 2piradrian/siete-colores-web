@@ -36,7 +36,7 @@ export default function Description({ product }: Props) {
             	}} />
                 <div className={style.textContainer}>
                     <h1 className={style.title}>{product.name}</h1>
-                    <span className={style.stock}>{product.available ? "" : "(Sin Stock)"}</span>
+                    {product.available ? <span className={style.stock}>{"(Sin Stock)"}</span> : null }
                     <h2 className={style.subtitle}>Categoría</h2>
                     <p className={style.text}>{product.category}</p>
                     <h2 className={style.subtitle}>Dimensiones</h2>
