@@ -5,6 +5,7 @@ import abecedarios from '../../../assets/images/categories/abecedarios.webp';
 import cortantes from '../../../assets/images/categories/cortantes.webp';
 import texturizadores from '../../../assets/images/categories/texturizadores.webp';
 import toppers from '../../../assets/images/categories/toppers.webp';
+import moldes from '../../../assets/images/categories/moldes.webp';
 import Subtitle from '../../atoms/Subtitle/Subtitle';
 import style from "./style.module.css";
 import { Link } from 'react-router-dom';
@@ -36,6 +37,9 @@ export default function Categories() {
                 </Link>
                 <Link to="/products/herramientas" aria-label='herramientas'>
                     <img src={herramientas} alt="Herramientas" />
+                </Link>
+                <Link to="/products/moldes" aria-label='moldes'>
+                    <img src={moldes} alt="Moldes" />
                 </Link>
             </div>
         </section>
