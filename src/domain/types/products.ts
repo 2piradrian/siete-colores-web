@@ -9,5 +9,6 @@ export type Product = {
 	keywords: string[];
 	createdAt: Date;
 	description: string;
+	available: boolean;
 	quantity?: number; // Only for cart
 };
