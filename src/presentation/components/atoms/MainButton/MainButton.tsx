@@ -14,7 +14,7 @@ export default function MainButton({ isActive, children, styles, type, onClick, 
 	return (
 		<button 
 			className={`${isActive ? activeButton : inactiveButton} ${styles}`} 
-			onClick={onClick}
+			onClick={isActive ? onClick : undefined}
 			type={type}
 			>
 				{children}

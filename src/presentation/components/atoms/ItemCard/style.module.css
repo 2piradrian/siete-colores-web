@@ -16,10 +16,16 @@
 	cursor: pointer;
 }
 
-.title {
-	width: 100%;
+.articleDescriptor {
 	height: 42px;
+	width: 100%;
 	margin: 5px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.title {
 	font-size: 20px;
 	font-weight: 600;
 }
@@ -39,7 +45,7 @@
 
 .priceContainer {
 	width: 100%;
-	height: 20px;
+	height: 45px;
 	margin-top: 20px;
 	display: flex;
 	justify-content: space-between;

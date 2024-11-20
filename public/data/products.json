@@ -14,11 +14,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Halloween"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -37,11 +37,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": false
 },
 {
   "_id": {
@@ -59,9 +59,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -84,13 +84,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día de la madre",
     "Día de la mujer",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -109,11 +109,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -132,11 +132,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -156,11 +156,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Deportes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -178,11 +178,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -201,13 +201,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Comunión",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -225,11 +225,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Halloween"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -248,11 +248,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -271,11 +271,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -294,11 +294,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -316,12 +316,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -340,12 +340,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Granja"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -368,13 +368,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día de la madre",
     "Día de la mujer",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -396,8 +396,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -415,11 +415,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -437,12 +437,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -463,11 +463,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -487,11 +487,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -522,7 +522,6 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Baby shower",
@@ -531,7 +530,8 @@
     "San Valentín",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -552,8 +552,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -576,9 +576,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -596,11 +596,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -619,11 +619,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -642,12 +642,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Insectos",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -666,11 +666,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -692,12 +692,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas",
     "San Valentín"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -715,11 +715,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -739,12 +739,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Baby shower",
     "Bautismo"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -762,11 +762,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -784,11 +784,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -807,11 +807,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -830,8 +830,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -849,9 +849,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -870,8 +870,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -891,11 +891,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -913,9 +913,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -934,11 +934,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -959,8 +959,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -978,11 +978,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1003,13 +1003,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Bautismo",
     "Comunión",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1027,11 +1027,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1050,12 +1050,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Pascuas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1078,13 +1078,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día de la madre",
     "Día de la mujer",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1106,14 +1106,14 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Aves",
     "Animales",
     "Comunión",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1132,12 +1132,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Granja",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1155,12 +1155,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1178,11 +1178,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1202,12 +1202,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1226,11 +1226,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1249,11 +1249,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1273,11 +1273,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1296,11 +1296,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1319,11 +1319,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1345,12 +1345,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día del maestro",
     "Día del estudiante"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1368,12 +1368,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1393,11 +1393,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1415,11 +1415,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1439,11 +1439,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1461,11 +1461,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Mar"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1484,12 +1484,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas",
     "Halloween"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1508,11 +1508,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1532,11 +1532,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Deportes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1555,11 +1555,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1577,9 +1577,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1597,11 +1597,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1620,8 +1620,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -1640,11 +1640,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1663,12 +1663,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Comunión",
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1686,11 +1686,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1709,11 +1709,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1731,11 +1731,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1753,12 +1753,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Insectos",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1776,12 +1776,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1799,9 +1799,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1820,11 +1820,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1842,11 +1842,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1864,12 +1864,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día del padre",
     "Deportes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1890,12 +1890,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día del padre",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1914,11 +1914,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1937,9 +1937,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1957,12 +1957,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -1981,11 +1981,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2006,11 +2006,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2032,10 +2032,10 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
-  ]
+  ],
+  "available": true
 },
 {
   "_id": {
@@ -2054,8 +2054,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -2073,9 +2073,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2093,8 +2093,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -2114,11 +2114,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2136,9 +2136,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2158,11 +2158,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2180,9 +2180,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2201,12 +2201,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Granja"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2224,12 +2224,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Granja"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2251,12 +2251,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día del estudiante",
     "Día del maestro"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2274,9 +2274,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2296,11 +2296,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2319,12 +2319,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2350,9 +2350,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2372,12 +2372,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Baby shower",
     "Bautismo"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2396,11 +2396,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2421,13 +2421,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Bautismo",
     "Comunión",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2446,12 +2446,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2469,11 +2469,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2494,13 +2494,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Bautismo",
     "Comunión",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2518,12 +2518,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2541,12 +2541,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas",
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2566,12 +2566,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Aves",
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2589,11 +2589,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2613,12 +2613,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Baby shower",
     "Bautismo"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2638,12 +2638,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Baby shower",
     "Bautismo"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2662,11 +2662,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2686,11 +2686,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Deportes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2709,11 +2709,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2731,11 +2731,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2753,11 +2753,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2775,11 +2775,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2798,11 +2798,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2820,11 +2820,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2843,11 +2843,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2865,11 +2865,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2898,14 +2898,14 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "San Valentín",
     "Varios",
     "Día de la madre",
     "Transporte"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2923,11 +2923,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Halloween"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2945,11 +2945,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2967,9 +2967,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -2988,11 +2988,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3010,11 +3010,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3032,12 +3032,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3058,12 +3058,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Varios",
     "Día del padre"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3082,11 +3082,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3106,11 +3106,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3129,11 +3129,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3151,11 +3151,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Halloween"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3175,11 +3175,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3198,12 +3198,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3223,13 +3223,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Bautismo",
     "Comunión",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3250,11 +3250,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3273,12 +3273,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Pascuas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3296,9 +3296,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3324,11 +3324,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Profesiones"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3348,12 +3348,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Aves"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3371,11 +3371,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3393,9 +3393,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3413,8 +3413,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -3433,11 +3433,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3455,11 +3455,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Mar"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3478,11 +3478,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3502,11 +3502,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3525,12 +3525,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Pascuas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3548,9 +3548,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3570,11 +3570,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3593,11 +3593,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3616,11 +3616,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3638,11 +3638,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Halloween"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3661,8 +3661,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -3683,12 +3683,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Frases"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3706,11 +3706,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3730,11 +3730,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Deportes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3753,11 +3753,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3775,11 +3775,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3798,12 +3798,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Pascuas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3821,12 +3821,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3845,11 +3845,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3871,12 +3871,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día del maestro",
     "Día del estudiante"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3900,13 +3900,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día de la madre",
     "Día de la mujer",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3924,9 +3924,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3944,12 +3944,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Frutas/Verduras"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3967,9 +3967,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -3988,12 +3988,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Granja",
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4011,11 +4011,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4033,11 +4033,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4055,11 +4055,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4077,12 +4077,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4100,11 +4100,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4130,13 +4130,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día de la madre",
     "Día de la mujer",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4156,12 +4156,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Granja",
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4180,11 +4180,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4202,11 +4202,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4225,12 +4225,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Pascuas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4248,11 +4248,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4271,11 +4271,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4294,11 +4294,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4321,12 +4321,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día del estudiante",
     "Día del maestro"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4345,12 +4345,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Granja"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4368,11 +4368,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Halloween"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4391,8 +4391,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -4411,12 +4411,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4435,11 +4435,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4458,11 +4458,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4480,11 +4480,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4503,8 +4503,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -4524,11 +4524,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4546,12 +4546,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4569,11 +4569,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4591,11 +4591,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4613,9 +4613,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4633,11 +4633,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4656,11 +4656,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4678,12 +4678,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4701,11 +4701,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4732,8 +4732,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -4752,11 +4752,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4774,11 +4774,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4800,14 +4800,14 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Aves",
     "Comunión",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4827,11 +4827,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4849,13 +4849,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "San Valentín",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4873,11 +4873,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4897,11 +4897,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Deportes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4919,9 +4919,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4940,11 +4940,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4965,11 +4965,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -4988,11 +4988,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5010,11 +5010,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5032,11 +5032,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Halloween"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5054,12 +5054,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día del padre",
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5078,13 +5078,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día del padre",
     "Formas",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5103,12 +5103,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Granja"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5126,12 +5126,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Deportes",
     "Día del padre"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5150,11 +5150,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5173,9 +5173,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5194,11 +5194,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5216,11 +5216,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5238,11 +5238,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5260,11 +5260,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Halloween"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5282,11 +5282,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5309,13 +5309,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día de la madre",
     "Día de la mujer",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5333,12 +5333,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Granja",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5359,8 +5359,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -5378,11 +5378,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5400,11 +5400,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Comunión"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5429,13 +5429,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día de la madre",
     "Día de la mujer",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5456,12 +5456,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Bautismo"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5483,12 +5483,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas",
     "San Valentín"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5507,11 +5507,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5530,9 +5530,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5550,11 +5550,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5572,11 +5572,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5595,11 +5595,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5622,13 +5622,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día de la madre",
     "Día de la mujer",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5648,11 +5648,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5671,13 +5671,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Bautismo",
     "Granja"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5697,11 +5697,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5719,11 +5719,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5742,11 +5742,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5765,11 +5765,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5787,9 +5787,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5808,11 +5808,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5830,9 +5830,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5850,11 +5850,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5872,9 +5872,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5892,11 +5892,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5914,11 +5914,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5936,11 +5936,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Halloween"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5958,12 +5958,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Navidad",
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -5981,12 +5981,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6005,11 +6005,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6028,9 +6028,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6051,12 +6051,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día del padre",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6074,11 +6074,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6097,9 +6097,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6117,11 +6117,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6140,12 +6140,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Pascuas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6164,11 +6164,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6187,13 +6187,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Granja",
     "Varios",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6211,11 +6211,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6238,13 +6238,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día de la madre",
     "Día de la mujer",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6262,11 +6262,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6286,8 +6286,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -6306,12 +6306,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6329,12 +6329,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6352,9 +6352,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6374,11 +6374,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Deportes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6397,11 +6397,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6419,11 +6419,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6442,11 +6442,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6465,11 +6465,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6487,9 +6487,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6508,12 +6508,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Granja"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6532,11 +6532,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6556,11 +6556,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Deportes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6579,11 +6579,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6609,14 +6609,14 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día de la madre",
     "Día de la mujer",
     "Transporte",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6634,9 +6634,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6655,12 +6655,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Granja"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6678,12 +6678,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6703,12 +6703,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Mar"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6728,11 +6728,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6752,11 +6752,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6774,12 +6774,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Granja",
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6797,11 +6797,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6820,12 +6820,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Mar"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6844,12 +6844,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6867,12 +6867,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas",
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6894,13 +6894,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "San Valentín",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6920,11 +6920,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6942,11 +6942,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6964,11 +6964,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Halloween"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -6986,11 +6986,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7010,11 +7010,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Deportes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7032,9 +7032,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7053,9 +7053,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7076,13 +7076,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Bautismo",
     "Comunión",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7103,11 +7103,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7126,12 +7126,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas",
     "Halloween"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7152,8 +7152,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -7173,11 +7173,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7196,9 +7196,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7216,9 +7216,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7237,11 +7237,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7260,11 +7260,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7283,11 +7283,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7307,13 +7307,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Artesanías",
     "Aves"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7333,12 +7333,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Baby shower",
     "Bautismo"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7357,11 +7357,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7379,11 +7379,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7401,11 +7401,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Mar"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7425,11 +7425,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7447,12 +7447,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Deportes",
     "Día del padre"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7471,12 +7471,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Pascuas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7495,12 +7495,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7519,13 +7519,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Aves",
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7544,12 +7544,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Pascuas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7568,11 +7568,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7592,9 +7592,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7614,11 +7614,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Deportes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7637,11 +7637,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7660,11 +7660,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7685,13 +7685,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Formas",
     "San Valentín"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7709,11 +7709,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7734,12 +7734,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Mar"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7759,14 +7759,14 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Día de la madre",
     "Flores/Plantas",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7786,11 +7786,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7809,11 +7809,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Halloween"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7835,13 +7835,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Frutas/Verduras",
     "Varios",
     "Día del maestro"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7862,13 +7862,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Baby shower",
     "Bautismo"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7886,11 +7886,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7908,11 +7908,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7938,13 +7938,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día de la madre",
     "Día de la mujer",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7963,12 +7963,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Pascuas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -7986,11 +7986,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8008,11 +8008,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8031,12 +8031,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8058,11 +8058,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Mar"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8081,11 +8081,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8103,11 +8103,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8126,11 +8126,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8150,11 +8150,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8172,11 +8172,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Halloween"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8194,11 +8194,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8217,11 +8217,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8240,11 +8240,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8263,12 +8263,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8290,12 +8290,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas",
     "San Valentín"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8314,11 +8314,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8336,11 +8336,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8361,12 +8361,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8384,11 +8384,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Granja"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8408,12 +8408,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Frases",
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8432,11 +8432,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8457,11 +8457,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8484,13 +8484,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día de la madre",
     "Día de la mujer",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8508,11 +8508,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8530,11 +8530,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8553,11 +8553,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8576,11 +8576,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8599,11 +8599,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8622,13 +8622,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Navidad",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8654,13 +8654,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día de la madre",
     "Día de la mujer",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8680,11 +8680,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8702,11 +8702,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8726,12 +8726,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Baby shower",
     "Bautismo"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8749,11 +8749,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8772,11 +8772,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8795,12 +8795,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8819,12 +8819,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8845,11 +8845,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8870,8 +8870,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -8890,11 +8890,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8912,9 +8912,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8932,13 +8932,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Navidad",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8956,11 +8956,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -8983,8 +8983,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -9002,12 +9002,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Frutas/Verduras"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9025,9 +9025,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9045,11 +9045,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9067,12 +9067,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9090,13 +9090,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Navidad",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9116,9 +9116,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9137,11 +9137,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9160,11 +9160,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9183,13 +9183,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Varios",
     "Formas",
     "Bautismo"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9210,12 +9210,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9233,12 +9233,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9256,11 +9256,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9278,12 +9278,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9304,8 +9304,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -9324,13 +9324,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Aves",
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9350,11 +9350,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Deportes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9375,12 +9375,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Mar"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9398,11 +9398,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9424,13 +9424,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Bautismo",
     "Navidad",
     "Comunión"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9451,13 +9451,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas",
     "Artesanías",
     "San Valentín"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9476,11 +9476,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9501,8 +9501,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -9521,13 +9521,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Animales",
     "Aves"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9546,12 +9546,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Frases"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9569,11 +9569,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9594,12 +9594,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día del padre",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9617,12 +9617,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9640,11 +9640,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9662,9 +9662,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9682,11 +9682,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9706,11 +9706,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9731,12 +9731,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día del padre",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9755,11 +9755,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9780,12 +9780,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día del padre",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9803,9 +9803,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9823,9 +9823,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9844,11 +9844,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9867,12 +9867,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9890,12 +9890,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9914,11 +9914,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9936,11 +9936,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9960,11 +9960,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Deportes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -9985,8 +9985,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -10004,13 +10004,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Navidad",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10029,12 +10029,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10053,11 +10053,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10075,11 +10075,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Mar"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10097,11 +10097,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10120,12 +10120,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10144,12 +10144,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Pascuas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10167,11 +10167,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10191,11 +10191,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10213,9 +10213,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10238,13 +10238,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Día del padre",
     "Personajes",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10263,11 +10263,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10286,13 +10286,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Artesanías",
     "Aves"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10310,12 +10310,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Personajes",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10333,9 +10333,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10354,11 +10354,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10379,12 +10379,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10405,11 +10405,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10430,12 +10430,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10456,12 +10456,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10482,11 +10482,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10507,11 +10507,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10530,12 +10530,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Frutas/Verduras"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10558,11 +10558,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10584,11 +10584,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10609,12 +10609,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10634,12 +10634,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10660,12 +10660,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10687,13 +10687,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Animales",
     "Aves"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10713,12 +10713,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10740,12 +10740,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10768,12 +10768,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "San Valentín"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10795,12 +10795,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10819,11 +10819,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10842,11 +10842,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10865,11 +10865,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10888,11 +10888,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10911,11 +10911,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10933,9 +10933,9 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10953,11 +10953,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10975,12 +10975,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -10999,12 +10999,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11024,12 +11024,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "San Valentín",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11048,11 +11048,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11071,12 +11071,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11095,11 +11095,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11118,11 +11118,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11143,11 +11143,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11167,12 +11167,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Baby shower",
     "Bautismo"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11191,12 +11191,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11215,12 +11215,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11239,11 +11239,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11262,11 +11262,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11287,12 +11287,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Transporte",
     "San Valentín"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11311,12 +11311,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11335,11 +11335,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11359,12 +11359,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11383,12 +11383,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Aves"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11407,13 +11407,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Animales",
     "Aves"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11435,11 +11435,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11458,11 +11458,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11481,11 +11481,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11505,11 +11505,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11539,11 +11539,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11561,11 +11561,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11586,11 +11586,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11609,11 +11609,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11632,11 +11632,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11656,12 +11656,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11681,13 +11681,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Bautismo",
     "Comunión",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11706,13 +11706,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Animales",
     "Aves"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11734,12 +11734,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Formas",
     "San Valentín"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11759,13 +11759,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Formas",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11784,13 +11784,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Formas",
     "Varios"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11808,12 +11808,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas",
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11835,11 +11835,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11860,13 +11860,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Artesanías",
     "Aves"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11885,11 +11885,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11908,11 +11908,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11932,12 +11932,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Frases"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11958,12 +11958,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Frases"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -11984,11 +11984,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12008,12 +12008,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12033,12 +12033,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12062,11 +12062,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Deportes"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12086,12 +12086,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12111,12 +12111,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12136,12 +12136,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12161,12 +12161,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12190,12 +12190,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12218,13 +12218,13 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Navidad",
     "Frases"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12244,12 +12244,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12269,12 +12269,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12295,12 +12295,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12320,12 +12320,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12349,11 +12349,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12377,12 +12377,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12405,12 +12405,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Formas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12434,12 +12434,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Animales"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12464,12 +12464,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12493,11 +12493,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12531,12 +12531,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12562,12 +12562,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Navidad"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12589,8 +12589,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -12614,12 +12614,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Insectos"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12647,11 +12647,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12673,11 +12673,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12700,11 +12700,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12732,11 +12732,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12759,11 +12759,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
   ],
-  "description": ""
+  "description": "",
+  "available": true
 },
 {
   "_id": {
@@ -12787,10 +12787,10 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
-  ]
+  ],
+  "available": true
 },
 {
   "_id": {
@@ -12814,11 +12814,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Navidad"
-  ]
+  ],
+  "available": true
 },
 {
   "_id": {
@@ -12843,11 +12843,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
-  ]
+  ],
+  "available": true
 },
 {
   "_id": {
@@ -12872,11 +12872,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Flores/Plantas"
-  ]
+  ],
+  "available": true
 },
 {
   "_id": {
@@ -12902,10 +12902,10 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
-  ]
+  ],
+  "available": true
 },
 {
   "_id": {
@@ -12929,10 +12929,10 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
-  ]
+  ],
+  "available": true
 },
 {
   "_id": {
@@ -12958,10 +12958,10 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías"
-  ]
+  ],
+  "available": true
 },
 {
   "_id": {
@@ -12988,8 +12988,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -13013,12 +13013,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Animales",
     "Aves"
-  ]
+  ],
+  "available": true
 },
 {
   "_id": {
@@ -13041,12 +13041,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Artesanías",
     "Aves"
-  ]
+  ],
+  "available": true
 },
 {
   "_id": {
@@ -13069,12 +13069,12 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Animales",
     "Artesanías",
     "Aves"
-  ]
+  ],
+  "available": true
 },
 {
   "_id": {
@@ -13095,11 +13095,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Formas"
-  ]
+  ],
+  "available": true
 },
 {
   "_id": {
@@ -13122,11 +13122,11 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
   "subcategories": [
     "Artesanías",
     "Formas"
-  ]
+  ],
+  "available": true
 },
 {
   "_id": {
@@ -13156,8 +13156,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -13186,8 +13186,8 @@
   "createdAt": {
     "$date": "2024-10-20T17:41:11.641Z"
   },
-  "stock": null,
-  "subcategories": []
+  "subcategories": [],
+  "available": true
 },
 {
   "_id": {
@@ -13206,11 +13206,11 @@
     "navidad",
     "pesebre"
   ],
-  "stock": null,
   "createdAt": {
     "$date": "2024-10-26T18:37:14.584Z"
   },
-  "__v": 0
+  "__v": 0,
+  "available": true
 },
 {
   "_id": {
@@ -13229,11 +13229,11 @@
     "navidad",
     "pesebre"
   ],
-  "stock": null,
   "createdAt": {
     "$date": "2024-10-26T18:38:35.082Z"
   },
-  "__v": 0
+  "__v": 0,
+  "available": true
 },
 {
   "_id": {
@@ -13249,11 +13249,11 @@
   "keywords": [
     "navidad"
   ],
-  "stock": null,
   "createdAt": {
     "$date": "2024-10-26T18:43:37.963Z"
   },
-  "__v": 0
+  "__v": 0,
+  "available": true
 },
 {
   "_id": {
@@ -13272,11 +13272,11 @@
     "navidad",
     ""
   ],
-  "stock": null,
   "createdAt": {
     "$date": "2024-10-26T18:45:54.798Z"
   },
-  "__v": 0
+  "__v": 0,
+  "available": true
 },
 {
   "_id": {
@@ -13297,11 +13297,11 @@
     "caracoles",
     "peces"
   ],
-  "stock": null,
   "createdAt": {
     "$date": "2024-10-26T18:52:40.775Z"
   },
-  "__v": 0
+  "__v": 0,
+  "available": true
 },
 {
   "_id": {
@@ -13322,11 +13322,11 @@
     "nativo",
     "indigenas"
   ],
-  "stock": null,
   "createdAt": {
     "$date": "2024-10-26T18:55:15.937Z"
   },
-  "__v": 0
+  "__v": 0,
+  "available": true
 },
 {
   "_id": {
@@ -13347,11 +13347,11 @@
     "plantas",
     ""
   ],
-  "stock": null,
   "createdAt": {
     "$date": "2024-10-26T19:00:59.253Z"
   },
-  "__v": 0
+  "__v": 0,
+  "available": true
 },
 {
   "_id": {
@@ -13372,11 +13372,11 @@
     "caracoles",
     ""
   ],
-  "stock": null,
   "createdAt": {
     "$date": "2024-10-26T19:07:29.498Z"
   },
-  "__v": 0
+  "__v": 0,
+  "available": true
 },
 {
   "_id": {
@@ -13401,11 +13401,11 @@
     "fria",
     ""
   ],
-  "stock": null,
   "createdAt": {
     "$date": "2024-11-13T18:35:00.450Z"
   },
-  "__v": 0
+  "__v": 0,
+  "available": true
 },
 {
   "_id": {
@@ -13433,11 +13433,11 @@
     "flores",
     "plantas"
   ],
-  "stock": null,
   "createdAt": {
     "$date": "2024-11-13T18:37:02.369Z"
   },
-  "__v": 0
+  "__v": 0,
+  "available": true
 },
 {
   "_id": {
@@ -13462,11 +13462,11 @@
     "porcelana",
     "fria"
   ],
-  "stock": null,
   "createdAt": {
     "$date": "2024-11-13T18:41:13.703Z"
   },
-  "__v": 0
+  "__v": 0,
+  "available": true
 },
 {
   "_id": {
@@ -13489,11 +13489,11 @@
     "animales",
     "artesanias"
   ],
-  "stock": null,
   "createdAt": {
     "$date": "2024-11-13T18:55:21.357Z"
   },
-  "__v": 0
+  "__v": 0,
+  "available": true
 },
 {
   "_id": {
@@ -13519,11 +13519,11 @@
     "porcelana",
     "fria"
   ],
-  "stock": null,
   "createdAt": {
     "$date": "2024-11-13T19:01:18.908Z"
   },
-  "__v": 0
+  "__v": 0,
+  "available": true
 },
 {
   "_id": {
@@ -13533,7 +13533,7 @@
   "name": "GOLONDRINA",
   "price": 2400,
   "size": "97mm x 146mm",
-  "category": "Abecedarios",
+  "category": "Cortantes",
   "subcategories": [
     "Animales",
     "Aves",
@@ -13548,11 +13548,11 @@
     "porcelana",
     "fria"
   ],
-  "stock": null,
   "createdAt": {
     "$date": "2024-11-13T19:03:16.268Z"
   },
-  "__v": 0
+  "__v": 0,
+  "available": true
 },
 {
   "_id": {
@@ -13575,11 +13575,11 @@
     "puntilla",
     "ondas"
   ],
-  "stock": null,
   "createdAt": {
     "$date": "2024-11-13T20:32:26.987Z"
   },
-  "__v": 0
+  "__v": 0,
+  "available": true
 },
 {
   "_id": {
@@ -13605,9 +13605,1236 @@
     "artesanias",
     "ceramica"
   ],
-  "stock": null,
   "createdAt": {
     "$date": "2024-11-13T20:38:48.666Z"
+  },
+  "__v": 0,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "673b906e4cb4ba56fa8a0f3c"
+  },
+  "code": "C332",
+  "name": "MANDALA",
+  "price": 890,
+  "size": "110mm x 100mm x 9mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:07:26.604Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "673b93294cb4ba56fa8a0f6a"
+  },
+  "code": "C340",
+  "name": "OM",
+  "price": 890,
+  "size": "100mm x 9mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:19:05.620Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b93ad4cb4ba56fa8a0f71"
+  },
+  "code": "C341",
+  "name": "MANDALA OM",
+  "price": 890,
+  "size": "100mm x 9mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:21:17.459Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b94074cb4ba56fa8a0f78"
+  },
+  "code": "C346",
+  "name": "MANDALA",
+  "price": 890,
+  "size": "100mm x 9mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "Transforma tus ideas en realidad con nuestros moldes termoformados.\nContamos con una amplia variedad de tamaños y formas, ideales para adaptarse a cualquier proyecto.\nLos moldes termoformados ofrecen una producción rápida, precisa y de alta calidad.\nSon compatibles con materiales como cemento, yeso, resina, arcilla, entre otros, para llevar tus creaciones a un nuevo nivel.",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:22:47.898Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b94684cb4ba56fa8a0f7f"
+  },
+  "code": "C347",
+  "name": "MANDALA",
+  "price": 890,
+  "size": "100mm x 9mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:24:24.907Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b94e74cb4ba56fa8a0f86"
+  },
+  "code": "C348",
+  "name": "FLOR",
+  "price": 890,
+  "size": "100mm x 100mm x 9mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:26:31.810Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b95744cb4ba56fa8a0f8d"
+  },
+  "code": "C355",
+  "name": "HOJA TROPICAL",
+  "price": 890,
+  "size": "130mm x 100mm x 9mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:28:52.787Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b968d4cb4ba56fa8a0f94"
+  },
+  "code": "C543",
+  "name": "PORTA VELA ESTRELLAS",
+  "price": 1250,
+  "size": "Unidad 80mm x 80mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:33:33.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b96e44cb4ba56fa8a0f9b"
+  },
+  "code": "C411",
+  "name": "CASITA",
+  "price": 1250,
+  "size": "110mm x 90mm x 9mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": false,
+  "createdAt": {
+    "$date": "2024-11-18T19:35:00.634Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b97904cb4ba56fa8a0fa2"
+  },
+  "code": "C412",
+  "name": "CASITA",
+  "price": 1250,
+  "size": "100mm x 90 mm x 9mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:37:52.027Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b97d44cb4ba56fa8a0fa9"
+  },
+  "code": "C413",
+  "name": "CASITA",
+  "price": 1250,
+  "size": "150mm x 100mm x 9mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:39:00.723Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b98824cb4ba56fa8a0fb0"
+  },
+  "code": "C387",
+  "name": "PORTA SAHUMERIO NAMASTE",
+  "price": 1665,
+  "size": "260mm x 75mm x 15mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:41:54.945Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b98db4cb4ba56fa8a0fb7"
+  },
+  "code": "C388",
+  "name": "PORTA SAHUMERIO CICLO LUNAR",
+  "price": 1665,
+  "size": "260mm x 75mm x 15mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:43:23.763Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b993f4cb4ba56fa8a0fbe"
+  },
+  "code": "C416",
+  "name": "MANO DE FATIMA",
+  "price": 1890,
+  "size": "150mm x 120mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:45:03.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b99874cb4ba56fa8a0fc5"
+  },
+  "code": "C417",
+  "name": "MANO DE FATIMA",
+  "price": 1890,
+  "size": "150mm x 120mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:46:15.715Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b99f14cb4ba56fa8a0fcc"
+  },
+  "code": "C319",
+  "name": "FLOR DE LOTO",
+  "price": 2465,
+  "size": "190mm x 9mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:48:01.225Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b9aaf4cb4ba56fa8a0fd3"
+  },
+  "code": "C400",
+  "name": "FLOR DE LOTO Y CICLO LUNAR",
+  "price": 2465,
+  "size": "175mm x 12mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:51:11.721Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b9b3d4cb4ba56fa8a0fda"
+  },
+  "code": "C301",
+  "name": "BANDEJA TRIANGULAR",
+  "price": 2890,
+  "size": "130mm x 100mm x 18mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:53:33.945Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b9b9f4cb4ba56fa8a0fe1"
+  },
+  "code": "C304",
+  "name": "BANDEJA CUADRADA",
+  "price": 2890,
+  "size": "110mm x 110mm x 18mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:55:11.890Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b9c824cb4ba56fa8a0fe8"
+  },
+  "code": "C306",
+  "name": "BANDEJA EXAGONAL",
+  "price": 2890,
+  "size": "130mm x 110mm x 18mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T19:58:58.930Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673b9d4f4cb4ba56fa8a0fef"
+  },
+  "code": "C233",
+  "name": "YING YANG",
+  "price": 3530,
+  "size": "165mm x 110mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T20:02:23.194Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673ba2614cb4ba56fa8a0ff6"
+  },
+  "code": "C260",
+  "name": "BANDEJA OVALADA",
+  "price": 3530,
+  "size": "200mm x 115mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T20:24:01.266Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673ba32d4cb4ba56fa8a0ffd"
+  },
+  "code": "C262",
+  "name": "BANDEJA RECTANGULAR",
+  "price": 3530,
+  "size": "200mm x 120mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T20:27:25.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673ba3ac4cb4ba56fa8a1004"
+  },
+  "code": "C267",
+  "name": "PORTA VELA SOL Y LUNA",
+  "price": 3530,
+  "size": "120mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T20:29:32.458Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673ba4244cb4ba56fa8a100b"
+  },
+  "code": "C268",
+  "name": "MANDALA",
+  "price": 3530,
+  "size": "100mm x 85mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T20:31:32.738Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673ba4984cb4ba56fa8a1012"
+  },
+  "code": "C270",
+  "name": "PORTA VELA MANO DE FATIMA",
+  "price": 3530,
+  "size": "120mm x 90mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T20:33:28.474Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673ba4f24cb4ba56fa8a1019"
+  },
+  "code": "C302",
+  "name": "BANDEJA TRIANGULAR",
+  "price": 3530,
+  "size": "220mm x 130mm x 18mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T20:34:58.256Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673ba55d4cb4ba56fa8a1020"
+  },
+  "code": "C307",
+  "name": "BANDEJA OVALADA",
+  "price": 3530,
+  "size": "250mm x 130mm x 18mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T20:36:45.018Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673ba5dc4cb4ba56fa8a1027"
+  },
+  "code": "C259",
+  "name": "BANDEJA OVALADA",
+  "price": 4300,
+  "size": "280mm x 120mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T20:38:52.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673ba6cd4cb4ba56fa8a102e"
+  },
+  "code": "C261",
+  "name": "BANDEJA RECTANGULAR",
+  "price": 4300,
+  "size": "275mm x 115mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T20:42:53.657Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673ba74e4cb4ba56fa8a1035"
+  },
+  "code": "C266",
+  "name": "PORTA VELA ESE",
+  "price": 4300,
+  "size": "230mm x 60mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T20:45:02.625Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673ba7ad4cb4ba56fa8a103c"
+  },
+  "code": "C303",
+  "name": "BANDEJA TRIANGULAR",
+  "price": 4300,
+  "size": "300mm x 150mm x 18mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T20:46:37.538Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673ba8424cb4ba56fa8a1043"
+  },
+  "code": "C361",
+  "name": "BANDEJA REDONDA",
+  "price": 9100,
+  "size": "220mm x 14mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T20:49:06.376Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673ba8c24cb4ba56fa8a104a"
+  },
+  "code": "C383",
+  "name": "BANDEJA CUADRADA",
+  "price": 9100,
+  "size": "210mm x 210mm x 15mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "Transforma tus ideas en realidad con nuestros moldes termoformados.\nContamos con una amplia variedad de tamaños y formas, ideales para adaptarse a cualquier proyecto.\nLos moldes termoformados ofrecen una producción rápida, precisa y de alta calidad.\nSon compatibles con materiales como cemento, yeso, resina, arcilla, entre otros, para llevar tus creaciones a un nuevo nivel.",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T20:51:14.808Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673ba9664cb4ba56fa8a1051"
+  },
+  "code": "C363",
+  "name": "BANDEJA REDONDA",
+  "price": 15270,
+  "size": "320mm x 14mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica",
+    "plato",
+    "de",
+    "sitio"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T20:53:58.544Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673baa284cb4ba56fa8a1058"
+  },
+  "code": "C385",
+  "name": "BANDEJA CUADRADA",
+  "price": 15270,
+  "size": "310mm x 310mm x 15mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-18T20:57:12.905Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673be85f08ee5ecfa883bbf9"
+  },
+  "code": "C329",
+  "name": "FLOR DE LOTO",
+  "price": 890,
+  "size": "100mm x 9mm",
+  "category": "Moldes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "adornos",
+    "colgantes",
+    "posa",
+    "vaso",
+    "cuadro",
+    "bandejas",
+    "velas",
+    "jabones",
+    "jaboneras",
+    "ceramica",
+    "yeso",
+    "cemento",
+    "arcilla",
+    "cerámica",
+    "plato",
+    "de",
+    "sitio"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-11-19T01:22:39.727Z"
   },
   "__v": 0
 }]

@@ -7,10 +7,10 @@ import MainButton from "../MainButton/MainButton";
 import noimage from "../../../assets/images/no-image.jpg";
 import style from "./style.module.css";
 
-function ItemCard({ code, name, price, size, category }: Product) {
+function ItemCard({ code, name, price, size, category, available }: Product) {
 	const { editQuantity } = useContext(CartContext);
 
-	const item = {code, name, price, size, category};
+	const item = {code, name, price, size, category, available};
 
 	const handleAdd = () => {
 		toast("🛒Producto agregado");
@@ -32,15 +32,18 @@ function ItemCard({ code, name, price, size, category }: Product) {
             	    currentTarget.src= noimage;
             	}} />
 			</Link>
-			<h3 className={style.title}>
-				{code} | {name}
-			</h3>
+			<div className={style.articleDescriptor}>
+				<h3 className={style.title}>
+					{code} | {name}
+				</h3>
+				<span>{available ? "" : "(Sin Stock)"}</span>
+			</div>
 			<p className={style.itemDesc} style={{ textAlign: "start" }}>
 				{category}
 			</p>
 			<div className={style.priceContainer}>
 				<p className={style.price}>$ {price}</p>
-					<MainButton isActive type="button" styles={style.addProduct} onClick={handleAdd}>
+					<MainButton isActive={available} type="button" styles={style.addProduct} onClick={handleAdd}>
 						Comprar
 					</MainButton>
 			</div>

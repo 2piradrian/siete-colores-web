@@ -7,6 +7,12 @@
     align-items: center;
 }
 
+.stock {
+    margin: 20px 0px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
 .descriptionContainer {
     width: 100%;
     max-width: 700px;

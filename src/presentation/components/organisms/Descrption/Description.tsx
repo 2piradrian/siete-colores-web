@@ -36,6 +36,7 @@ export default function Description({ product }: Props) {
             	}} />
                 <div className={style.textContainer}>
                     <h1 className={style.title}>{product.name}</h1>
+                    <span className={style.stock}>{product.available ? "" : "(Sin Stock)"}</span>
                     <h2 className={style.subtitle}>Categoría</h2>
                     <p className={style.text}>{product.category}</p>
                     <h2 className={style.subtitle}>Dimensiones</h2>
@@ -46,7 +47,7 @@ export default function Description({ product }: Props) {
                             <p className={style.text}>${product.price}</p>
                         </div>
                         <div className={style.buttonContainer}>
-					        <MainButton isActive type="button" styles={style.addProduct} onClick={handleAdd}>
+					        <MainButton isActive={product.available} type="button" styles={style.addProduct} onClick={handleAdd}>
 						        Comprar
 					        </MainButton>
 				        </div>
@@ -55,7 +56,7 @@ export default function Description({ product }: Props) {
                 <h2 className={style.subtitle}>Descripción</h2>
                 <ProductDescription code={product.code} description={product.description} />
                 <div className={style.buttonContainer}>
-					<MainButton isActive styles={style.addProduct} onClick={handleAdd} type="button">
+					<MainButton isActive={product.available} styles={style.addProduct} onClick={handleAdd} type="button">
                         Comprar
 					</MainButton>
 				</div>
