@@ -41,7 +41,7 @@
     "Varios"
   ],
   "description": "",
-  "available": false
+  "available": true
 },
 {
   "_id": {
@@ -4605,7 +4605,7 @@
   "name": "FELIZ ANIVERSARIO",
   "price": 520,
   "size": "114mm x 105mm",
-  "category": "Texturizadores",
+  "category": "Toppers",
   "__v": 1,
   "keywords": [
     "toppers"
@@ -13587,7 +13587,7 @@
   },
   "code": "A561",
   "name": "ARGENTINA",
-  "price": 14560,
+  "price": 14000,
   "size": "650mm",
   "category": "Cortantes",
   "subcategories": [],
@@ -13617,7 +13617,7 @@
   },
   "code": "C332",
   "name": "MANDALA",
-  "price": 890,
+  "price": 940,
   "size": "110mm x 100mm x 9mm",
   "category": "Moldes",
   "subcategories": [],
@@ -13650,7 +13650,7 @@
   },
   "code": "C340",
   "name": "OM",
-  "price": 890,
+  "price": 940,
   "size": "100mm x 9mm",
   "category": "Moldes",
   "subcategories": [],
@@ -13683,7 +13683,7 @@
   },
   "code": "C341",
   "name": "MANDALA OM",
-  "price": 890,
+  "price": 940,
   "size": "100mm x 9mm",
   "category": "Moldes",
   "subcategories": [],
@@ -13716,7 +13716,7 @@
   },
   "code": "C346",
   "name": "MANDALA",
-  "price": 890,
+  "price": 940,
   "size": "100mm x 9mm",
   "category": "Moldes",
   "subcategories": [],
@@ -13749,7 +13749,7 @@
   },
   "code": "C347",
   "name": "MANDALA",
-  "price": 890,
+  "price": 940,
   "size": "100mm x 9mm",
   "category": "Moldes",
   "subcategories": [],
@@ -13782,7 +13782,7 @@
   },
   "code": "C348",
   "name": "FLOR",
-  "price": 890,
+  "price": 940,
   "size": "100mm x 100mm x 9mm",
   "category": "Moldes",
   "subcategories": [],
@@ -13815,7 +13815,7 @@
   },
   "code": "C355",
   "name": "HOJA TROPICAL",
-  "price": 890,
+  "price": 940,
   "size": "130mm x 100mm x 9mm",
   "category": "Moldes",
   "subcategories": [],
@@ -13848,7 +13848,7 @@
   },
   "code": "C543",
   "name": "PORTA VELA ESTRELLAS",
-  "price": 1250,
+  "price": 1330,
   "size": "Unidad 80mm x 80mm",
   "category": "Moldes",
   "subcategories": [],
@@ -13881,7 +13881,7 @@
   },
   "code": "C411",
   "name": "CASITA",
-  "price": 1250,
+  "price": 1330,
   "size": "110mm x 90mm x 9mm",
   "category": "Moldes",
   "subcategories": [],
@@ -13902,7 +13902,7 @@
     "arcilla",
     "cerámica"
   ],
-  "available": false,
+  "available": true,
   "createdAt": {
     "$date": "2024-11-18T19:35:00.634Z"
   },
@@ -13914,7 +13914,7 @@
   },
   "code": "C412",
   "name": "CASITA",
-  "price": 1250,
+  "price": 1330,
   "size": "100mm x 90 mm x 9mm",
   "category": "Moldes",
   "subcategories": [],
@@ -13947,7 +13947,7 @@
   },
   "code": "C413",
   "name": "CASITA",
-  "price": 1250,
+  "price": 1330,
   "size": "150mm x 100mm x 9mm",
   "category": "Moldes",
   "subcategories": [],
@@ -13980,7 +13980,7 @@
   },
   "code": "C387",
   "name": "PORTA SAHUMERIO NAMASTE",
-  "price": 1665,
+  "price": 1760,
   "size": "260mm x 75mm x 15mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14013,7 +14013,7 @@
   },
   "code": "C388",
   "name": "PORTA SAHUMERIO CICLO LUNAR",
-  "price": 1665,
+  "price": 1760,
   "size": "260mm x 75mm x 15mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14046,7 +14046,7 @@
   },
   "code": "C416",
   "name": "MANO DE FATIMA",
-  "price": 1890,
+  "price": 2000,
   "size": "150mm x 120mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14079,7 +14079,7 @@
   },
   "code": "C417",
   "name": "MANO DE FATIMA",
-  "price": 1890,
+  "price": 2000,
   "size": "150mm x 120mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14112,7 +14112,7 @@
   },
   "code": "C319",
   "name": "FLOR DE LOTO",
-  "price": 2465,
+  "price": 2610,
   "size": "190mm x 9mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14145,7 +14145,7 @@
   },
   "code": "C400",
   "name": "FLOR DE LOTO Y CICLO LUNAR",
-  "price": 2465,
+  "price": 2610,
   "size": "175mm x 12mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14178,7 +14178,7 @@
   },
   "code": "C301",
   "name": "BANDEJA TRIANGULAR",
-  "price": 2890,
+  "price": 3060,
   "size": "130mm x 100mm x 18mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14211,7 +14211,7 @@
   },
   "code": "C304",
   "name": "BANDEJA CUADRADA",
-  "price": 2890,
+  "price": 3060,
   "size": "110mm x 110mm x 18mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14244,7 +14244,7 @@
   },
   "code": "C306",
   "name": "BANDEJA EXAGONAL",
-  "price": 2890,
+  "price": 3060,
   "size": "130mm x 110mm x 18mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14277,7 +14277,7 @@
   },
   "code": "C233",
   "name": "YING YANG",
-  "price": 3530,
+  "price": 3740,
   "size": "165mm x 110mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14310,7 +14310,7 @@
   },
   "code": "C260",
   "name": "BANDEJA OVALADA",
-  "price": 3530,
+  "price": 3740,
   "size": "200mm x 115mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14343,7 +14343,7 @@
   },
   "code": "C262",
   "name": "BANDEJA RECTANGULAR",
-  "price": 3530,
+  "price": 3740,
   "size": "200mm x 120mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14376,7 +14376,7 @@
   },
   "code": "C267",
   "name": "PORTA VELA SOL Y LUNA",
-  "price": 3530,
+  "price": 3740,
   "size": "120mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14409,7 +14409,7 @@
   },
   "code": "C268",
   "name": "MANDALA",
-  "price": 3530,
+  "price": 3740,
   "size": "100mm x 85mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14442,7 +14442,7 @@
   },
   "code": "C270",
   "name": "PORTA VELA MANO DE FATIMA",
-  "price": 3530,
+  "price": 3740,
   "size": "120mm x 90mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14475,7 +14475,7 @@
   },
   "code": "C302",
   "name": "BANDEJA TRIANGULAR",
-  "price": 3530,
+  "price": 3740,
   "size": "220mm x 130mm x 18mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14508,7 +14508,7 @@
   },
   "code": "C307",
   "name": "BANDEJA OVALADA",
-  "price": 3530,
+  "price": 3740,
   "size": "250mm x 130mm x 18mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14541,7 +14541,7 @@
   },
   "code": "C259",
   "name": "BANDEJA OVALADA",
-  "price": 4300,
+  "price": 4560,
   "size": "280mm x 120mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14574,7 +14574,7 @@
   },
   "code": "C261",
   "name": "BANDEJA RECTANGULAR",
-  "price": 4300,
+  "price": 4560,
   "size": "275mm x 115mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14607,7 +14607,7 @@
   },
   "code": "C266",
   "name": "PORTA VELA ESE",
-  "price": 4300,
+  "price": 4560,
   "size": "230mm x 60mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14640,7 +14640,7 @@
   },
   "code": "C303",
   "name": "BANDEJA TRIANGULAR",
-  "price": 4300,
+  "price": 4560,
   "size": "300mm x 150mm x 18mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14673,7 +14673,7 @@
   },
   "code": "C361",
   "name": "BANDEJA REDONDA",
-  "price": 9100,
+  "price": 9650,
   "size": "220mm x 14mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14706,7 +14706,7 @@
   },
   "code": "C383",
   "name": "BANDEJA CUADRADA",
-  "price": 9100,
+  "price": 9650,
   "size": "210mm x 210mm x 15mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14739,7 +14739,7 @@
   },
   "code": "C363",
   "name": "BANDEJA REDONDA",
-  "price": 15270,
+  "price": 16190,
   "size": "320mm x 14mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14775,7 +14775,7 @@
   },
   "code": "C385",
   "name": "BANDEJA CUADRADA",
-  "price": 15270,
+  "price": 16190,
   "size": "310mm x 310mm x 15mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14808,7 +14808,7 @@
   },
   "code": "C329",
   "name": "FLOR DE LOTO",
-  "price": 890,
+  "price": 940,
   "size": "100mm x 9mm",
   "category": "Moldes",
   "subcategories": [],
@@ -14835,6 +14835,167 @@
   "available": true,
   "createdAt": {
     "$date": "2024-11-19T01:22:39.727Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6752302c9c79be54eff7c2f0"
+  },
+  "code": "A562",
+  "name": "MEDIDOR DE ALTURA",
+  "price": 9000,
+  "size": "190mm",
+  "category": "Herramientas",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "medidor",
+    "gramil",
+    ""
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-12-05T22:58:52.553Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6752315c9c79be54eff7c2f7"
+  },
+  "code": "A563",
+  "name": "PERFILADOR",
+  "price": 5000,
+  "size": "100mm x 50mm",
+  "category": "Herramientas",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "facetador",
+    "biselador"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-12-05T23:03:56.992Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675234339c79be54eff7c307"
+  },
+  "code": "C919",
+  "name": "PINOS",
+  "price": 1330,
+  "size": "125mm x 70mm / 95mm x 45mm",
+  "category": "Moldes",
+  "subcategories": [
+    "Navidad"
+  ],
+  "description": "",
+  "keywords": [
+    "navidad",
+    "pinitos",
+    "arbolitos"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-12-05T23:16:03.320Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6752355a9c79be54eff7c30e"
+  },
+  "code": "C544",
+  "name": "PORTA VELA CORAZON",
+  "price": 1330,
+  "size": "70mm x 70mm",
+  "category": "Moldes",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "porta",
+    "vela",
+    "corazones",
+    ""
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-12-05T23:20:58.072Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675235fa9c79be54eff7c31b"
+  },
+  "code": "C542",
+  "name": "PORTA VELA FLOR",
+  "price": 1330,
+  "size": "75mm x 75mm",
+  "category": "Moldes",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "flores",
+    "velas",
+    "portavelas"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-12-05T23:23:38.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675236d29c79be54eff7c322"
+  },
+  "code": "C397",
+  "name": "PORTA SAHUMERIO FLOR",
+  "price": 1760,
+  "size": "260mm x 75mm x 15mm",
+  "category": "Moldes",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "portasahumerio"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-12-05T23:27:14.640Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675237dd9c79be54eff7c349"
+  },
+  "code": "C409",
+  "name": "PORTA SHUMERIO LISO",
+  "price": 1760,
+  "size": "260mm x 75mm x 15mm",
+  "category": "Moldes",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "PORTA",
+    "SAHUMERIOS"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-12-05T23:31:41.872Z"
   },
   "__v": 0
 }]
