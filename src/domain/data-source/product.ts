@@ -6,4 +6,5 @@ export abstract class ProductsDataSourceI {
     abstract getProducts(page: number, size: number, filters: Filters): Promise<PaginatedProducts>;
     abstract getProductByCode(code: string): Promise<Product>;
     abstract getNews(size: number): Promise<Product[]>;
+    abstract getWithDiscount(): Promise<Product[]>;
 }

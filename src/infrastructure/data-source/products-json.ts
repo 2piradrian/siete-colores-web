@@ -3,9 +3,7 @@ import { PaginatedProducts, Product, ProductsDataSourceI } from "../../domain";
 
 export class ProductsJsonDataSource implements ProductsDataSourceI {
 
-    constructor(){
-       
-    }
+    constructor(){}
 
     private normalizeFilters(filters: Filters): Filters {
         if (filters.category === "Todos") {
@@ -140,6 +138,18 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
         }
         catch (error) {
             throw new Error("Error obteniendo las novedades");
+        }
+    }
+
+    public async getWithDiscount(): Promise<Product[]> {
+        try {
+            const response = await fetch("/data/products.json");
+            const products = await response.json();
+
+            return products.filter((product: Product) => product.offertPrice != undefined);
+        }
+        catch (error) {
+            throw new Error("Error obteniendo los productos con descuento");
         }
     }
 

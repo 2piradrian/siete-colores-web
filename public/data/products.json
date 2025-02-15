@@ -41,7 +41,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 600
 },
 {
   "_id": {
@@ -61,7 +62,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -90,7 +92,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -113,7 +116,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -136,7 +140,8 @@
     "Transporte"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -168,7 +173,7 @@
   },
   "code": "A212",
   "name": "CORAZONES",
-  "price": 3700,
+  "price": 4000,
   "size": "100mm x 100mm",
   "category": "Texturizadores",
   "__v": 2,
@@ -229,7 +234,8 @@
     "Halloween"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -252,7 +258,8 @@
     "Transporte"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -275,7 +282,8 @@
     "Transporte"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -298,7 +306,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -475,7 +484,7 @@
   },
   "code": "A251",
   "name": "MAYOLICA",
-  "price": 3450,
+  "price": 4500,
   "size": "102mm x 100mm",
   "category": "Cortantes",
   "__v": 2,
@@ -531,7 +540,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -539,7 +549,7 @@
   },
   "code": "A366",
   "name": "SCRAPERS",
-  "price": 3080,
+  "price": 4000,
   "size": "71mm x 200mm",
   "category": "Herramientas",
   "__v": 1,
@@ -578,7 +588,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -600,7 +611,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -670,7 +682,8 @@
     "Flores/Plantas"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 900
 },
 {
   "_id": {
@@ -719,7 +732,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -744,7 +758,8 @@
     "Bautismo"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -811,7 +826,8 @@
     "Transporte"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -851,7 +867,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -859,7 +876,7 @@
   },
   "code": "A341",
   "name": "PIEDRA",
-  "price": 2900,
+  "price": 4000,
   "size": "100mm x 100mm",
   "category": "Texturizadores",
   "__v": 1,
@@ -871,7 +888,8 @@
     "$date": "2024-10-20T17:41:11.641Z"
   },
   "subcategories": [],
-  "available": true
+  "available": true,
+  "description": ""
 },
 {
   "_id": {
@@ -915,7 +933,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 900
 },
 {
   "_id": {
@@ -938,7 +957,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -946,7 +966,7 @@
   },
   "code": "A365",
   "name": "SCRAPERS",
-  "price": 3080,
+  "price": 4000,
   "size": "70mm x 200mm",
   "category": "Herramientas",
   "__v": 1,
@@ -1031,7 +1051,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -1137,7 +1158,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -1168,7 +1190,7 @@
   },
   "code": "A224",
   "name": "MADERA",
-  "price": 3180,
+  "price": 4000,
   "size": "100mm x 100mm",
   "category": "Texturizadores",
   "__v": 2,
@@ -1215,7 +1237,7 @@
   },
   "code": "A288",
   "name": "MANDALA",
-  "price": 7620,
+  "price": 9000,
   "size": "206mm",
   "category": "Cortantes",
   "__v": 2,
@@ -1261,7 +1283,7 @@
   },
   "code": "A253",
   "name": "MAYOLICA",
-  "price": 3550,
+  "price": 4500,
   "size": "104mm x 100mm",
   "category": "Cortantes",
   "__v": 2,
@@ -1285,7 +1307,7 @@
   },
   "code": "A296",
   "name": "MANDALA",
-  "price": 3940,
+  "price": 4600,
   "size": "159mm",
   "category": "Cortantes",
   "__v": 2,
@@ -1323,7 +1345,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -1350,7 +1373,8 @@
     "Día del estudiante"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -1381,7 +1405,7 @@
   },
   "code": "A010",
   "name": "ROSAS",
-  "price": 3570,
+  "price": 4000,
   "size": "100mm x 100mm",
   "category": "Texturizadores",
   "__v": 5,
@@ -1419,7 +1443,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -1443,7 +1468,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 800
 },
 {
   "_id": {
@@ -1465,7 +1491,8 @@
     "Mar"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 900
 },
 {
   "_id": {
@@ -1489,7 +1516,8 @@
     "Halloween"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -1512,7 +1540,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -1559,7 +1588,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -1579,7 +1609,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 900
 },
 {
   "_id": {
@@ -1609,7 +1640,7 @@
   },
   "code": "A214",
   "name": "SCRAPERS",
-  "price": 3080,
+  "price": 4000,
   "size": "200mm x 70mm",
   "category": "Herramientas",
   "__v": 1,
@@ -1690,7 +1721,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -1713,7 +1745,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -1781,7 +1814,8 @@
     "Navidad"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -1824,7 +1858,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -1832,7 +1867,7 @@
   },
   "code": "A235",
   "name": "ESTRELLAS",
-  "price": 2410,
+  "price": 4000,
   "size": "100mm x 100mm",
   "category": "Texturizadores",
   "__v": 2,
@@ -1926,7 +1961,7 @@
   },
   "code": "A102",
   "name": "ABC GLOBO MINUSCULA",
-  "price": 4930,
+  "price": 5863,
   "size": "30mm",
   "category": "Abecedarios",
   "__v": 1,
@@ -1939,7 +1974,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 3500
 },
 {
   "_id": {
@@ -1962,7 +1998,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -1985,7 +2022,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -2035,7 +2073,8 @@
   "subcategories": [
     "Animales"
   ],
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -2083,7 +2122,7 @@
   },
   "code": "A241",
   "name": "ARABESCOS",
-  "price": 2340,
+  "price": 4000,
   "size": "100mm x 100mm",
   "category": "Texturizadores",
   "__v": 1,
@@ -2094,7 +2133,8 @@
     "$date": "2024-10-20T17:41:11.641Z"
   },
   "subcategories": [],
-  "available": true
+  "available": true,
+  "description": ""
 },
 {
   "_id": {
@@ -2118,7 +2158,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -2138,7 +2179,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 900
 },
 {
   "_id": {
@@ -2182,7 +2224,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 900
 },
 {
   "_id": {
@@ -2206,7 +2249,8 @@
     "Granja"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -2229,7 +2273,8 @@
     "Granja"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -2256,7 +2301,8 @@
     "Día del maestro"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -2276,7 +2322,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -2300,7 +2347,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -2352,7 +2400,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -2377,7 +2426,8 @@
     "Bautismo"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -2385,7 +2435,7 @@
   },
   "code": "A227",
   "name": "HOJITAS",
-  "price": 2340,
+  "price": 4000,
   "size": "100mm x 100mm",
   "category": "Texturizadores",
   "__v": 2,
@@ -2523,7 +2573,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -2593,7 +2644,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -2618,7 +2670,8 @@
     "Bautismo"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -2643,7 +2696,8 @@
     "Bautismo"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -2713,7 +2767,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -2735,7 +2790,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -2757,7 +2813,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -2779,7 +2836,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -2802,7 +2860,8 @@
     "Transporte"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -2847,7 +2906,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 900
 },
 {
   "_id": {
@@ -2905,7 +2965,8 @@
     "Transporte"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -2927,7 +2988,8 @@
     "Halloween"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -3063,7 +3125,8 @@
     "Día del padre"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -3086,7 +3149,8 @@
     "Transporte"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -3110,7 +3174,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -3155,7 +3220,8 @@
     "Halloween"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -3187,7 +3253,7 @@
   },
   "code": "A279",
   "name": "ETIQUETAS",
-  "price": 3700,
+  "price": 4700,
   "size": "50mm",
   "category": "Cortantes",
   "__v": 2,
@@ -3328,7 +3394,8 @@
     "Profesiones"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 800
 },
 {
   "_id": {
@@ -3353,7 +3420,8 @@
     "Aves"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 800
 },
 {
   "_id": {
@@ -3403,7 +3471,7 @@
   },
   "code": "A011",
   "name": "ABANICO",
-  "price": 3940,
+  "price": 4000,
   "size": "100mm x 100mm",
   "category": "Texturizadores",
   "__v": 1,
@@ -3414,7 +3482,8 @@
     "$date": "2024-10-20T17:41:11.641Z"
   },
   "subcategories": [],
-  "available": true
+  "available": true,
+  "description": ""
 },
 {
   "_id": {
@@ -3422,7 +3491,7 @@
   },
   "code": "A381",
   "name": "MANDALA",
-  "price": 6040,
+  "price": 6900,
   "size": "115mm x 211mm",
   "category": "Cortantes",
   "__v": 2,
@@ -3459,7 +3528,8 @@
     "Mar"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -3482,7 +3552,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -3490,7 +3561,7 @@
   },
   "code": "A254",
   "name": "MAYOLICA",
-  "price": 3550,
+  "price": 4500,
   "size": "105mm x 100mm",
   "category": "Cortantes",
   "__v": 2,
@@ -3601,29 +3672,6 @@
 },
 {
   "_id": {
-    "$oid": "6609e9721ae8925f2a37d994"
-  },
-  "code": "A312",
-  "name": "MAYOLICA",
-  "price": 760,
-  "size": "47mm x 46mm",
-  "category": "Cortantes",
-  "__v": 2,
-  "keywords": [
-    "mayolica",
-    "mosaico"
-  ],
-  "createdAt": {
-    "$date": "2024-10-20T17:41:11.641Z"
-  },
-  "subcategories": [
-    "Artesanías"
-  ],
-  "description": "",
-  "available": true
-},
-{
-  "_id": {
     "$oid": "6609e9961ae8925f2a37d997"
   },
   "code": "A098",
@@ -3642,7 +3690,8 @@
     "Halloween"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -3650,7 +3699,7 @@
   },
   "code": "A370",
   "name": "SCRAPERS",
-  "price": 3080,
+  "price": 4000,
   "size": "75mm x 200mm",
   "category": "Herramientas",
   "__v": 1,
@@ -3734,7 +3783,8 @@
     "Deportes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -3742,7 +3792,7 @@
   },
   "code": "A310",
   "name": "MANDALA",
-  "price": 6780,
+  "price": 9900,
   "size": "212mm",
   "category": "Cortantes",
   "__v": 2,
@@ -3779,7 +3829,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -3826,7 +3877,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -3849,7 +3901,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 600
 },
 {
   "_id": {
@@ -3876,7 +3929,8 @@
     "Día del estudiante"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -3993,7 +4047,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -4037,7 +4092,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 900
 },
 {
   "_id": {
@@ -4082,7 +4138,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -4161,7 +4218,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -4326,7 +4384,8 @@
     "Día del maestro"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -4350,7 +4409,8 @@
     "Granja"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -4372,7 +4432,8 @@
     "Halloween"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 900
 },
 {
   "_id": {
@@ -4380,7 +4441,7 @@
   },
   "code": "A371",
   "name": "SCRAPERS",
-  "price": 3080,
+  "price": 4000,
   "size": "76mm x 200mm",
   "category": "Herramientas",
   "__v": 1,
@@ -4439,7 +4500,8 @@
     "Transporte"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -4462,7 +4524,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -4492,7 +4555,7 @@
   },
   "code": "A385",
   "name": "LADRILLO",
-  "price": 3120,
+  "price": 4000,
   "size": "100mm x 100mm",
   "category": "Texturizadores",
   "__v": 1,
@@ -4504,7 +4567,8 @@
     "$date": "2024-10-20T17:41:11.641Z"
   },
   "subcategories": [],
-  "available": true
+  "available": true,
+  "description": ""
 },
 {
   "_id": {
@@ -4512,7 +4576,7 @@
   },
   "code": "A249",
   "name": "MAYOLICA",
-  "price": 3550,
+  "price": 4500,
   "size": "100mm x 100mm",
   "category": "Cortantes",
   "__v": 2,
@@ -4573,7 +4637,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -4756,7 +4821,8 @@
     "Transporte"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -4815,7 +4881,7 @@
   },
   "code": "A250",
   "name": "MAYOLICA",
-  "price": 3550,
+  "price": 4500,
   "size": "100mm",
   "category": "Cortantes",
   "__v": 2,
@@ -4877,7 +4943,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -4901,7 +4968,8 @@
     "Deportes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -4921,7 +4989,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -4944,7 +5013,8 @@
     "Transporte"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -4977,7 +5047,7 @@
   },
   "code": "A240",
   "name": "HOJAS",
-  "price": 2340,
+  "price": 4000,
   "size": "100mm x 100mm",
   "category": "Texturizadores",
   "__v": 2,
@@ -5014,7 +5084,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -5036,7 +5107,8 @@
     "Halloween"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -5059,7 +5131,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -5108,7 +5181,8 @@
     "Granja"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -5131,7 +5205,8 @@
     "Día del padre"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -5242,7 +5317,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1500
 },
 {
   "_id": {
@@ -5264,7 +5340,8 @@
     "Halloween"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -5346,7 +5423,7 @@
   },
   "code": "A369",
   "name": "SCRAPERS",
-  "price": 3080,
+  "price": 4000,
   "size": "74mm x 200mm",
   "category": "Herramientas",
   "__v": 1,
@@ -5382,7 +5459,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -5404,7 +5482,8 @@
     "Comunión"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -5519,7 +5598,7 @@
   },
   "code": "A266",
   "name": "ABC POR UNIDAD",
-  "price": 880,
+  "price": 1140,
   "size": "80mm",
   "category": "Abecedarios",
   "__v": 1,
@@ -5554,7 +5633,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -5599,7 +5679,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -5628,7 +5709,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 700
 },
 {
   "_id": {
@@ -5636,7 +5718,7 @@
   },
   "code": "A252",
   "name": "MAYOLICA",
-  "price": 3550,
+  "price": 4000,
   "size": "103mm x 100mm",
   "category": "Cortantes",
   "__v": 2,
@@ -5701,7 +5783,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -5754,7 +5837,7 @@
   },
   "code": "A388",
   "name": "CELDAS DE ABEJAS",
-  "price": 2540,
+  "price": 4000,
   "size": "100mm x 100mm",
   "category": "Texturizadores",
   "__v": 2,
@@ -5789,7 +5872,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -5797,7 +5881,7 @@
   },
   "code": "A301",
   "name": "MANDALA",
-  "price": 3430,
+  "price": 3900,
   "size": "163mm x 88mm",
   "category": "Cortantes",
   "__v": 2,
@@ -5874,7 +5958,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 900
 },
 {
   "_id": {
@@ -5940,7 +6025,8 @@
     "Halloween"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -6056,7 +6142,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -6078,7 +6165,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -6215,7 +6303,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 800
 },
 {
   "_id": {
@@ -6311,7 +6400,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 700
 },
 {
   "_id": {
@@ -6334,7 +6424,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -6354,7 +6445,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 900
 },
 {
   "_id": {
@@ -6378,7 +6470,8 @@
     "Deportes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -6409,7 +6502,7 @@
   },
   "code": "A463",
   "name": "ESTRELLAS",
-  "price": 2910,
+  "price": 4000,
   "size": "100mm x 100mm",
   "category": "Texturizadores",
   "__v": 2,
@@ -6489,7 +6582,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -6513,7 +6607,8 @@
     "Granja"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -6560,7 +6655,8 @@
     "Deportes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -6583,7 +6679,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -6624,7 +6721,7 @@
   },
   "code": "A245",
   "name": "NUMEROS",
-  "price": 5320,
+  "price": 7000,
   "size": "80mm",
   "category": "Abecedarios",
   "__v": 1,
@@ -6660,7 +6757,8 @@
     "Granja"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -6683,7 +6781,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -6732,7 +6831,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -6756,7 +6856,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -6779,7 +6880,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -6801,7 +6903,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -6825,7 +6928,8 @@
     "Mar"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -6968,7 +7072,8 @@
     "Halloween"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -7014,7 +7119,8 @@
     "Deportes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -7090,7 +7196,7 @@
   },
   "code": "A384",
   "name": "FLOR DE LOTO",
-  "price": 12440,
+  "price": 14900,
   "size": "246mm x 213mm",
   "category": "Cortantes",
   "__v": 2,
@@ -7131,7 +7237,8 @@
     "Halloween"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -7139,7 +7246,7 @@
   },
   "code": "A367",
   "name": "SCRAPERS",
-  "price": 3080,
+  "price": 4000,
   "size": "72mm x 200mm",
   "category": "Herramientas",
   "__v": 1,
@@ -7198,7 +7305,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 700
 },
 {
   "_id": {
@@ -7218,7 +7326,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -7287,7 +7396,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -7338,7 +7448,8 @@
     "Bautismo"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -7361,7 +7472,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -7405,7 +7517,8 @@
     "Mar"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 900
 },
 {
   "_id": {
@@ -7429,7 +7542,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -7572,7 +7686,8 @@
     "Transporte"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -7618,7 +7733,8 @@
     "Deportes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -7641,7 +7757,8 @@
     "Transporte"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -7649,7 +7766,7 @@
   },
   "code": "A398",
   "name": "MANDALA",
-  "price": 5910,
+  "price": 6900,
   "size": "117mm x 220mm",
   "category": "Cortantes",
   "__v": 2,
@@ -7739,7 +7856,8 @@
     "Mar"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -7774,8 +7892,8 @@
   },
   "code": "A321",
   "name": "CHAKRAS",
-  "price": 1640,
-  "size": "30mm",
+  "price": 3000,
+  "size": "40mm",
   "category": "Sellos",
   "__v": 2,
   "keywords": [
@@ -7813,7 +7931,8 @@
     "Halloween"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -7841,7 +7960,8 @@
     "Día del maestro"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -7868,7 +7988,8 @@
     "Bautismo"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -7912,7 +8033,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -7990,7 +8112,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -8012,7 +8135,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -8044,7 +8168,7 @@
   },
   "code": "A243",
   "name": "ESCAMAS",
-  "price": 2710,
+  "price": 4000,
   "size": "100mm x 100mm",
   "category": "Texturizadores",
   "__v": 3,
@@ -8107,7 +8231,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -8176,7 +8301,8 @@
     "Halloween"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 900
 },
 {
   "_id": {
@@ -8198,7 +8324,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -8206,7 +8333,7 @@
   },
   "code": "A309",
   "name": "MANDALA",
-  "price": 5070,
+  "price": 6900,
   "size": "159mm",
   "category": "Cortantes",
   "__v": 2,
@@ -8318,7 +8445,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -8557,7 +8685,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -8580,7 +8709,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 600
 },
 {
   "_id": {
@@ -8603,7 +8733,8 @@
     "Transporte"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -8660,7 +8791,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -8731,7 +8863,8 @@
     "Bautismo"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -8761,7 +8894,7 @@
   },
   "code": "A401",
   "name": "YIN YANG",
-  "price": 3550,
+  "price": 6000,
   "size": "120mm",
   "category": "Cortantes",
   "__v": 2,
@@ -8808,7 +8941,7 @@
   },
   "code": "A397",
   "name": "GIRASOL",
-  "price": 4950,
+  "price": 5900,
   "size": "86mm x 162mm",
   "category": "Cortantes",
   "__v": 2,
@@ -8914,7 +9047,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -9164,7 +9298,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -9291,7 +9426,7 @@
   },
   "code": "A368",
   "name": "SCRAPERS",
-  "price": 3080,
+  "price": 4000,
   "size": "73mm x 200mm",
   "category": "Herramientas",
   "__v": 1,
@@ -9380,7 +9515,8 @@
     "Mar"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -9599,7 +9735,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -9664,7 +9801,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -9694,7 +9832,7 @@
   },
   "code": "A396",
   "name": "GANESHA",
-  "price": 4950,
+  "price": 5950,
   "size": "132mm x 138mm",
   "category": "Cortantes",
   "__v": 2,
@@ -9785,7 +9923,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 500
 },
 {
   "_id": {
@@ -9805,7 +9944,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 900
 },
 {
   "_id": {
@@ -9918,7 +10058,8 @@
     "Animales"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -9940,7 +10081,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -10101,7 +10243,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1500
 },
 {
   "_id": {
@@ -10171,7 +10314,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 900
 },
 {
   "_id": {
@@ -10244,7 +10388,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -10267,7 +10412,8 @@
     "Personajes"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -10315,7 +10461,8 @@
     "Varios"
   ],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1100
 },
 {
   "_id": {
@@ -10335,7 +10482,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 1000
 },
 {
   "_id": {
@@ -10343,7 +10491,7 @@
   },
   "code": "A464",
   "name": "HOJITAS",
-  "price": 2910,
+  "price": 4000,
   "size": "100mm x 100mm",
   "category": "Texturizadores",
   "__v": 2,
@@ -10935,7 +11083,8 @@
   },
   "subcategories": [],
   "description": "",
-  "available": true
+  "available": true,
+  "offertPrice": 900
 },
 {
   "_id": {
@@ -14843,7 +14992,7 @@
     "$oid": "6752302c9c79be54eff7c2f0"
   },
   "code": "A562",
-  "name": "MEDIDOR DE ALTURA",
+  "name": "GRAMIL",
   "price": 9000,
   "size": "190mm",
   "category": "Herramientas",
@@ -14996,6 +15145,1084 @@
   "available": true,
   "createdAt": {
     "$date": "2024-12-05T23:31:41.872Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675b681bd9209430fb74bd35"
+  },
+  "code": "A564",
+  "name": "GRAMIL DOBLE",
+  "price": 16000,
+  "size": "190mm",
+  "category": "Herramientas",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "gramil",
+    "doble",
+    "medidor",
+    "de",
+    "altura",
+    "",
+    "marcador",
+    "de",
+    "altura",
+    "gramil",
+    "articulado",
+    ""
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-12-12T22:47:55.659Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675b6915d9209430fb74bd3c"
+  },
+  "code": "A565",
+  "name": "JUNQUILLOS",
+  "price": 5500,
+  "size": "40mm / 60mm / 80mm / 100mm",
+  "category": "Herramientas",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "junquillos"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-12-12T22:52:05.003Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675b6a39d9209430fb74bd43"
+  },
+  "code": "A566",
+  "name": "REGLA",
+  "price": 2900,
+  "size": "280mm x 5mm",
+  "category": "Herramientas",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "reglitas",
+    "medidoras",
+    "regla",
+    "de",
+    "altura",
+    "de",
+    "masa"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-12-12T22:56:57.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675b7068d9209430fb74bd79"
+  },
+  "code": "A567",
+  "name": "REGLA",
+  "price": 4600,
+  "size": "280mm x 10mm",
+  "category": "Herramientas",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "reglas",
+    "medidoras",
+    "de",
+    "altura",
+    "de",
+    "masa",
+    "reglas",
+    "niveladoras"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-12-12T23:23:20.289Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675b70d8d9209430fb74bd80"
+  },
+  "code": "A568",
+  "name": "REGLA",
+  "price": 6300,
+  "size": "280mm x 10mm",
+  "category": "Herramientas",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "reglas",
+    "medidoras",
+    "de",
+    "altura",
+    "de",
+    "masa",
+    "reglas",
+    "niveladoras"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2024-12-12T23:25:12.097Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6775847bb3a71a02422b456c"
+  },
+  "code": "A569",
+  "name": "CORDOBA",
+  "price": 17000,
+  "size": "450mm x 270mm",
+  "category": "Cortantes",
+  "subcategories": [
+    "Artesanías",
+    "Día del padre",
+    "Formas",
+    "Varios"
+  ],
+  "description": "",
+  "keywords": [
+    "tabla",
+    "de",
+    "picada",
+    "mapa",
+    "de",
+    "cordoba"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-01T18:07:55.686Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6775872ab3a71a02422b4573"
+  },
+  "code": "A570",
+  "name": "JUEGO DE CONOS PARA CERAMICA",
+  "price": 50000,
+  "size": "30mm a 64mm / 64mm a 98mm / 98mm a 132mm / 132mm a 157mm / 157mm a 183mm / 183mm a 221mm",
+  "category": "Herramientas",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "cono",
+    "de",
+    "boca",
+    "para",
+    "piezas",
+    "de",
+    "ceramica",
+    "bordes",
+    "redondos",
+    ""
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-01T18:19:22.041Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "677588bfb3a71a02422b457a"
+  },
+  "code": "A571",
+  "name": "CONO PARA CERAMICA",
+  "price": 3200,
+  "size": "30mm a 64mm",
+  "category": "Herramientas",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "cono",
+    "de",
+    "boca",
+    "para",
+    "piezas",
+    "de",
+    "ceramica",
+    "bordes",
+    "redondos"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-01T18:26:07.632Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67758968b3a71a02422b4581"
+  },
+  "code": "A572",
+  "name": "CONO PARA CERAMICA",
+  "price": 5500,
+  "size": "64mm a 98mm",
+  "category": "Herramientas",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "cono",
+    "de",
+    "boca",
+    "para",
+    "piezas",
+    "de",
+    "ceramica",
+    "bordes",
+    "redondos"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-01T18:28:56.456Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "677589c6b3a71a02422b4588"
+  },
+  "code": "A573",
+  "name": "CONO PARA CERAMICA",
+  "price": 8300,
+  "size": "98mm a 132mm",
+  "category": "Herramientas",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "cono",
+    "de",
+    "boca",
+    "para",
+    "piezas",
+    "de",
+    "ceramica",
+    "bordes",
+    "redondos"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-01T18:30:30.384Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67758a4db3a71a02422b458f"
+  },
+  "code": "A574",
+  "name": "CONO PARA CERAMICA",
+  "price": 9800,
+  "size": "132mm a 157mm",
+  "category": "Herramientas",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "cono",
+    "de",
+    "boca",
+    "para",
+    "piezas",
+    "de",
+    "ceramica",
+    "bordes",
+    "redondos"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-01T18:32:45.888Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67758aaeb3a71a02422b4596"
+  },
+  "code": "A575",
+  "name": "CONO PARA CERAMICA",
+  "price": 12300,
+  "size": "157mm a 183mm",
+  "category": "Herramientas",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "cono",
+    "de",
+    "boca",
+    "para",
+    "piezas",
+    "de",
+    "ceramica",
+    "bordes",
+    "redondos"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-01T18:34:22.049Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67758afbb3a71a02422b459d"
+  },
+  "code": "A576",
+  "name": "CONO PARA CERAMICA",
+  "price": 16900,
+  "size": "183mm a 221mm",
+  "category": "Herramientas",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "cono",
+    "de",
+    "boca",
+    "para",
+    "piezas",
+    "de",
+    "ceramica",
+    "bordes",
+    "redondos"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-01T18:35:39.643Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "677957a37d91e00b23a724f2"
+  },
+  "code": "A577",
+  "name": "PERRO",
+  "price": 1860,
+  "size": "72mm x 75mm",
+  "category": "Cortantes",
+  "subcategories": [
+    "Animales"
+  ],
+  "description": "",
+  "keywords": [
+    "perro",
+    "cara",
+    "de",
+    "perro",
+    ""
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-04T15:45:39.138Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "677958df7d91e00b23a724f9"
+  },
+  "code": "A578",
+  "name": "GALLETA",
+  "price": 3150,
+  "size": "87mm x 137mm",
+  "category": "Cortantes",
+  "subcategories": [
+    "Navidad"
+  ],
+  "description": "",
+  "keywords": [
+    "galleta",
+    "jengibre",
+    "navidad",
+    ""
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-04T15:50:55.206Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67795b067d91e00b23a72500"
+  },
+  "code": "A579",
+  "name": "SALCHICHA",
+  "price": 1150,
+  "size": "77mm x 48mm",
+  "category": "Cortantes",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "perro",
+    "salchicha",
+    "animales"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-04T16:00:06.549Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6779687f7d91e00b23a7250e"
+  },
+  "code": "A581",
+  "name": "FRASE",
+  "price": 1430,
+  "size": "41mm x 47mm",
+  "category": "Sellos",
+  "subcategories": [],
+  "description": "",
+  "keywords": [
+    "frases",
+    "para",
+    "tazas"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-04T16:57:35.443Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6779691b7d91e00b23a72515"
+  },
+  "code": "A582",
+  "name": "FRASE",
+  "price": 1720,
+  "size": "43mm x 57mm",
+  "category": "Sellos",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "frases",
+    "para",
+    "tazas",
+    "vasos",
+    "ceramica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-04T17:00:11.916Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "677969cd7d91e00b23a7251c"
+  },
+  "code": "A583",
+  "name": "FRASE",
+  "price": 1720,
+  "size": "48mm x 51mm",
+  "category": "Sellos",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "sellos",
+    "para",
+    "tazas",
+    "ceramica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-04T17:03:09.779Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67796a887d91e00b23a72529"
+  },
+  "code": "A584",
+  "name": "FRASE",
+  "price": 2000,
+  "size": "50mm x 66mm",
+  "category": "Sellos",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "frases",
+    "para",
+    "tazas",
+    "ceramica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-04T17:06:16.107Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67796c2b7d91e00b23a72530"
+  },
+  "code": "A585",
+  "name": "FRASE",
+  "price": 1760,
+  "size": "64mm x 48mm",
+  "category": "Sellos",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "frases",
+    "para",
+    "tazas",
+    "vasos",
+    "ceramica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-04T17:13:15.933Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67796cbe7d91e00b23a72537"
+  },
+  "code": "A586",
+  "name": "FRASE",
+  "price": 1540,
+  "size": "40mm x 55mm",
+  "category": "Sellos",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "frases",
+    "para",
+    "ceramica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-04T17:15:42.443Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67796d2b7d91e00b23a7253e"
+  },
+  "code": "A587",
+  "name": "FRASE",
+  "price": 1560,
+  "size": "42mm x 65mm",
+  "category": "Sellos",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "frases",
+    "para",
+    "tazas",
+    "ceramica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-04T17:17:31.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679a6c97b97c6783b0bdada5"
+  },
+  "code": "A588",
+  "name": "ESCAMA",
+  "price": 600,
+  "size": "70mm",
+  "category": "Cortantes",
+  "subcategories": [
+    "Artesanías",
+    "Mar",
+    "Formas"
+  ],
+  "description": "",
+  "keywords": [
+    "escama",
+    "mar",
+    "mosaicos",
+    ""
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-29T17:59:51.558Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "679a701bb97c6783b0bdadac"
+  },
+  "code": "A589",
+  "name": "PORTA CUCHARA",
+  "price": 1150,
+  "size": "96mm x 142mm",
+  "category": "Cortantes",
+  "subcategories": [
+    "Artesanías",
+    "Formas"
+  ],
+  "description": "",
+  "keywords": [
+    "artesanias",
+    "porta",
+    "cuhara",
+    "ceramica"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-29T18:14:51.164Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679a70e6b97c6783b0bdadb3"
+  },
+  "code": "A590",
+  "name": "MATE",
+  "price": 1300,
+  "size": "63mm x 77mm",
+  "category": "Cortantes",
+  "subcategories": [
+    "Artesanías",
+    "Día de la madre",
+    "Día del padre",
+    "Varios"
+  ],
+  "description": "",
+  "keywords": [
+    "artesanias",
+    "mate",
+    "argentina"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-29T18:18:14.451Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679a71f8b97c6783b0bdadcc"
+  },
+  "code": "A591",
+  "name": "HERRADURA",
+  "price": 2580,
+  "size": "87mm x 93mm",
+  "category": "Cortantes",
+  "subcategories": [
+    "Artesanías",
+    "Granja",
+    "Varios"
+  ],
+  "description": "",
+  "keywords": [
+    "caballo",
+    "herradura",
+    "campo",
+    "campestre",
+    "granja"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-29T18:22:48.099Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679a7322b97c6783b0bdadd3"
+  },
+  "code": "A592",
+  "name": "CABALLO",
+  "price": 620,
+  "size": "77mm x 81mm",
+  "category": "Cortantes",
+  "subcategories": [
+    "Animales",
+    "Artesanías",
+    "Granja"
+  ],
+  "description": "",
+  "keywords": [
+    "caballo",
+    "silueta",
+    "granja",
+    "campo",
+    ""
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-29T18:27:46.836Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679a73c9b97c6783b0bdadda"
+  },
+  "code": "A593",
+  "name": "GATITOS",
+  "price": 2440,
+  "size": "40mm",
+  "category": "Sellos",
+  "subcategories": [
+    "Artesanías",
+    "Animales"
+  ],
+  "description": "",
+  "keywords": [
+    "sellos",
+    "para",
+    "ceramica",
+    "tazas"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-29T18:30:33.083Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679a7431b97c6783b0bdade1"
+  },
+  "code": "A594",
+  "name": "GATITOS",
+  "price": 2440,
+  "size": "40mm",
+  "category": "Sellos",
+  "subcategories": [
+    "Animales",
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "sellos",
+    "para",
+    "ceramica",
+    "tazas"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-29T18:32:17.323Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679a745fb97c6783b0bdade8"
+  },
+  "code": "A595",
+  "name": "GATITOS",
+  "price": 2440,
+  "size": "40mm",
+  "category": "Sellos",
+  "subcategories": [
+    "Animales",
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "sellos",
+    "para",
+    "ceramica",
+    "tazas"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-29T18:33:03.755Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679a74aab97c6783b0bdadef"
+  },
+  "code": "A596",
+  "name": "GATITOS",
+  "price": 2440,
+  "size": "40mm",
+  "category": "Sellos",
+  "subcategories": [
+    "Animales",
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "sellos",
+    "para",
+    "ceramica",
+    "tazas"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-29T18:34:18.275Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679a75d6b97c6783b0bdadf6"
+  },
+  "code": "A597",
+  "name": "CABALLO",
+  "price": 1580,
+  "size": "64mm x 70mm",
+  "category": "Cortantes",
+  "subcategories": [
+    "Animales",
+    "Granja"
+  ],
+  "description": "",
+  "keywords": [
+    "granja",
+    "campo",
+    "artesanias"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-29T18:39:18.964Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679a76d3b97c6783b0bdadfd"
+  },
+  "code": "A598",
+  "name": "CABALLO",
+  "price": 1430,
+  "size": "61mm x 70mm",
+  "category": "Cortantes",
+  "subcategories": [
+    "Animales",
+    "Artesanías",
+    "Granja"
+  ],
+  "description": "",
+  "keywords": [
+    "artesanias",
+    "granja",
+    "caballos"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-29T18:43:31.051Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679bb00b3bb0f4e8a73d5992"
+  },
+  "code": "A599",
+  "name": "MINI LLAMA",
+  "price": 500,
+  "size": "24mm x 30mm",
+  "category": "Sellos",
+  "subcategories": [
+    "Animales",
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "llama",
+    "dibujos",
+    "norteños",
+    "alpaca",
+    "jujuy"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-30T16:59:55.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679bb0e43bb0f4e8a73d5999"
+  },
+  "code": "A600",
+  "name": "MINI CORTANTES",
+  "price": 600,
+  "size": "20mm",
+  "category": "Cortantes",
+  "subcategories": [
+    "Animales",
+    "Artesanías",
+    "Granja"
+  ],
+  "description": "",
+  "keywords": [
+    "campo",
+    "caballo",
+    "herradura",
+    "granja",
+    ""
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-30T17:03:32.821Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679bb28c3bb0f4e8a73d59a7"
+  },
+  "code": "A602",
+  "name": "LAMAS",
+  "price": 7500,
+  "size": "Varios",
+  "category": "Herramientas",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "herramientas",
+    "para",
+    "ceramica",
+    "lamas",
+    ""
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-30T17:10:36.742Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679bb3083bb0f4e8a73d59ae"
+  },
+  "code": "A603",
+  "name": "LAMAS",
+  "price": 11900,
+  "size": "Varios",
+  "category": "Herramientas",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "herramientas",
+    "para",
+    "ceramica",
+    "lamas",
+    ""
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-30T17:12:40.510Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679bb3ad3bb0f4e8a73d59b5"
+  },
+  "code": "A604",
+  "name": "LAMAS",
+  "price": 8900,
+  "size": "Varios",
+  "category": "Herramientas",
+  "subcategories": [
+    "Artesanías"
+  ],
+  "description": "",
+  "keywords": [
+    "herramientas",
+    "para",
+    "ceramica",
+    "lamas"
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-30T17:15:25.197Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679bb5133bb0f4e8a73d59bc"
+  },
+  "code": "A605",
+  "name": "CARA DE MUJER",
+  "price": 3600,
+  "size": "40mm",
+  "category": "Sellos",
+  "subcategories": [
+    "Artesanías",
+    "Día de la madre",
+    "Día de la mujer"
+  ],
+  "description": "",
+  "keywords": [
+    "cara",
+    "lineal",
+    "dibujo",
+    "de",
+    "mujer",
+    ""
+  ],
+  "available": true,
+  "createdAt": {
+    "$date": "2025-01-30T17:21:23.583Z"
   },
   "__v": 0
 }]
