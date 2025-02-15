@@ -6,6 +6,7 @@ export default function useProducts() {
 
     const [products, setProducts] = useState<Product[]>([]);
     const [news, setNews] = useState<Product[]>([]);
+    const [withDiscount, setWithDiscount] = useState<Product[]>([]);
     const [filters, setFilters] = useState<Filters>({ category: "", subcategory: "", words: "", sort: "default" });
 
     const [page, setPage] = useState(1);
@@ -21,6 +22,7 @@ export default function useProducts() {
     
     useEffect(() => {
         fetchNews();
+        fetchWithDiscount();
     }, []);
 
     const fetchProducts = async (page: number, size: number) => {
@@ -65,6 +67,20 @@ export default function useProducts() {
         }
     };
 
+    const fetchWithDiscount = async () => {
+        setLoading(true);
+        try {
+            const result = await productsRepository.getWithDiscount(6);
+            setWithDiscount(result);
+        }
+        catch (error) {
+            setError("Error obteniendo los productos con descuento.");
+        }
+        finally {
+            setLoading(false);
+        }
+    };
+
     const updateFilters = (newFilters: Partial<Filters>) => {
         setFilters((prev) => ({ ...prev, ...newFilters }));
         setPage(1); // Reinicia a la primera página al cambiar filtros.
@@ -86,6 +102,7 @@ export default function useProducts() {
     return {
         products,
         news,
+        withDiscount,
         loading,
         error,
         page,
@@ -97,4 +114,5 @@ export default function useProducts() {
         clearFilters,
         fetchProductByCode
     };
+
 }
