@@ -7,6 +7,7 @@ import useSubCategories from "../hooks/useSubCategories";
 type ProductsContextType = {
     products: Product[];
     news: Product[];
+    withDiscount: Product[];
     loading: boolean;
     error: string | null;
     page: number;
@@ -24,6 +25,7 @@ type ProductsContextType = {
 export const ProductsContext = createContext<ProductsContextType>({
     products: [],
     news: [],
+    withDiscount: [],
     loading: false,
     error: null,
     page: 1,

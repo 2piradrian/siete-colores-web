@@ -36,9 +36,9 @@ export class ProductsRepository implements ProductsRepositoryI {
         }
     }
 
-    public async getWithDiscount(size: number): Promise<Product[]> {
+    public async getWithDiscount(): Promise<Product[]> {
         try {
-            return this.dataSource.getWithDiscount(size);
+            return this.dataSource.getWithDiscount();
         }
         catch (error) {
             throw new Error("Error obteniendo los productos con descuento");

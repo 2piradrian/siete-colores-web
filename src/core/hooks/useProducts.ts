@@ -70,7 +70,7 @@ export default function useProducts() {
     const fetchWithDiscount = async () => {
         setLoading(true);
         try {
-            const result = await productsRepository.getWithDiscount(6);
+            const result = await productsRepository.getWithDiscount();
             setWithDiscount(result);
         }
         catch (error) {

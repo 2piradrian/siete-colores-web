@@ -7,10 +7,10 @@ import MainButton from "../MainButton/MainButton";
 import noimage from "../../../assets/images/no-image.jpg";
 import style from "./style.module.css";
 
-function ItemCard({ code, name, price, size, category, available }: Product) {
+function ItemCard({ code, name, price, offertPrice, size, category, available }: Product) {
 	const { editQuantity } = useContext(CartContext);
 
-	const item = {code, name, price, size, category, available};
+	const item = {code, name, price, offertPrice, size, category, available};
 
 	const handleAdd = () => {
 		toast("🛒Producto agregado");
@@ -42,10 +42,19 @@ function ItemCard({ code, name, price, size, category, available }: Product) {
 				{category}
 			</p>
 			<div className={style.priceContainer}>
-				<p className={style.price}>$ {price}</p>
-					<MainButton isActive={available} type="button" styles={style.addProduct} onClick={handleAdd}>
-						Comprar
-					</MainButton>
+				<div className={style.priceBox}>
+				  	{offertPrice != undefined ? ( 
+				  	  <>
+				  	    <p className={style.oldPrice}>${price}</p>
+				  	    <p className={style.price}>${offertPrice}</p>
+				  	  </>
+				  	) : (
+				  	  <p className={style.price}>${price}</p>
+				  	)}
+				</div>
+				<MainButton isActive={available} type="button" styles={style.addProduct} onClick={handleAdd}>
+					Comprar
+				</MainButton>
 			</div>
 		</article>
 	);

@@ -141,12 +141,12 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
         }
     }
 
-    public async getWithDiscount(size: number): Promise<Product[]> {
+    public async getWithDiscount(): Promise<Product[]> {
         try {
             const response = await fetch("/data/products.json");
             const products = await response.json();
 
-            return products.filter((product: Product) => product.offertPrice != undefined).slice(0, size);
+            return products.filter((product: Product) => product.offertPrice != undefined);
         }
         catch (error) {
             throw new Error("Error obteniendo los productos con descuento");
