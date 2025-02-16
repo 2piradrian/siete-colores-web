@@ -66,16 +66,22 @@
 .priceContainer {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .buttonContainer {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+}
 
-    div {
-        margin: 2px;
-    }
+.price {
+	font-size: 30px;
+}
+
+.oldPrice{
+	font-size: 24px;
+	text-decoration: line-through;
+	color: red;
 }

@@ -43,7 +43,7 @@ function ItemCard({ code, name, price, offertPrice, size, category, available }:
 			</p>
 			<div className={style.priceContainer}>
 				<div className={style.priceBox}>
-				  	{offertPrice != undefined ? ( 
+				  	{offertPrice ? ( 
 				  	  <>
 				  	    <p className={style.oldPrice}>${price}</p>
 				  	    <p className={style.price}>${offertPrice}</p>
