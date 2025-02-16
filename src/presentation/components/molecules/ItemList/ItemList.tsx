@@ -10,7 +10,7 @@ type Props = {
 
 export default function ItemList({ product, editQuantity }: Props) {
 
-	const { code, name, category, price, quantity } = product;
+	const { code, name, category, price, offertPrice, quantity } = product;
 
 	let image;
 	try {
@@ -34,7 +34,10 @@ export default function ItemList({ product, editQuantity }: Props) {
 				</div>
 			</div>
 			<div className={style.smallDivisor}>
-				<p>${Number(price * quantity!).toFixed(2)}</p>
+				{ offertPrice ? 
+					(<p>${Number(offertPrice * quantity!).toFixed(2)}</p>) : 
+					(<p>${Number(price * quantity!).toFixed(2)}</p>)
+				}
 				<div className={style.buttonBox}>
 					<div className={style.buttonContainer}>
 						<button className={style.quantityBtn} onClick={() => editQuantity(product, -1)}>
