@@ -4,7 +4,7 @@ import Products from './presentation/routes/Products';
 import Details from './presentation/routes/Details';
 import Cart from './presentation/routes/Cart';
 
-function App() {
+export default function App() {
   return (
     	<Routes>
 			<Route path="/" element={<Home />} />
@@ -16,6 +16,4 @@ function App() {
 			<Route path="*" element={<Navigate to="/" />} />
 		</Routes>
   );
-}
-
-export default App;
+};
