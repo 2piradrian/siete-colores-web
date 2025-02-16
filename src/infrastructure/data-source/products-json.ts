@@ -146,7 +146,7 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
             const response = await fetch("/data/products.json");
             const products = await response.json();
 
-            return products.filter((product: Product) => product.offertPrice);
+            return products.filter((product: Product) => product.offertPrice != undefined);
         }
         catch (error) {
             throw new Error("Error obteniendo los productos con descuento");
