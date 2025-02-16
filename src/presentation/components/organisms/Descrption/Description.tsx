@@ -46,7 +46,14 @@ export default function Description({ product }: Props) {
                     <div className={style.buyContainer}>
                         <div className={style.priceContainer}>
                             <h2 className={style.subtitle}>Precio</h2>
-                            <p className={style.text}>${product.price}</p>
+                            {product.offertPrice ? ( 
+				  	            <>
+				  	              <p className={style.oldPrice}>${product.price}</p>
+				  	              <p className={style.price}>${product.offertPrice}</p>
+				  	            </>
+				  	            ) : (
+				  	              <p className={style.price}>${product.price}</p>
+				  	            )}
                         </div>
                         <div className={style.buttonContainer}>
 					        <MainButton isActive={product.available} type="button" styles={style.addProduct} onClick={handleAdd}>
