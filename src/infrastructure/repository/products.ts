@@ -35,5 +35,14 @@ export class ProductsRepository implements ProductsRepositoryI {
             throw new Error("Error obteniendo las noticias");
         }
     }
+
+    public async getWithDiscount(): Promise<Product[]> {
+        try {
+            return this.dataSource.getWithDiscount();
+        }
+        catch (error) {
+            throw new Error("Error obteniendo los productos con descuento");
+        }
+    }
    
 }

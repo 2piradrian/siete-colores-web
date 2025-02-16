@@ -52,8 +52,19 @@
 	align-items: center;
 }
 
+.priceBox {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
 .price {
 	font-size: 26px;
+}
+
+.oldPrice{
+	text-decoration: line-through;
+	color: red;
 }
 
 .addProduct {
