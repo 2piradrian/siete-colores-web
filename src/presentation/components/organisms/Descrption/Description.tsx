@@ -27,6 +27,8 @@ export default function Description({ product }: Props) {
 		image = noimage;
 	}
 
+    console.log(product);
+
     return (
         <section className={style.container}>
             <article className={style.descriptionContainer}>
@@ -36,7 +38,7 @@ export default function Description({ product }: Props) {
             	}} />
                 <div className={style.textContainer}>
                     <h1 className={style.title}>{product.name}</h1>
-                    {product.available ? <span className={style.stock}>{"(Sin Stock)"}</span> : null }
+                    {!product.available ? <span className={style.stock}>{"(Sin Stock)"}</span> : null }
                     <h2 className={style.subtitle}>Categoría</h2>
                     <p className={style.text}>{product.category}</p>
                     <h2 className={style.subtitle}>Dimensiones</h2>

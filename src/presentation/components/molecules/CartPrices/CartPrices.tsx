@@ -10,7 +10,10 @@ export default function CartPrices({ products }: Props) {
 	const [subtotal, setSubtotal] = useState(0);
 
 	useEffect(() => {
-		const price = products.reduce((acc, product) => acc + product.price * product.quantity!, 0) || 0;
+		const price = products.reduce((acc, product) => {
+			const finalPrice = product.offertPrice || product.price;
+			return acc + finalPrice * product.quantity!
+		}, 0) || 0;
 		setSubtotal(price);
 	}, [products]);
 
