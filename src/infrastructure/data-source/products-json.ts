@@ -24,7 +24,7 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
         }
 
         return {
-            words: filters.words?.toLowerCase(),
+            words: filters.words?.toLowerCase().trim(),
             category: filters.category?.toLowerCase(),
             subcategory: filters.subcategory?.toLowerCase(),
             sort: filters.sort?.toLowerCase(),
@@ -48,7 +48,7 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
                     return false;
                 }
 
-                product.keywords = product.keywords.map((keyword: string) => keyword.toLowerCase());
+                product.keywords = product.keywords.map((keyword: string) => keyword.toLowerCase().trim());
                 if (filters.words) {
                     const found = filters.words.split(" ").some((keyword: string) => {
                         return product.keywords.includes(keyword);
@@ -74,15 +74,16 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
             if (!filters.sort) {
                 scoredProducts = filteredProducts.map((product: Product) => {
                     let score = 0;
-        
+            
                     if (filters.words) {
                         const words = filters.words.split(" ");
                         score = words.reduce((acc, word) => {
-                            const occurrences = (product.name.match(new RegExp(word, "gi")) || []).length;
-                            return acc + occurrences;
+                            const nameOccurrences = (product.name.match(new RegExp(word, "gi")) || []).length;
+                            const keywordOccurrences = (product.keywords?.join(" ").match(new RegExp(word, "gi")) || []).length;
+                            return acc + nameOccurrences + keywordOccurrences;
                         }, 0);
                     }
-        
+            
                     return { ...product, score };
                 });
                 sortedProducts = scoredProducts.sort((a: any, b: any) => b.score - a.score);
@@ -110,7 +111,8 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
                 page: page,
                 pages: Math.ceil(filteredProducts.length / size),
             };
-        } catch (error) {
+        } 
+        catch (error) {
             throw new Error("Error obteniendo los productos");
         }
     }
