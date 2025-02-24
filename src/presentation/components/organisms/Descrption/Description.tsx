@@ -1,6 +1,6 @@
 import { Product } from "../../../../domain/types/products";
 import { useContext } from "react";
-import { CartContext } from "../../../../core";
+import { CartContext, priceFormatter } from "../../../../core";
 import MainButton from "../../atoms/MainButton/MainButton";
 import noimage from "../../../assets/images/no-image.jpg";
 import toast from "react-hot-toast";
@@ -48,11 +48,11 @@ export default function Description({ product }: Props) {
                             <h2 className={style.subtitle}>Precio</h2>
                             {product.offertPrice ? ( 
 				  	            <>
-				  	              <p className={style.oldPrice}>${product.price}</p>
-				  	              <p className={style.price}>${product.offertPrice}</p>
+				  	              <p className={style.oldPrice}>{priceFormatter(product.price)}</p>
+				  	              <p className={style.price}>{priceFormatter(product.offertPrice)}</p>
 				  	            </>
 				  	            ) : (
-				  	              <p className={style.price}>${product.price}</p>
+				  	              <p className={style.price}>{priceFormatter(product.price)}</p>
 				  	            )}
                         </div>
                         <div className={style.buttonContainer}>

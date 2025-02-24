@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { Product } from "../../../../domain/types/products";
-import { CartContext } from "../../../../core";
+import { CartContext, priceFormatter } from "../../../../core";
 import toast from "react-hot-toast";
 import MainButton from "../MainButton/MainButton";
 import noimage from "../../../assets/images/no-image.jpg";
@@ -45,11 +45,11 @@ function ItemCard({ code, name, price, offertPrice, size, category, available }:
 				<div className={style.priceBox}>
 				  	{offertPrice != undefined ? ( 
 				  	  <>
-				  	    <p className={style.oldPrice}>${price}</p>
-				  	    <p className={style.price}>${offertPrice}</p>
+				  	    <p className={style.oldPrice}>{priceFormatter(price)}</p>
+				  	    <p className={style.price}>{priceFormatter(offertPrice)}</p>
 				  	  </>
 				  	) : (
-				  	  <p className={style.price}>${price}</p>
+				  	  <p className={style.price}>{priceFormatter(price)}</p>
 				  	)}
 				</div>
 				<MainButton isActive={available} type="button" styles={style.addProduct} onClick={handleAdd}>
