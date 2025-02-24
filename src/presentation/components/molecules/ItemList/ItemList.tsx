@@ -2,6 +2,7 @@ import { Product } from "../../../../domain/types/products";
 import style from "./style.module.css";
 
 import noimage from "../../../assets/images/no-image.jpg";
+import { priceFormatter } from "../../../../core";
 
 type Props = {
 	product: Product;
@@ -34,10 +35,12 @@ export default function ItemList({ product, editQuantity }: Props) {
 				</div>
 			</div>
 			<div className={style.smallDivisor}>
-				{ offertPrice ? 
-					(<p>${Number(offertPrice * quantity!).toFixed(2)}</p>) : 
-					(<p>${Number(price * quantity!).toFixed(2)}</p>)
-				}
+				<div className={style.priceBox}>
+					{ offertPrice ? 
+						(<p>{priceFormatter(offertPrice * quantity!)}</p>) : 
+						(<p>{priceFormatter(price * quantity!)}</p>)
+					}
+				</div>
 				<div className={style.buttonBox}>
 					<div className={style.buttonContainer}>
 						<button className={style.quantityBtn} onClick={() => editQuantity(product, -1)}>

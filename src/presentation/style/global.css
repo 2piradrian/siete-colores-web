@@ -12,6 +12,7 @@
 html {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
+	min-width: var(--min-width);
 }
 
 body {

@@ -1,3 +1,4 @@
+import { priceFormatter } from "../../../../core";
 import { Product } from "../../../../domain/types/products";
 import style from "./style.module.css";
 import { useEffect, useState } from "react";
@@ -22,7 +23,7 @@ export default function CartPrices({ products }: Props) {
 			<div className={style.subcontainer}>
 				<div className={style.priceContainer}>
 					<p className={style.title}>Subtotal</p>
-					<p className={style.price}>${subtotal}</p>
+					<p className={style.price}>{priceFormatter(subtotal)}</p>
 				</div>
 				<div className={style.priceContainer}>
 					<p className={style.title}>Envio:</p>
@@ -31,7 +32,7 @@ export default function CartPrices({ products }: Props) {
 				<hr />
 				<div className={style.priceContainer}>
 					<p className={style.title}>Total:</p>
-					<p className={style.price}>$ {subtotal} + envio</p>
+					<p className={style.price}>{priceFormatter(subtotal)} + envio</p>
 				</div>
 			</div>
 		</div>
