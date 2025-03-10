@@ -86,8 +86,9 @@
     display: none;  /* Chrome, Safari, Opera */
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 870px) {
     .categories {
+        padding: 0px 10px;
         justify-content: flex-start;
     }
 }
