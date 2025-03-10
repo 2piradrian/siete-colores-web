@@ -1,4 +1,4 @@
-import { SubCategoriesDataSourceI, SubCategoryEntity } from "../../domain";
+import { SubCategoriesDataSourceI, SubCategoryEntity } from "../../../domain";
 
 export class SubCategoriesJsonDataSource implements SubCategoriesDataSourceI {
 

@@ -1,5 +1,5 @@
 import { CategoriesDataSourceI, CategoriesRepositoryI, CategoryEntity } from "../../domain";
-import { CategoriesJsonDataSource } from "../data-source/categories-json";
+import { CategoriesJsonDataSource } from "../data-source/json/categories";
 
 export class CategoriesRepository implements CategoriesRepositoryI {
     private dataSource: CategoriesDataSourceI;

@@ -1,5 +1,5 @@
 import { Filters, ProductEntity, ProductsDataSourceI, ProductsPage, ProductsRepositoryI } from "../../domain";
-import { ProductsJsonDataSource } from "../data-source/products-json";
+import { ProductsJsonDataSource } from "../data-source/json/products";
 
 export class ProductsRepository implements ProductsRepositoryI {
 

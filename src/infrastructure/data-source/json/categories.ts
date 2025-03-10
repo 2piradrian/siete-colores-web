@@ -1,4 +1,4 @@
-import { CategoriesDataSourceI, CategoryEntity } from "../../domain";
+import { CategoriesDataSourceI, CategoryEntity } from "../../../domain";
 
 export class CategoriesJsonDataSource implements CategoriesDataSourceI {
 

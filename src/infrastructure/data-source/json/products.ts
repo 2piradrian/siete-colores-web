@@ -1,4 +1,4 @@
-import { Filters, ProductEntity, ProductsDataSourceI, ProductsPage } from "../../domain";
+import { Filters, ProductEntity, ProductsDataSourceI, ProductsPage } from "../../../domain";
 
 export class ProductsJsonDataSource implements ProductsDataSourceI {
 

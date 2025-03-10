@@ -1,5 +1,5 @@
 import { SubCategoriesDataSourceI, SubCategoriesRepositoryI, CategoryEntity } from "../../domain";
-import { SubCategoriesJsonDataSource } from "../data-source/subcategories-json";
+import { SubCategoriesJsonDataSource } from "../data-source/json/subcategories";
 
 export class SubCategoriesRepository implements SubCategoriesRepositoryI {
     private dataSource: SubCategoriesDataSourceI;
