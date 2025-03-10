@@ -22,7 +22,7 @@ export default function SearchBar({ filters, updateFilters, clearFilters, catego
 						type="text" 
 						placeholder={`Buscar ${category ? category : "productos"}`} 
 						name="words" 
-						value={filters.words} 
+						defaultValue={filters.words} 
 					/>
 				</div>
 				<div className={style.selectorContainer}>
@@ -31,7 +31,7 @@ export default function SearchBar({ filters, updateFilters, clearFilters, catego
 						<select 
 							name="subcategory" 
 							className={style.select} 
-							value={filters.subcategory} 
+							defaultValue={filters.subcategory} 
 						>
 							<option value="Todos">Todos</option>
 							{subCategories?.map((subCategory, index) => (
@@ -44,7 +44,7 @@ export default function SearchBar({ filters, updateFilters, clearFilters, catego
 						<select 
 							name="order" 
 							className={style.select} 
-							value={filters.sort} 
+							defaultValue={filters.sort} 
 						>
 							<option>Sin orden</option>
 							<option>Menor Precio</option>
