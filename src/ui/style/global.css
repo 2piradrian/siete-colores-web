@@ -35,3 +35,11 @@ main {
 html * {
 	font-family: "League Spartan", sans-serif;
 }
+
+#___gatsby {
+	width: 100%;
+}
+
+#gatsby-focus-wrapper{
+	width: 100%;
+}

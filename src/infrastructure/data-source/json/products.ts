@@ -1,8 +1,10 @@
-import { Filters, ProductEntity, ProductsDataSourceI, ProductsPage } from "../../../domain";
+import { Filters, ProductEntity, ProductsDataSourceI } from "../../../domain";
 
 export class ProductsJsonDataSource implements ProductsDataSourceI {
 
-    constructor(){}
+    constructor(){
+
+    }
 
     private normalizeFilters(filters: Filters): Filters {
         if (filters.category === "Todos") {
@@ -30,7 +32,7 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
         };
     };
 
-    public async getProducts(page: number, size: number, filters: Filters): Promise<ProductsPage> {
+    public async getProducts(filters: Filters): Promise<ProductEntity[]> {
         try {
             const response = await fetch("/data/products.json");
             const products = await response.json();
@@ -62,7 +64,6 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
                     else {
                         if (filters.sort) return false
                     }
-                    
                 }
 
                 return true;
@@ -99,17 +100,8 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
             if (codeFiltered.length > 0) {
                 sortedProducts = codeFiltered;
             }
-
-            const start = (page - 1) * size;
-            const end = start + size;
     
-            const paginatedProducts = sortedProducts.slice(start, end);
-    
-            return {
-                products: paginatedProducts,
-                page: page,
-                pages: Math.ceil(filteredProducts.length / size),
-            };
+            return sortedProducts;
         } 
         catch (error) {
             throw new Error("Error obteniendo los productos");
