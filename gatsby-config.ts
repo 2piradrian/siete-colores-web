@@ -17,7 +17,7 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/ui/images/icon.png",
         name: "Siete Colores",
         short_name: "SieteColores3d",
         start_url: "/",
@@ -30,7 +30,7 @@ const config: GatsbyConfig = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: "./src/ui/images/",
       },
       __key: "images",
     },
