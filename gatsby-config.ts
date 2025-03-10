@@ -13,7 +13,6 @@ const config: GatsbyConfig = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-transformer-json",
-    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
@@ -30,7 +29,7 @@ const config: GatsbyConfig = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/ui/images/",
+        path: "static/assets",
       },
       __key: "images",
     },
@@ -38,7 +37,7 @@ const config: GatsbyConfig = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "data",
-        path: "./src/data/",
+        path: "static/data",
       },
     },
   ],
