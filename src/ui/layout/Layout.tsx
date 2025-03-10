@@ -4,6 +4,7 @@ import Footer from "../components/footer/footer";
 import useViewModel from "./viewmodel/useViewModel";
 import { Toaster } from "react-hot-toast";
 import * as style from './style.module.css';
+import "../style/global.css"
 
 type Props = {
 	children: React.ReactNode;

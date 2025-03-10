@@ -16,7 +16,7 @@ export default function useViewModel() {
     useEffect(() => {
         fetch();
         getCategorySelected(location);
-    }, []);
+    }, [location]);
 
     const fetch = async () => {
         try {
@@ -29,7 +29,8 @@ export default function useViewModel() {
     };
 
     const getCategorySelected = (location: any) => {
-        const category = location.pathname.split("/").pop();
+        const segments = location.pathname.split("/").filter(Boolean);
+        const category = segments[1];
         setCategorySelected(category || "");
     };
 
