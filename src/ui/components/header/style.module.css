@@ -1,0 +1,92 @@
+.header{
+    height: 110px;
+    width: 100vw;
+    min-width: 100%;
+    padding: 20px 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--main);
+    color: var(--background);
+    z-index: 1000;
+}
+
+.isotype {
+    height: 42px;
+    width: 42px;
+}
+
+.container {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.search {
+    height: 38px;
+    width: 38px;
+}
+
+.cart {
+    height: 40px;
+    width: 38px;
+}
+
+.categoriesContainer {
+    width: 100%;
+    max-width: var(--max-width);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.categories {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: none;  /* Edge */
+    scrollbar-width: none;
+}
+
+.category {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--background);
+}
+
+.categorySelected {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--background);
+    border-bottom: 2px solid var(--background);
+}
+
+.categories::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, Opera */
+}
+
+@media screen and (max-width: 570px) {
+    .categories {
+        justify-content: flex-start;
+    }
+}
