@@ -1,11 +1,14 @@
 import React from "react";
 import Layout  from "./src/ui/layout/Layout";
 import { RepositoriesProvider } from './src/core/provider/RepositoryProvider';
+import { LocationProvider, useLocation } from "@gatsbyjs/reach-router";
 
 export const wrapRootElement = ({ element }: { element: React.ReactNode }) => {
   return (
-    <RepositoriesProvider>
-      <Layout>{element}</Layout>
-    </RepositoriesProvider>
+    <LocationProvider>
+        <RepositoriesProvider>
+          <Layout>{element}</Layout>
+        </RepositoriesProvider>
+    </LocationProvider>
   );
 };
