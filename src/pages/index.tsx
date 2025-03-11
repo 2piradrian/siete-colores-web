@@ -1,7 +1,22 @@
 import React from "react";
+import Hero from "../ui/components/hero/hero";
+import Categories from "../ui/components/categories/categories";
+import News from "../ui/components/news/news";
+import useViewModel from "../ui/viewmodels/home/useViewModel";
+import Offerts from "../ui/components/offerts/offerts";
+import Sellers from "../ui/components/sellers/Sellers";
 
 export default function IndexPage() {
+
+  const { news, offerts, addProduct } = useViewModel();
+
   return (
-    <p>Hello World</p>
+    <>
+      <Hero />
+      <Categories />
+      <News news={news} onAdd={addProduct} />
+      <Offerts offerts={offerts} onAdd={addProduct} />
+      <Sellers />
+    </>
   );
 };

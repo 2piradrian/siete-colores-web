@@ -7,27 +7,25 @@ export default function useViewModel() {
     const { productsRepository, cartRepository } = useRepositories();
 
     /* --- States --- */
-    const [code, setCode] = useState("");
-    const [product, setProduct] = useState<ProductEntity | undefined>();
+    const [news, setNews] = useState<ProductEntity[]>([]);
+    const [offerts, setOfferts] = useState<ProductEntity[]>([]);
+    /* --- ----- --- */
+    
     const [loading, setLoading] = useState(false);
     /* --- ----- --- */
 
     useEffect(() => {
-        getDataFromURL();
+        fetch();
     }, []);
-
-    useEffect(() => {
-        if (code){
-            fetch();
-        }
-        window.scrollTo(0, 0);
-    }, [code]);
 
     const fetch = async () => {
         setLoading(true);
         try {
-            const product = await productsRepository.getProductByCode(code);
-            setProduct(product);
+            const news = await productsRepository.getNews(12);
+            setNews(news);
+
+            const offerts = await productsRepository.getWithDiscount();
+            setOfferts(offerts);
         }
         catch (error) {
             toast.error("Error al cargar productos");
@@ -37,13 +35,6 @@ export default function useViewModel() {
         }
     };
 
-    const getDataFromURL = () => {
-        const segments = location.pathname.split("/").filter(Boolean);
-        const code = segments.length > 1 ? segments[1] : "";
-
-        setCode(code);
-    };
-
     const addProduct = (product: ProductEntity) => {
         cartRepository.editQuantity(product, 1);
         toast("🛒 Producto agregado");
@@ -51,7 +42,8 @@ export default function useViewModel() {
 
     return {
         loading,
-        product,
-        addProduct,
+        news,
+        offerts,
+        addProduct
     };
 }
