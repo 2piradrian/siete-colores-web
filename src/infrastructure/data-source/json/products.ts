@@ -99,7 +99,7 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
             const end = start + size;
     
             const paginatedProducts = sortedProducts.slice(start, end);
-    
+            
             return {
                 products: paginatedProducts,
                 page: page,

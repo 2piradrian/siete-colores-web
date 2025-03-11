@@ -3,48 +3,49 @@ import { Filters, ProductEntity } from "../../../domain";
 import { useRepositories } from "../../../core";
 import toast from "react-hot-toast";
 
-export default function useViewModel(){
-
+export default function useViewModel() {
     const { productsRepository, subCategoriesRepository } = useRepositories();
 
     /* --- States --- */
     const [products, setProducts] = useState<ProductEntity[]>([]);
     const [subCategories, setSubCategories] = useState<string[]>([]);
     
-    const [filters, setFilters] = useState<Filters>({ category: "", subcategory: "", words: "", sort: "Sin Orden" });
+    const [filters, setFilters] = useState<Filters>({ 
+        category: "", 
+        subcategory: "", 
+        words: "", 
+        sort: "Sin Orden", 
+        page: 1 
+    });
 
-    const [page, setPage] = useState(1);
     const [totalPages, setTotalPages] = useState(1);
-
     const [loading, setLoading] = useState(false);
     /* --- ----- --- */
 
     useEffect(() => {
-        setPage(getPageState());
         getDataFromURL();
-    }, []);
+    }, [location.pathname, location.search]);
 
     useEffect(() => {
-        fetch();
-        savePageState(page);
+        fetchProducts();
         window.scrollTo(0, 0);
-    }, [page, filters]);
+    }, [filters]);
 
-    
-    const fetch = async () => {
+    const fetchProducts = async () => {
         setLoading(true);
         try {
-            const result = await productsRepository.getProducts(page, 21, filters);
+            const result = await productsRepository.getProducts(filters.page, 21, filters);
             setProducts(result.products);
             setTotalPages(result.pages);
 
             if (subCategories.length === 0) {
-                const subCategories = await subCategoriesRepository.getSubCategories();
-                setSubCategories(subCategories.map(sc => sc.name));
+                const fetchedSubCategories = await subCategoriesRepository.getSubCategories();
+                setSubCategories(fetchedSubCategories.map(sc => sc.name));
             }
         }
         catch (error) {
-            console.error(error);
+            console.error("Error al cargar productos:", error);
+            toast.error("Error al cargar productos");
         }
         finally {
             setLoading(false);
@@ -60,71 +61,90 @@ export default function useViewModel(){
             category: category,
             subcategory: params.get("subcategory") || "",
             words: params.get("words") || "",
-            sort: params.get("sort") || "default"
+            sort: params.get("sort") || "Sin Orden", 
+            page: params.get("page") ? parseInt(params.get("page") as string) : 1
         });
     };
 
     const handleFormChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-		const { name, value } = e.target;
+        const { name, value } = e.target;
 
-        const params = new URLSearchParams(window.location.search);
-        params.set(name, value);
+        setFilters(prev => {
+            const newFilters = { ...prev, [name]: value };
+            
+            updateURL(newFilters);
+            
+            return newFilters;
+        });
+    };
 
-		setFilters(prev => ({ ...prev, [name]: value }));
-
-        window.history.pushState({}, "", `${window.location.pathname}?${params.toString()}`);
-	};
+    const updateURL = (newFilters: Filters) => {
+        const params = new URLSearchParams();
+        
+        if (newFilters.subcategory) params.set("subcategory", newFilters.subcategory);
+        if (newFilters.words) params.set("words", newFilters.words);
+        if (newFilters.sort && newFilters.sort !== "Sin Orden") params.set("sort", newFilters.sort);
+        if (newFilters.page && newFilters.page > 1) params.set("page", newFilters.page.toString());
+        
+        const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
+        
+        window.history.replaceState({}, "", newUrl);
+    };
 
     const clearFilters = () => {
-        setFilters({ 
-            category: filters.category || "", 
+        const newFilters = { 
+            category: filters.category, 
             subcategory: "", 
             words: "", 
-            sort: "Sin Orden" 
-        });
-        setPage(1);
+            sort: "Sin Orden",
+            page: 1
+        };
+        
+        setFilters(newFilters);
+        updateURL(newFilters);
     };
 
     const updateFilters = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        setPage(1);
 
-        const form = Object.fromEntries(new FormData(e.currentTarget) as any);
+        const formData = new FormData(e.currentTarget);
+        const segments = location.pathname.split("/").filter(Boolean);
+        const category = segments.length > 1 ? segments[1] : "";
 
-        const params = new URLSearchParams(window.location.search);
-        params.set("subcategory", form.subcategory);
-        params.set("words", form.words);
-        params.set("sort", form.sort);
+        const newFilters = {
+            category: category,
+            subcategory: formData.get("subcategory") as string || "",
+            words: formData.get("words") as string || "",
+            sort: formData.get("sort") as string || "Sin Orden",
+            page: 1
+        };
 
-        setFilters({
-            category: filters.category,
-            subcategory: form.subcategory,
-            words: form.words,
-            sort: form.sort
-        });
-
-        window.history.pushState({}, "", `${window.location.pathname}?${params.toString()}`);
+        setFilters(newFilters);
+        updateURL(newFilters);
     };
 
     const addProduct = (product: ProductEntity) => {
-		toast("🛒Producto agregado");
-    }
+        toast("🛒 Producto agregado");
+    };
 
     const nextPage = () => {
-        if (page < totalPages) setPage(page + 1);
-
+        if (filters.page < totalPages) {
+            setFilters(prev => {
+                const newFilters = { ...prev, page: prev.page + 1 };
+                updateURL(newFilters);
+                return newFilters;
+            });
+        }
     };
 
     const prevPage = () => {
-        if (page > 1) setPage(page - 1);
-    };
-
-    const savePageState = (pageState: number) => {
-        sessionStorage.setItem("page", pageState.toString());
-    };
-
-    const getPageState = () => {
-        return parseInt(sessionStorage.getItem("page") || "1");
+        if (filters.page > 1) {
+            setFilters(prev => {
+                const newFilters = { ...prev, page: prev.page - 1 };
+                updateURL(newFilters);
+                return newFilters;
+            });
+        }
     };
 
     return {
@@ -139,6 +159,6 @@ export default function useViewModel(){
         nextPage,
         prevPage,
         totalPages,
-        page
-    }
-};
+        page: filters.page
+    };
+}

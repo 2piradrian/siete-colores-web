@@ -26,10 +26,10 @@ export default function Header({ categories, categorySelected }: Props) {
             </div>
 			<div className={style.categoriesContainer}>
 				<nav className={style.categories}>
-					<Link to={'/products'} className={style.category}>Todos</Link>
+					<Link to={'/productos'} className={style.category}>Todos</Link>
 					{categories.map((category, index) => (
 						<Link 
-							to={`/products/${category.toLowerCase()}`} 
+							to={`/productos/${category.toLowerCase()}`} 
 							key={index} 
 							className={(categorySelected === category.toLowerCase()) ? style.categorySelected : style.category}
 						>

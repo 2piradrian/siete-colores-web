@@ -3,4 +3,5 @@ export type Filters = {
 	category: string | undefined;
 	subcategory: string | undefined;
 	sort: string | undefined;
+	page: number;
 };

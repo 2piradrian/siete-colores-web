@@ -5,7 +5,7 @@ import ProductList from '../../ui/components/product-list/product-list';
 import * as style from './style.module.css';
 import PageSelector from '../../ui/components/page-selector/page-selector';
 
-export default function ProductsPage() {
+export default function ProductosPage() {
 
     const { loading, products, subCategories, filters, handleFormChange, updateFilters, clearFilters, addProduct, page, totalPages, prevPage, nextPage } = useViewModel();
 
