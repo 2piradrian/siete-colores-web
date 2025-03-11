@@ -1,49 +1,189 @@
 [{
   "_id": {
-    "$oid": "668582e4c95221a1dbcd0262"
+    "$oid": "6715b227d6d52cd1934e8d20"
   },
-  "name": "Sellos",
+  "name": "Animales",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668582ecc95221a1dbcd026a"
+    "$oid": "671698f9cd76c5e2728e6296"
   },
-  "name": "Texturizadores",
+  "name": "Aves",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "669c3984bd5e27408e980704"
+    "$oid": "67169ee9cd76c5e2728e6390"
   },
-  "name": "Cortantes",
+  "name": "Formas",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "669c510235b4b539edbea046"
+    "$oid": "67169ef7cd76c5e2728e6394"
   },
-  "name": "Abecedarios",
+  "name": "Mar",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "671027e894d528352452f119"
+    "$oid": "67169f50cd76c5e2728e63a4"
   },
-  "name": "Herramientas",
+  "name": "Baby shower",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6737b77589645926e394ecdb"
+    "$oid": "67169f61cd76c5e2728e63a8"
   },
-  "name": "Toppers",
+  "name": "Pascuas",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6737b78589645926e394ecdf"
+    "$oid": "67169f6dcd76c5e2728e63ac"
   },
-  "name": "Moldes",
+  "name": "Navidad",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67169f85cd76c5e2728e63b4"
+  },
+  "name": "Bautismo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67169f91cd76c5e2728e63b8"
+  },
+  "name": "Transporte",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67169fa5cd76c5e2728e63bc"
+  },
+  "name": "Halloween",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67169fb0cd76c5e2728e63c0"
+  },
+  "name": "Personajes",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67169fd4cd76c5e2728e63c8"
+  },
+  "name": "Varios",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6716a00dcd76c5e2728e63d2"
+  },
+  "name": "Insectos",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6716c061cd76c5e2728e6443"
+  },
+  "name": "Artesanías",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6716c072cd76c5e2728e6447"
+  },
+  "name": "Comunión",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6716c1a4cd76c5e2728e644b"
+  },
+  "name": "San Valentín",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6716c288cd76c5e2728e644f"
+  },
+  "name": "Día de la madre",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6716c2c9cd76c5e2728e6453"
+  },
+  "name": "Día del padre",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6716c6c8cd76c5e2728e64f4"
+  },
+  "name": "Día de la mujer",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6717d9a15d0d44e9c456bc3e"
+  },
+  "name": "Día del maestro",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6717d9b05d0d44e9c456bc42"
+  },
+  "name": "Día del estudiante",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6717de495d0d44e9c456bc5f"
+  },
+  "name": "Frutas/Verduras",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6717df705d0d44e9c456bc95"
+  },
+  "name": "Profesiones",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6717e01c5d0d44e9c456bcbf"
+  },
+  "name": "Deportes",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6717e7e15d0d44e9c456bd88"
+  },
+  "name": "Granja",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6717f6355d0d44e9c456c01a"
+  },
+  "name": "Flores/Plantas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "671a9c487d8f42881f6dfa66"
+  },
+  "name": "Frases",
   "__v": 0
 }]

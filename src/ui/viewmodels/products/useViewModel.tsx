@@ -18,6 +18,8 @@ export default function useViewModel(){
     useEffect(() => {
         fetch();
         getCategorySelected(location);
+
+        console.log(filters);
     }, [filters, location]);
 
     const fetch = async () => {

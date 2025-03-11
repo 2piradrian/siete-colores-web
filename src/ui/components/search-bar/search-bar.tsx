@@ -40,9 +40,9 @@ export default function SearchBar({ filters, updateFilters, clearFilters, catego
 						</select>
 					</div>
 					<div className={style.selector}>
-						<label htmlFor="order">Ordenar por:</label>
+						<label htmlFor="sort">Ordenar por:</label>
 						<select 
-							name="order" 
+							name="sort" 
 							className={style.select} 
 							defaultValue={filters.sort} 
 						>
