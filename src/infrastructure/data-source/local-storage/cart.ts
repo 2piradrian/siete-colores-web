@@ -13,7 +13,7 @@ export class CartLocalStorageDataSource implements CartDataSourceI {
 
             const cart = JSON.parse(cartJSON);
 
-            if (!cart?.length || !cart.createdAt || !cart.products) return [];
+            if (!cart || !cart.createdAt || !cart.products) return [];
 
             if (new Date(cart.createdAt).getTime() + 1000 * 60 * 60 * 24 < Date.now()) {
                 localStorage.removeItem('cart');

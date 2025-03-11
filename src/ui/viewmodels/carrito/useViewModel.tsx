@@ -29,6 +29,7 @@ export default function useViewModel() {
         setLoading(true);
         try {
             const products = await cartRepository.getCart();
+            console.log(products);
             setProducts(products);
         }
         catch (error) {

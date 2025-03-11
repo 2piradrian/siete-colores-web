@@ -4,7 +4,7 @@ import { useRepositories } from "../../../core";
 import toast from "react-hot-toast";
 
 export default function useViewModel() {
-    const { productsRepository, subCategoriesRepository } = useRepositories();
+    const { productsRepository, subCategoriesRepository, cartRepository } = useRepositories();
 
     /* --- States --- */
     const [products, setProducts] = useState<ProductEntity[]>([]);
@@ -124,6 +124,7 @@ export default function useViewModel() {
     };
 
     const addProduct = (product: ProductEntity) => {
+        cartRepository.editQuantity(product, 1);
         toast("🛒 Producto agregado");
     };
 
