@@ -9,6 +9,7 @@ export default function useViewModel() {
     /* --- States --- */
     const [products, setProducts] = useState<ProductEntity[]>([]);
     const [subCategories, setSubCategories] = useState<string[]>([]);
+    /* --- ----- --- */
     
     const [filters, setFilters] = useState<Filters>({ 
         category: "", 
@@ -27,11 +28,11 @@ export default function useViewModel() {
     }, [location.pathname, location.search]);
 
     useEffect(() => {
-        fetchProducts();
+        fetch();
         window.scrollTo(0, 0);
     }, [filters]);
 
-    const fetchProducts = async () => {
+    const fetch = async () => {
         setLoading(true);
         try {
             const result = await productsRepository.getProducts(filters.page, 21, filters);
@@ -44,7 +45,6 @@ export default function useViewModel() {
             }
         }
         catch (error) {
-            console.error("Error al cargar productos:", error);
             toast.error("Error al cargar productos");
         }
         finally {
@@ -159,6 +159,5 @@ export default function useViewModel() {
         nextPage,
         prevPage,
         totalPages,
-        page: filters.page
     };
 }
