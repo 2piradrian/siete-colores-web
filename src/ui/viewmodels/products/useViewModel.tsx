@@ -70,7 +70,7 @@ export default function useViewModel() {
         const { name, value } = e.target;
 
         setFilters(prev => {
-            const newFilters = { ...prev, [name]: value };
+            const newFilters = { ...prev, [name]: value, page: 1 };
             
             updateURL(newFilters);
             

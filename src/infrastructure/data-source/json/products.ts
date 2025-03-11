@@ -8,102 +8,123 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
     }
 
     private normalizeFilters(filters: Filters): Filters {
-        if (filters.category === "Todos") {
-            filters.category = undefined;
-        }
-        if (filters.subcategory === "Todos") {
-            filters.subcategory = undefined;
-        }
-        if (filters.sort === "Sin Orden") {
-            filters.sort = undefined;
-        }
-
-        return {
-            words: filters.words?.toLowerCase().trim(),
-            category: filters.category?.toLowerCase(),
-            subcategory: filters.subcategory?.toLowerCase(),
-            sort: filters.sort?.toLowerCase(),
+        const normalizedFilters: Filters = {
+            words: filters.words?.toLowerCase().trim() || undefined,
+            category: filters.category === "Todos" ? undefined : filters.category?.toLowerCase(),
+            subcategory: filters.subcategory === "Todos" ? undefined : filters.subcategory?.toLowerCase(),
+            sort: filters.sort === "Sin Orden" ? undefined : filters.sort?.toLowerCase(),
+            page: filters.page || 1,
         };
+        
+        Object.keys(normalizedFilters).forEach(key => {
+            const typedKey = key as keyof Filters;
+            if (normalizedFilters[typedKey] === undefined || normalizedFilters[typedKey] === "") {
+                delete normalizedFilters[typedKey];
+            }
+        });
+        
+        return normalizedFilters;
     };
 
-    public async getProducts(page: number, size: number, filters: Filters): Promise<PaginatedProducts>{
+    public async getProducts(page: number, size: number, filters: Filters): Promise<PaginatedProducts> {
         try {
             const response = await fetch("/data/products.json");
             const products = await response.json();
     
-            filters = this.normalizeFilters(filters);
+            const normalizedFilters = this.normalizeFilters({...filters});
     
             const filteredProducts = products.filter((product: ProductEntity) => {
-                if (filters.category && product.category.toLowerCase() !== filters.category) {
+                if (normalizedFilters.category && product.category.toLowerCase() !== normalizedFilters.category) {
                     return false;
                 }
-
-                product.subcategories = product.subcategories.map((subcategory: string) => subcategory.toLowerCase());
-                if (filters.subcategory && !product.subcategories.includes(filters.subcategory)) {
-                    return false;
-                }
-
-                product.keywords = product.keywords.map((keyword: string) => keyword.toLowerCase().trim());
-                if (filters.words) {
-                    const found = filters.words.split(" ").some((keyword: string) => {
-                        return product.keywords.includes(keyword);
-                    });
-
-                    const nameMatch = product.name.toLowerCase().split(" ").includes(filters.words);
-                    const codeMatch = filters.words.toLowerCase() === product.code.toLowerCase();
+    
+                if (normalizedFilters.subcategory) {
+                    const productSubcategories = product.subcategories.map((subcategory: string) => 
+                        subcategory.toLowerCase());
                     
-                    if (found || nameMatch || codeMatch) {
-                        return true;
-                    }
-                    else {
-                        if (filters.sort) return false
+                    if (!productSubcategories.includes(normalizedFilters.subcategory)) {
+                        return false;
                     }
                 }
-
+    
+                if (normalizedFilters.words) {
+                    const productKeywords = product.keywords.map((keyword: string) => 
+                        keyword.toLowerCase().trim());
+                    
+                    const words = normalizedFilters.words.split(" ");
+                    
+                    const keywordMatch = words.some(word => 
+                        productKeywords.includes(word));
+                    
+                    const nameMatch = words.some(word => 
+                        product.name.toLowerCase().includes(word));
+                    
+                    const codeMatch = normalizedFilters.words === product.code.toLowerCase();
+                    
+                    if (!(keywordMatch || nameMatch || codeMatch)) {
+                        return false;
+                    }
+                }
+    
                 return true;
             });
-
-            let scoredProducts, sortedProducts;
-
-            if (!filters.sort) {
-                scoredProducts = filteredProducts.map((product: ProductEntity) => {
-                    let score = 0;
+    
+            let sortedProducts;
             
-                    if (filters.words) {
-                        const words = filters.words.split(" ");
-                        score = words.reduce((acc, word) => {
-                            const nameOccurrences = (product.name.match(new RegExp(word, "gi")) || []).length;
-                            const keywordOccurrences = (product.keywords?.join(" ").match(new RegExp(word, "gi")) || []).length;
-                            return acc + nameOccurrences + keywordOccurrences;
-                        }, 0);
-                    }
-            
-                    return { ...product, score };
-                });
-                sortedProducts = scoredProducts.sort((a: any, b: any) => b.score - a.score);
+            const codeExactMatch = normalizedFilters.words 
+                ? filteredProducts.filter((product: ProductEntity) => 
+                    product.code.toLowerCase() === normalizedFilters.words)
+                : [];
+                
+            if (codeExactMatch.length > 0) {
+                sortedProducts = codeExactMatch;
+            }
+            else if (normalizedFilters.sort) {
+                if (normalizedFilters.sort === "menor precio") {
+                    sortedProducts = [...filteredProducts].sort((a: ProductEntity, b: ProductEntity) => 
+                        a.price - b.price);
+                }
+                else if (normalizedFilters.sort === "mayor precio") {
+                    sortedProducts = [...filteredProducts].sort((a: ProductEntity, b: ProductEntity) => 
+                        b.price - a.price);
+                }
+                else {
+                    sortedProducts = filteredProducts;
+                }
             }
             else {
-                if (filters.sort === "menor precio") {
-                    sortedProducts = filteredProducts.sort((a: ProductEntity, b: ProductEntity) => a.price - b.price);
-                }
-                else if (filters.sort === "mayor precio") {
-                    sortedProducts = filteredProducts.sort((a: ProductEntity, b: ProductEntity) => b.price - a.price);
-                }
-            }
-            const codeFiltered = sortedProducts.filter((product: ProductEntity) => product.code.toLowerCase() === filters.words?.toLowerCase());
-            if (codeFiltered.length > 0) {
-                sortedProducts = codeFiltered;
+                const scoredProducts = filteredProducts.map((product: ProductEntity) => {
+                    let score = 0;
+                    
+                    if (normalizedFilters.words) {
+                        const words = normalizedFilters.words.split(" ");
+                        words.forEach(word => {
+                            const nameOccurrences = (product.name.toLowerCase().match(new RegExp(word, "gi")) || []).length;
+                            score += nameOccurrences * 2;
+                            
+                            const keywordOccurrences = (product.keywords?.join(" ").toLowerCase().match(new RegExp(word, "gi")) || []).length;
+                            score += keywordOccurrences;
+                            
+                            if (word === product.code.toLowerCase()) {
+                                score += 10;
+                            }
+                        });
+                    }
+                    
+                    return { ...product, score };
+                });
+                
+                sortedProducts = scoredProducts.sort((a: any, b: any) => b.score - a.score);
             }
     
             const start = (page - 1) * size;
             const end = start + size;
-    
             const paginatedProducts = sortedProducts.slice(start, end);
             
             return {
                 products: paginatedProducts,
                 page: page,
-                pages: Math.ceil(filteredProducts.length / size),
+                pages: Math.ceil(sortedProducts.length / size),
             };
         } 
         catch (error) {
