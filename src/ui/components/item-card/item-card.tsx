@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "@gatsbyjs/reach-router";
+import { Link } from "gatsby";
 import { ProductEntity } from "../../../domain";
 import { priceFormatter } from "../../../core";
 import MainButton from "../main-button/main-button";

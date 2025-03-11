@@ -1,6 +1,6 @@
 import React from "react";
 import toast from "react-hot-toast";
-import { Link } from "@gatsbyjs/reach-router";
+import { Link } from "gatsby";
 import { ProductEntity } from "../../../domain";
 import MainButton from "../main-button/main-button";
 import * as style from "./style.module.css";
