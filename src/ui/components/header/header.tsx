@@ -16,11 +16,11 @@ export default function Header({ categories, categorySelected }: Props) {
                 	<img src="/assets/icons/isotipo.svg" alt="isotipo" className={style.isotype}/>
 				</Link>
 				<div className={style.linkContainer}>
-					<Link to="/cart">
-						<img src="/assets/icons/cart.svg" alt="cart" className={style.cart}/>
+					<Link to="/carrito">
+						<img src="/assets/icons/cart.svg" alt="carrito" className={style.cart}/>
 					</Link>
-					<Link to="/products">
-						<img src="/assets/icons/search.svg" alt="search" className={style.search}/>
+					<Link to="/productos">
+						<img src="/assets/icons/search.svg" alt="buscar" className={style.search}/>
 					</Link>
 				</div>
             </div>

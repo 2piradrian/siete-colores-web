@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactNode, createContext, useContext, useMemo } from "react";
-import { CategoriesRepository, ProductsRepository, SubCategoriesRepository } from "../../infrastructure";
+import { CartRepository, CategoriesRepository, ProductsRepository, SubCategoriesRepository } from "../../infrastructure";
 
 interface RepositoriesProviderProps {
   children: ReactNode;
@@ -10,6 +10,7 @@ interface RepositoriesContextType {
   productsRepository: ProductsRepository;
   categoriesRepository: CategoriesRepository;
   subCategoriesRepository: SubCategoriesRepository;
+  cartRepository: CartRepository;
 }
 
 const RepositoriesContext = createContext<RepositoriesContextType | null>(null);
@@ -19,6 +20,7 @@ export const RepositoriesProvider = ({ children }: RepositoriesProviderProps) =>
     productsRepository: new ProductsRepository(),
     categoriesRepository: new CategoriesRepository(),
     subCategoriesRepository: new SubCategoriesRepository(),
+    cartRepository: new CartRepository(),
   }), []);
 
   return (
