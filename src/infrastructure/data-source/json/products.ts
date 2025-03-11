@@ -1,4 +1,5 @@
 import { Filters, ProductEntity, ProductsDataSourceI } from "../../../domain";
+import { PaginatedProducts } from "../../../domain/type/paginated-products";
 
 export class ProductsJsonDataSource implements ProductsDataSourceI {
 
@@ -32,7 +33,7 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
         };
     };
 
-    public async getProducts(filters: Filters): Promise<ProductEntity[]> {
+    public async getProducts(page: number, size: number, filters: Filters): Promise<PaginatedProducts>{
         try {
             const response = await fetch("/data/products.json");
             const products = await response.json();
@@ -101,7 +102,16 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
                 sortedProducts = codeFiltered;
             }
     
-            return sortedProducts;
+            const start = (page - 1) * size;
+            const end = start + size;
+    
+            const paginatedProducts = sortedProducts.slice(start, end);
+    
+            return {
+                products: paginatedProducts,
+                page: page,
+                pages: Math.ceil(filteredProducts.length / size),
+            };
         } 
         catch (error) {
             throw new Error("Error obteniendo los productos");

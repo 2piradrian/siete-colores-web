@@ -1,4 +1,5 @@
 import { Filters, ProductEntity, ProductsDataSourceI, ProductsRepositoryI } from "../../domain";
+import { PaginatedProducts } from "../../domain/type/paginated-products";
 import { ProductsJsonDataSource } from "../data-source/json/products";
 
 export class ProductsRepository implements ProductsRepositoryI {
@@ -9,9 +10,9 @@ export class ProductsRepository implements ProductsRepositoryI {
         this.dataSource = dataSource;
     }
 
-    public async getProducts(filters: Filters): Promise<ProductEntity[]> {
+    public async getProducts(page: number, size: number, filters: Filters): Promise<PaginatedProducts>{
         try {
-            return await this.dataSource.getProducts(filters);
+            return await this.dataSource.getProducts(page, size, filters);
         }
         catch (error) {
             throw new Error("Error obteniendo los productos");

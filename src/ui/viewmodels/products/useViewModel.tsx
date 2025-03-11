@@ -13,19 +13,28 @@ export default function useViewModel(){
     const [category, setCategory] = useState<string>("");
     
     const [filters, setFilters] = useState<Filters>({ category: "", subcategory: "", words: "", sort: "Sin Orden" });
+
+    const [page, setPage] = useState(1);
+    const [totalPages, setTotalPages] = useState(1);
+
     const [loading, setLoading] = useState(false);
     /* --- ----- --- */
 
     useEffect(() => {
         fetch();
         getCategoryFromURL();
-    }, [filters]);
+    }, [page, filters]);
+
+    useEffect(() => {
+		window.scrollTo(0, 0);
+	}, [page]);
 
     const fetch = async () => {
         setLoading(true);
         try {
-            const products = await productsRepository.getProducts(filters);
-            setProducts(products);
+            const result = await productsRepository.getProducts(page, 21, filters);
+            setProducts(result.products);
+            setTotalPages(result.pages);
 
             const subCategories = await subCategoriesRepository.getSubCategories();
             setSubCategories(subCategories.map(sc => sc.name));
@@ -51,12 +60,13 @@ export default function useViewModel(){
 
         const newFilters: Filters = {
             category: category || "",
-            subcategory: form.subcategory || "Todos",
-            words: form.words || "",
-            sort: form.sort || "Sin orden"
+            subcategory: form?.subcategory || "Todos",
+            words: form?.words || "",
+            sort: form?.sort || "Sin orden"
         };
 
         setFilters((prev) => ({ ...prev, ...newFilters }));
+        setPage(1);
     };
 
     const clearFilters = () => {
@@ -66,11 +76,20 @@ export default function useViewModel(){
             words: "", 
             sort: "Sin Orden" 
         });
+        setPage(1);
     };
 
     const addProduct = (product: ProductEntity) => {
 		toast("🛒Producto agregado");
     }
+
+    const nextPage = () => {
+        if (page < totalPages) setPage(page + 1);
+    };
+
+    const prevPage = () => {
+        if (page > 1) setPage(page - 1);
+    };
 
     return {
         loading,
@@ -79,6 +98,10 @@ export default function useViewModel(){
         filters,
         updateFilters,
         clearFilters,
-        addProduct
+        addProduct,
+        nextPage,
+        prevPage,
+        totalPages,
+        page
     }
 };
