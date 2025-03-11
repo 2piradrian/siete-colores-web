@@ -10,18 +10,16 @@ export default function useViewModel(){
     /* --- States --- */
     const [products, setProducts] = useState<ProductEntity[]>([]);
     const [subCategories, setSubCategories] = useState<string[]>([]);
+    const [category, setCategory] = useState<string>("");
     
-    const [filters, setFilters] = useState<Filters>({ category: "", subcategory: "", words: "", sort: "default" });
+    const [filters, setFilters] = useState<Filters>({ category: "", subcategory: "", words: "", sort: "Sin Orden" });
     const [loading, setLoading] = useState(false);
     /* --- ----- --- */
 
     useEffect(() => {
         fetch();
+        getCategoryFromURL();
     }, [filters]);
-
-    useEffect(() => {
-        getFiltersFromURL();
-    }, []);
 
     const fetch = async () => {
         setLoading(true);
@@ -40,25 +38,33 @@ export default function useViewModel(){
         }
     };
 
-    const getFiltersFromURL = () => {
-        const params = new URLSearchParams(location.search);
+    const getCategoryFromURL = () => {
         const segments = location.pathname.split("/").filter(Boolean);
         const category = segments.length > 1 ? segments[1] : "";
 
-        setFilters({
-            category: category,
-            subcategory: params.get("subcategory") || "",
-            words: params.get("words") || "",
-            sort: params.get("sort") || "default"
-        });
+        setCategory(category);
+    };
+
+    const updateFilters = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        const form = Object.fromEntries(new FormData(e.currentTarget) as any);
+
+        const newFilters: Filters = {
+            category: category || "",
+            subcategory: form.subcategory || "Todos",
+            words: form.words || "",
+            sort: form.sort || "Sin orden"
+        };
+
+        setFilters((prev) => ({ ...prev, ...newFilters }));
     };
 
     const clearFilters = () => {
         setFilters({ 
-            category: filters.category || "", 
+            category: category || "", 
             subcategory: "", 
             words: "", 
-            sort: "default" 
+            sort: "Sin Orden" 
         });
     };
 
@@ -71,6 +77,7 @@ export default function useViewModel(){
         products,
         subCategories,
         filters,
+        updateFilters,
         clearFilters,
         addProduct
     }

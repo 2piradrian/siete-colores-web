@@ -5,17 +5,16 @@ import * as style from "./style.module.css";
 
 type Props = {
 	filters: Filters;
+	updateFilters: (e: React.FormEvent<HTMLFormElement>) => void;
 	clearFilters: () => void;
 	subCategories: string[];
 }
 
-export default function SearchBar({ filters, clearFilters, subCategories }: Props) {
-
-	console.log("filters", filters);
+export default function SearchBar({ filters, updateFilters, clearFilters, subCategories }: Props) {
 
 	return (
 		<div className={style.container}>
-			<form className={style.form}>
+			<form className={style.form} onSubmit={updateFilters}>
 				<div className={style.inputContainer}>
 					<label htmlFor="words">Buscar:</label>
 					<input 
