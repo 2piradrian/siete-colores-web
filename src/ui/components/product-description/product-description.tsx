@@ -39,7 +39,7 @@ export default function ProductDescription({ product, addProduct }: Props) {
 				  	            )}
                         </div>
                         <div className={style.buttonContainer}>
-                            <MainButton isActive={product.available} type="button" styles={style.addProduct} onClick={() => addProduct(product)}>
+                            <MainButton isActive={product.available} type="button" onClick={() => addProduct(product)}>
 						        Comprar
 					        </MainButton>
 				        </div>
@@ -48,7 +48,7 @@ export default function ProductDescription({ product, addProduct }: Props) {
                 <h2 className={style.subtitle}>Descripción</h2>
                 <ProductText code={product.code} description={product.description} />
                 <div className={style.buttonContainer}>
-                    <MainButton isActive={product.available} type="button" styles={style.addProduct} onClick={() => addProduct(product)}>
+                    <MainButton isActive={product.available} type="button" onClick={() => addProduct(product)}>
 				    	Comprar
 				    </MainButton>
 				</div>
