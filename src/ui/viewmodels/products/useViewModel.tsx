@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Filters, ProductEntity } from "../../../domain";
 import { useRepositories } from "../../../core";
+import toast from "react-hot-toast";
 
 export default function useViewModel(){
 
@@ -68,6 +69,10 @@ export default function useViewModel(){
         });
     };
 
+    const addProduct = (product: ProductEntity) => {
+		toast("🛒Producto agregado");
+    }
+
     return {
         loading,
         products,
@@ -75,6 +80,7 @@ export default function useViewModel(){
         subCategories,
         filters,
         updateFilters,
-        clearFilters
+        clearFilters,
+        addProduct
     }
 };
