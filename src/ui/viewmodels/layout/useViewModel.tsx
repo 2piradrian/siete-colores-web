@@ -15,6 +15,9 @@ export default function useViewModel() {
 
     useEffect(() => {
         fetch();
+    }, [location]);
+
+    useEffect(() => {
         getCategorySelected(location);
     }, [location]);
 

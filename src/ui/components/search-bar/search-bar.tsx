@@ -11,6 +11,8 @@ type Props = {
 
 export default function SearchBar({ filters, clearFilters, subCategories }: Props) {
 
+	console.log("filters", filters);
+
 	return (
 		<div className={style.container}>
 			<form className={style.form}>
@@ -27,12 +29,12 @@ export default function SearchBar({ filters, clearFilters, subCategories }: Prop
 					<div className={style.selector}>
 						<label htmlFor="subcategory">Subcategoría:</label>
 						<select 
-							name="subcategory" 
+							name="subcategory"
 							className={style.select} 
 							defaultValue={filters.subcategory} 
 						>
 							<option value="Todos">Todos</option>
-							{subCategories?.map((subCategory, index) => (
+							{subCategories.map((subCategory, index) => (
 								<option key={index} value={subCategory}>{subCategory}</option>
 							))}
 						</select>

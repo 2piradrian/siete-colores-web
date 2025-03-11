@@ -18,9 +18,7 @@ export default function ProductsPage() {
                 clearFilters={clearFilters}
                 subCategories={subCategories}
             />
-            {!loading && (
-                <ProductList list={products} onAdd={addProduct}/>
-            )}
+            <ProductList list={products} onAdd={addProduct}/>
         </section>
     );
 }
