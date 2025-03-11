@@ -6,7 +6,7 @@ import * as style from './style.module.css';
 
 export default function ProductsPage() {
 
-    const { products, categorySelected, subCategories, filters, loading, updateFilters, clearFilters, addProduct } = useViewModel();
+    const { products, subCategories, filters, loading, clearFilters, addProduct } = useViewModel();
 
     return (
         <section className={style.container}>
@@ -15,9 +15,7 @@ export default function ProductsPage() {
             </h1>
             <SearchBar 
                 filters={filters}
-                updateFilters={updateFilters} 
                 clearFilters={clearFilters}
-                category={categorySelected}
                 subCategories={subCategories}
             />
             {!loading && (

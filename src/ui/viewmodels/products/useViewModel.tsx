@@ -9,7 +9,6 @@ export default function useViewModel(){
 
     /* --- States --- */
     const [products, setProducts] = useState<ProductEntity[]>([]);
-    const [categorySelected, setCategorySelected] = useState<string>("");
     const [subCategories, setSubCategories] = useState<string[]>([]);
     
     const [filters, setFilters] = useState<Filters>({ category: "", subcategory: "", words: "", sort: "default" });
@@ -18,10 +17,11 @@ export default function useViewModel(){
 
     useEffect(() => {
         fetch();
-        getCategorySelected(location);
+    }, [filters]);
 
-        console.log(filters);
-    }, [filters, location]);
+    useEffect(() => {
+        getFiltersFromURL();
+    }, []);
 
     const fetch = async () => {
         setLoading(true);
@@ -40,29 +40,22 @@ export default function useViewModel(){
         }
     };
 
-    const getCategorySelected = (location: any) => {
+    const getFiltersFromURL = () => {
+        const params = new URLSearchParams(location.search);
         const segments = location.pathname.split("/").filter(Boolean);
-        const category = segments[1];
-        setCategorySelected(category || "");
-    };
+        const category = segments.length > 1 ? segments[1] : "";
 
-    const updateFilters = (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault();
-        const form = Object.fromEntries(new FormData(e.currentTarget) as any);
-
-        const newFilters: Filters = {
-            category: categorySelected || "",
-            subcategory: form.subcategory || "Todos",
-            words: form.words || "",
-            sort: form.sort || "Sin orden"
-        };
-
-        setFilters((prev) => ({ ...prev, ...newFilters }));
+        setFilters({
+            category: category,
+            subcategory: params.get("subcategory") || "",
+            words: params.get("words") || "",
+            sort: params.get("sort") || "default"
+        });
     };
 
     const clearFilters = () => {
         setFilters({ 
-            category: categorySelected || "", 
+            category: filters.category || "", 
             subcategory: "", 
             words: "", 
             sort: "default" 
@@ -76,10 +69,8 @@ export default function useViewModel(){
     return {
         loading,
         products,
-        categorySelected,
         subCategories,
         filters,
-        updateFilters,
         clearFilters,
         addProduct
     }

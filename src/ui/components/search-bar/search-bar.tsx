@@ -5,22 +5,20 @@ import * as style from "./style.module.css";
 
 type Props = {
 	filters: Filters;
-	updateFilters: (e: React.FormEvent<HTMLFormElement>) => void;
 	clearFilters: () => void;
-	category: string;
 	subCategories: string[];
 }
 
-export default function SearchBar({ filters, updateFilters, clearFilters, category, subCategories }: Props) {
+export default function SearchBar({ filters, clearFilters, subCategories }: Props) {
 
 	return (
 		<div className={style.container}>
-			<form className={style.form} onSubmit={updateFilters}>
+			<form className={style.form}>
 				<div className={style.inputContainer}>
 					<label htmlFor="words">Buscar:</label>
 					<input 
 						type="text" 
-						placeholder={`Buscar ${category ? category : "productos"}`} 
+						placeholder={`Buscar ${filters.category ? filters.category : "productos"}`} 
 						name="words" 
 						defaultValue={filters.words} 
 					/>
