@@ -10,7 +10,6 @@ export default function useViewModel(){
     /* --- States --- */
     const [products, setProducts] = useState<ProductEntity[]>([]);
     const [subCategories, setSubCategories] = useState<string[]>([]);
-    const [category, setCategory] = useState<string>("");
     
     const [filters, setFilters] = useState<Filters>({ category: "", subcategory: "", words: "", sort: "Sin Orden" });
 
@@ -22,12 +21,12 @@ export default function useViewModel(){
 
     useEffect(() => {
         fetch();
-        getCategoryFromURL();
+        window.scrollTo(0, 0);
     }, [page, filters]);
 
     useEffect(() => {
-		window.scrollTo(0, 0);
-	}, [page]);
+        getDataFromURL();
+    }, []);
 
     const fetch = async () => {
         setLoading(true);
@@ -47,31 +46,23 @@ export default function useViewModel(){
         }
     };
 
-    const getCategoryFromURL = () => {
+    const getDataFromURL = () => {
+        const params = new URLSearchParams(location.search);
         const segments = location.pathname.split("/").filter(Boolean);
         const category = segments.length > 1 ? segments[1] : "";
 
-        setCategory(category);
-    };
-
-    const updateFilters = (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault();
-        const form = Object.fromEntries(new FormData(e.currentTarget) as any);
-
-        const newFilters: Filters = {
-            category: category || "",
-            subcategory: form?.subcategory || "Todos",
-            words: form?.words || "",
-            sort: form?.sort || "Sin orden"
-        };
-
-        setFilters((prev) => ({ ...prev, ...newFilters }));
-        setPage(1);
+        setFilters({
+            category: category,
+            subcategory: params.get("subcategory") || "",
+            words: params.get("words") || "",
+            sort: params.get("sort") || "default"
+        });
+        setPage(Number(params.get("page")) || 1);
     };
 
     const clearFilters = () => {
         setFilters({ 
-            category: category || "", 
+            category: filters.category || "", 
             subcategory: "", 
             words: "", 
             sort: "Sin Orden" 
@@ -96,7 +87,6 @@ export default function useViewModel(){
         products,
         subCategories,
         filters,
-        updateFilters,
         clearFilters,
         addProduct,
         nextPage,
