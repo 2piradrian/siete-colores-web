@@ -28,9 +28,6 @@ export default function useViewModel(){
         fetch();
         savePageState(page);
         window.scrollTo(0, 0);
-
-        console.log(filters);
-
     }, [page, filters]);
 
     
@@ -69,7 +66,13 @@ export default function useViewModel(){
 
     const handleFormChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
 		const { name, value } = e.target;
+
+        const params = new URLSearchParams(window.location.search);
+        params.set(name, value);
+
 		setFilters(prev => ({ ...prev, [name]: value }));
+
+        window.history.pushState({}, "", `${window.location.pathname}?${params.toString()}`);
 	};
 
     const clearFilters = () => {
