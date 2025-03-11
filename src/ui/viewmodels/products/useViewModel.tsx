@@ -28,6 +28,9 @@ export default function useViewModel(){
         fetch();
         savePageState(page);
         window.scrollTo(0, 0);
+
+        console.log(filters);
+
     }, [page, filters]);
 
     
@@ -64,6 +67,11 @@ export default function useViewModel(){
         });
     };
 
+    const handleFormChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+		const { name, value } = e.target;
+		setFilters(prev => ({ ...prev, [name]: value }));
+	};
+
     const clearFilters = () => {
         setFilters({ 
             category: filters.category || "", 
@@ -84,6 +92,13 @@ export default function useViewModel(){
         params.set("subcategory", form.subcategory);
         params.set("words", form.words);
         params.set("sort", form.sort);
+
+        setFilters({
+            category: filters.category,
+            subcategory: form.subcategory,
+            words: form.words,
+            sort: form.sort
+        });
 
         window.history.pushState({}, "", `${window.location.pathname}?${params.toString()}`);
     };
@@ -114,6 +129,7 @@ export default function useViewModel(){
         products,
         subCategories,
         filters,
+        handleFormChange,
         updateFilters,
         clearFilters,
         addProduct,

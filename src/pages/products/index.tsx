@@ -7,7 +7,7 @@ import PageSelector from '../../ui/components/page-selector/page-selector';
 
 export default function ProductsPage() {
 
-    const { loading, products, subCategories, filters, updateFilters, clearFilters, addProduct, page, totalPages, prevPage, nextPage } = useViewModel();
+    const { loading, products, subCategories, filters, handleFormChange, updateFilters, clearFilters, addProduct, page, totalPages, prevPage, nextPage } = useViewModel();
 
     return (
         <section className={style.container}>
@@ -16,6 +16,7 @@ export default function ProductsPage() {
             </h1>
             <SearchBar 
                 filters={filters}
+                handleFormChange={handleFormChange}
                 updateFilters={updateFilters}
                 clearFilters={clearFilters}
                 subCategories={subCategories}

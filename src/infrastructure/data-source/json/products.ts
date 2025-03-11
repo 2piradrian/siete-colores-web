@@ -14,14 +14,7 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
         if (filters.subcategory === "Todos") {
             filters.subcategory = undefined;
         }
-        
-        if (filters.sort === "Menor Precio") {
-            filters.sort = "asc";
-        }
-        else if (filters.sort === "Mayor Precio") {
-            filters.sort = "desc";
-        }
-        else {
+        if (filters.sort === "Sin Orden") {
             filters.sort = undefined;
         }
 
@@ -90,10 +83,10 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
                 sortedProducts = scoredProducts.sort((a: any, b: any) => b.score - a.score);
             }
             else {
-                if (filters.sort === "asc") {
+                if (filters.sort === "menor precio") {
                     sortedProducts = filteredProducts.sort((a: ProductEntity, b: ProductEntity) => a.price - b.price);
                 }
-                else if (filters.sort === "desc") {
+                else if (filters.sort === "mayor precio") {
                     sortedProducts = filteredProducts.sort((a: ProductEntity, b: ProductEntity) => b.price - a.price);
                 }
             }
