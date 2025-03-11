@@ -21,9 +21,7 @@ export default function CartButtons({products, getOrder}: Props){
 				{products.length ? (
 					<a
 						href={getOrder()}
-						onClick={() => {
-							localStorage.clear();
-						}}>
+					>
 						<MainButton isActive type="button">
 							Solicitar al vendedor
 						</MainButton>
