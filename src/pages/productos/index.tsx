@@ -2,6 +2,7 @@ import React from 'react';
 import SearchBar from '../../ui/components/search-bar/search-bar';
 import useViewModel from '../../ui/viewmodels/productos/useViewModel';
 import ProductList from '../../ui/components/product-list/product-list';
+import { SEO } from '../../ui/components/seo/seo';
 import * as style from './style.module.css';
 import PageSelector from '../../ui/components/page-selector/page-selector';
 
@@ -28,3 +29,7 @@ export default function ProductosPage() {
         </section>
     );
 }
+
+export const Head = () => (
+	<SEO />
+);

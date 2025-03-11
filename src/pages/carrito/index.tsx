@@ -1,9 +1,10 @@
 import React from "react";
 import CartList from "../../ui/components/cart-list/CartList";
 import useViewModel from "../../ui/viewmodels/carrito/useViewModel";
-import * as style from "./style.module.css";
 import CartPrices from "../../ui/components/cart-prices/cart-prices";
 import CartButtons from "../../ui/components/cart-buttons/cart-buttons";
+import { SEO } from "../../ui/components/seo/seo";
+import * as style from "./style.module.css";
 
 export default function CarritoPage(){
 
@@ -17,3 +18,7 @@ export default function CarritoPage(){
         </section>
     );
 };
+
+export const Head = () => (
+    <SEO />
+);

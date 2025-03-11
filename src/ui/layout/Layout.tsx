@@ -4,6 +4,7 @@ import Footer from "../components/footer/footer";
 import useViewModel from "../viewmodels/layout/useViewModel";
 import { Toaster } from "react-hot-toast";
 import * as style from './style.module.css';
+import { SEO } from "../components/seo/seo";
 import "../style/global.css"
 
 type Props = {
@@ -27,3 +28,4 @@ export default function Layout({ children }: Props) {
 		</>
 	);
 }
+

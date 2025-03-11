@@ -3,6 +3,7 @@ import SearchBar from '../../ui/components/search-bar/search-bar';
 import useViewModel from '../../ui/viewmodels/productos/useViewModel';
 import ProductList from '../../ui/components/product-list/product-list';
 import PageSelector from '../../ui/components/page-selector/page-selector';
+import { SEO } from '../../ui/components/seo/seo';
 import * as style from './style.module.css';
 
 export default function ProductosPage() {
@@ -28,3 +29,7 @@ export default function ProductosPage() {
         </section>
     );
 }
+
+export const Head = () => (
+    <SEO />
+);
