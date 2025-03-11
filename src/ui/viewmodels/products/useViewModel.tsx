@@ -20,14 +20,17 @@ export default function useViewModel(){
     /* --- ----- --- */
 
     useEffect(() => {
-        fetch();
-        window.scrollTo(0, 0);
-    }, [page, filters]);
-
-    useEffect(() => {
+        setPage(getPageState());
         getDataFromURL();
     }, []);
 
+    useEffect(() => {
+        fetch();
+        savePageState(page);
+        window.scrollTo(0, 0);
+    }, [page, filters]);
+
+    
     const fetch = async () => {
         setLoading(true);
         try {
@@ -35,8 +38,10 @@ export default function useViewModel(){
             setProducts(result.products);
             setTotalPages(result.pages);
 
-            const subCategories = await subCategoriesRepository.getSubCategories();
-            setSubCategories(subCategories.map(sc => sc.name));
+            if (subCategories.length === 0) {
+                const subCategories = await subCategoriesRepository.getSubCategories();
+                setSubCategories(subCategories.map(sc => sc.name));
+            }
         }
         catch (error) {
             console.error(error);
@@ -57,7 +62,6 @@ export default function useViewModel(){
             words: params.get("words") || "",
             sort: params.get("sort") || "default"
         });
-        setPage(Number(params.get("page")) || 1);
     };
 
     const clearFilters = () => {
@@ -70,16 +74,39 @@ export default function useViewModel(){
         setPage(1);
     };
 
+    const updateFilters = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        setPage(1);
+
+        const form = Object.fromEntries(new FormData(e.currentTarget) as any);
+
+        const params = new URLSearchParams(window.location.search);
+        params.set("subcategory", form.subcategory);
+        params.set("words", form.words);
+        params.set("sort", form.sort);
+
+        window.history.pushState({}, "", `${window.location.pathname}?${params.toString()}`);
+    };
+
     const addProduct = (product: ProductEntity) => {
 		toast("🛒Producto agregado");
     }
 
     const nextPage = () => {
         if (page < totalPages) setPage(page + 1);
+
     };
 
     const prevPage = () => {
         if (page > 1) setPage(page - 1);
+    };
+
+    const savePageState = (pageState: number) => {
+        sessionStorage.setItem("page", pageState.toString());
+    };
+
+    const getPageState = () => {
+        return parseInt(sessionStorage.getItem("page") || "1");
     };
 
     return {
@@ -87,6 +114,7 @@ export default function useViewModel(){
         products,
         subCategories,
         filters,
+        updateFilters,
         clearFilters,
         addProduct,
         nextPage,
