@@ -6,7 +6,7 @@ import * as style from './style.module.css';
 
 export default function ProductsPage() {
 
-    const { products, subCategories, filters, loading, clearFilters, addProduct } = useViewModel();
+    const { products, subCategories, filters, clearFilters, addProduct } = useViewModel();
 
     return (
         <section className={style.container}>
