@@ -1,14 +1,12 @@
 import React from "react";
-import { ProductEntity } from "../../../domain";
 import { priceFormatter } from "../../../core";
 import * as style from "./style.module.css";
 
 type Props = {
-	products: ProductEntity[];
 	subtotal: number;
 };
 
-export default function CartPrices({ products, subtotal }: Props) {
+export default function CartPrices({ subtotal }: Props) {
 
 	return (
 		<div className={style.container}>

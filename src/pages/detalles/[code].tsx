@@ -6,7 +6,7 @@ import * as style from "./style.module.css";
 
 type Props = {
     pageContext: {
-      static_product: any;
+        static_product: any;
     };
 };
 
@@ -17,7 +17,7 @@ export default function DetallesPage({ pageContext }: Props) {
 
     return (
         <section className={style.container}>
-            {loading && 
+            {loading && static_product &&
                 <ProductDescription product={static_product} addProduct={addProduct} />
             }
             {!loading && product && (
