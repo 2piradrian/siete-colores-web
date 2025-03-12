@@ -1,0 +1,154 @@
+.container {
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bigDivisor {
+	height: 100%;
+	width: 60%;
+	display: flex;
+	border-right: 1px solid var(--alternative2);
+}
+
+.bigDivisor > img {
+	height: 100%;
+	width: 80px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.textDivisor {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.textDivisor > h3 {
+	font-size: 18px;
+	margin: 2px 5px;
+}
+
+.textDivisor > p {
+	font-size: 16px;
+	font-weight: 200;
+	margin: 2px 5px;
+}
+
+.smallDivisor {
+	height: 100%;
+	width: 30%;
+	margin-left: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.smallDivisor > p {
+	font-size: 20px;
+	font-weight: 600;
+	margin: 5px;
+	text-align: center;
+}
+
+.buttonBox {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.buttonContainer {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+.quantityBtn {
+	height: 30px;
+	width: 30px;
+	background-color: var(--main);
+	color: var(--background);
+	border: none;
+	border-radius: 5px;
+	font-weight: 800;
+	cursor: pointer;
+}
+
+.quantityBtn ~ p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+@media screen and (min-width: 800px) {
+	.quantityBtn {
+		height: 35px;
+		width: 35px;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.container {
+		justify-content: space-between;
+		padding: 0 25px;
+	}
+	.bigDivisor {
+		border-right: 0px solid;
+		width: auto;
+	}
+	.textDivisor {
+		width: auto;
+	}
+	.smallDivisor {
+		margin-left: 0px;
+		justify-content: space-between;
+		flex-direction: row-reverse;
+	}
+	.priceBox {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+	}
+	.priceBox > p {
+		width: 150px;
+		margin: 0px 0px 0px 5px;
+		font-size: 22px;
+		text-align: center;
+	}
+	.buttonBox {
+		width: 200px;
+	}
+	.buttonContainer {
+		height: 100%;
+		width: 210px;
+		padding: 0px;
+	}
+	.buttonContainer::after {
+		content: "";
+		height: 100%;
+		width: 1px;
+		border-right: 1px solid var(--alternative2);
+	}
+	.buttonContainer::before {
+		content: "";
+		height: 100%;
+		width: 1px;
+		border-left: 1px solid var(--alternative2);
+	}
+}

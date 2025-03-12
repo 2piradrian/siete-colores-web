@@ -1,0 +1,49 @@
+.container {
+	width: 100%;
+	min-height: 200px;
+	margin-top: 50px;
+	background-color: var(--tertiary);
+}
+
+.subcontainer {
+	width: 100%;
+	padding: 50px 30px;
+	gap: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+
+.boxContent {
+	height: auto;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: flex-start;
+}
+
+.titles {
+	color: var(--background);
+	font-size: 22px;
+}
+
+.text {
+	color: var(--background);
+	font-size: 20px;
+}
+
+.isologo {
+	height: 70px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0px 20px;
+    }    
+
+	.subcontainer {
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,46 @@
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subcontainer {
+    width: 100%;
+    max-width: var(--max-width);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 0px 0px 20px 20px;
+    filter: brightness(0.8);
+}
+
+.title {
+    position: absolute;
+    font-size: 68px;
+    font-weight: 700;
+    color: var(--background);
+    z-index: 20;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 32px;
+    }
+}

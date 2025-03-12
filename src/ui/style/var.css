@@ -1,0 +1,12 @@
+:root {
+	--main: #B85173;
+	--secondary: #ffd9e1;
+	--tertiary: #33272a;
+	--alternative: #FAE9DF;
+	--background: #fffffe;
+	--contrast: #212121;
+	--discount: #8A0000;
+
+	--max-width: 1280px;
+	--min-width: 360px;	
+}

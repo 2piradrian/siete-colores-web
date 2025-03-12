@@ -1,0 +1,35 @@
+.container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.subcontainer {
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
+	padding: 0px 30px;
+	max-width: 1200px;
+	gap: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.message {
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 700;
+	margin: 50px 0px;
+}
+
+@media screen and (max-width: 1200px) {
+    .subcontainer {
+        padding: 0px 20px;
+		justify-content: center;
+    }    
+}
