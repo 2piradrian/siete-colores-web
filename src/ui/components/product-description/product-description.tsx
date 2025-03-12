@@ -1,9 +1,9 @@
 import React from "react";
 import { ProductEntity } from "../../../domain";
 import { priceFormatter } from "../../../core";
-import * as style from "./style.module.css";
 import MainButton from "../main-button/main-button";
 import ProductText from "../product-text/product-text";
+import * as style from "./style.module.css";
 
 type Props = {
     product: ProductEntity;
