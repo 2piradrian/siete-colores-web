@@ -6,14 +6,21 @@ import PageSelector from '../../ui/components/page-selector/page-selector';
 import { SEO } from '../../ui/components/seo/seo';
 import * as style from './style.module.css';
 
-export default function ProductosPage() {
+type Props = {
+    pageContext: {
+      static_categoryName: string;
+      static_products: any[];
+    };
+};
 
+export default function ProductosPage({ pageContext }: Props) {
+    const { static_categoryName, static_products } = pageContext;
     const { loading, products, subCategories, filters, handleFormChange, updateFilters, clearFilters, addProduct, totalPages, prevPage, nextPage } = useViewModel();
 
     return (
         <section className={style.container}>
             <h1 className={style.title}>
-                {`Estás viendo ${filters.category}`} 
+                {`Estás viendo ${loading ? static_categoryName : filters.category}`} 
             </h1>
             <SearchBar 
                 filters={filters}
@@ -23,8 +30,11 @@ export default function ProductosPage() {
                 subCategories={subCategories}
             />
 			<PageSelector currentPage={filters.page} totalPages={totalPages} prevPage={prevPage} nextPage={nextPage} />
-			{ loading && <span>Cargando...</span> }
-            <ProductList list={products} onAdd={addProduct}/>
+            { loading ?
+                <ProductList loading={loading} list={static_products} onAdd={addProduct} />
+                :
+                <ProductList loading={loading} list={products} onAdd={addProduct} />
+            }
 			<PageSelector currentPage={filters.page} totalPages={totalPages} prevPage={prevPage} nextPage={nextPage} />
         </section>
     );

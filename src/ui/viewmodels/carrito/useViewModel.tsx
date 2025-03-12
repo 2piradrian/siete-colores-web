@@ -9,7 +9,7 @@ export default function useViewModel() {
     /* --- States --- */
     const [products, setProducts] = useState<ProductEntity[]>([]);
     const [subtotal, setSubtotal] = useState(0);
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
     /* --- ----- --- */
 
     useEffect(() => {

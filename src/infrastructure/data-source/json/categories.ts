@@ -14,6 +14,7 @@ export class CategoriesJsonDataSource implements CategoriesDataSourceI {
             return categories;
         }
         catch (error) {
+            console.error(error);
             throw new Error("Error obteniendo las categorias")
         }
     }

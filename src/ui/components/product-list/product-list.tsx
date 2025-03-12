@@ -4,11 +4,12 @@ import ItemCard from "../item-card/item-card";
 import * as style from "./style.module.css";
 
 type Props = {
+    loading: boolean;
     list: ProductEntity[];
     onAdd: (product: ProductEntity) => void;
 };
 
-export default function ProductList({ list, onAdd }: Props) {
+export default function ProductList({ loading, list, onAdd }: Props) {
 
     return (
         <section className={style.container}>
@@ -20,7 +21,7 @@ export default function ProductList({ list, onAdd }: Props) {
                         key={product.code} 
                     />
 				))}
-                {list.length === 0 && 
+                {!loading && list?.length === 0 && 
                     <span className={style.message}>
                         No hay productos para mostrar 😓
                     </span>

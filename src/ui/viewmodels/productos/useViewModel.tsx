@@ -20,12 +20,23 @@ export default function useViewModel() {
     });
 
     const [totalPages, setTotalPages] = useState(1);
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
+
+    const [isBrowser, setIsBrowser] = useState(false);
     /* --- ----- --- */
 
     useEffect(() => {
-        getDataFromURL();
-    }, [location.pathname, location.search]);
+        if (typeof window !== "undefined") {
+            setIsBrowser(true);
+        }
+    }, []);
+
+    useEffect(() => {
+        if (isBrowser) {
+            getDataFromURL();
+        }
+    }, [isBrowser, isBrowser ? window?.location?.pathname : null, isBrowser ? window?.location?.search : null]);
+
 
     useEffect(() => {
         fetch();

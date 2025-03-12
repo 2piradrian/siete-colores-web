@@ -11,7 +11,7 @@ export default function useViewModel() {
     const [offerts, setOfferts] = useState<ProductEntity[]>([]);
     /* --- ----- --- */
     
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
     /* --- ----- --- */
 
     useEffect(() => {
