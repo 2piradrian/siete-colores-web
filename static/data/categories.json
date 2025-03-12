@@ -1,49 +1,37 @@
-[{
-  "_id": {
-    "$oid": "668582e4c95221a1dbcd0262"
-  },
-  "name": "Sellos",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668582ecc95221a1dbcd026a"
-  },
-  "name": "Texturizadores",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "669c3984bd5e27408e980704"
-  },
-  "name": "Cortantes",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "669c510235b4b539edbea046"
-  },
-  "name": "Abecedarios",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "671027e894d528352452f119"
-  },
-  "name": "Herramientas",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6737b77589645926e394ecdb"
-  },
-  "name": "Toppers",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6737b78589645926e394ecdf"
-  },
-  "name": "Moldes",
-  "__v": 0
-}]
+[
+    {
+        "_id": "668582e4c95221a1dbcd0262",
+        "name": "Sellos",
+        "__v": 0
+    },
+    {
+        "_id": "668582ecc95221a1dbcd026a",
+        "name": "Texturizadores",
+        "__v": 0
+    },
+    {
+        "_id": "669c3984bd5e27408e980704",
+        "name": "Cortantes",
+        "__v": 0
+    },
+    {
+        "_id": "669c510235b4b539edbea046",
+        "name": "Abecedarios",
+        "__v": 0
+    },
+    {
+        "_id": "671027e894d528352452f119",
+        "name": "Herramientas",
+        "__v": 0
+    },
+    {
+        "_id": "6737b77589645926e394ecdb",
+        "name": "Toppers",
+        "__v": 0
+    },
+    {
+        "_id": "6737b78589645926e394ecdf",
+        "name": "Moldes",
+        "__v": 0
+    }
+]
