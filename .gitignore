@@ -4,3 +4,4 @@ public
 src/gatsby-types.d.ts
 
 static/assets/product-images/*.jpg
+static/assets/product-images/*.webp
