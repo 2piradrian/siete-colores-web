@@ -64,7 +64,7 @@
 
 .oldPrice{
 	text-decoration: line-through;
-	color: red;
+	color: var(--discount);
 }
 
 .addProduct {

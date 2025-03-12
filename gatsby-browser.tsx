@@ -12,7 +12,3 @@ export const wrapRootElement = ({ element }: { element: React.ReactNode }) => {
     </LocationProvider>
   );
 };
-
-export const onRenderBody = ({ setHtmlAttributes }) => {
-  setHtmlAttributes({ lang: 'en-GB' });
-};
