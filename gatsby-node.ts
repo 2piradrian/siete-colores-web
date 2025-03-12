@@ -47,13 +47,11 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 
   categories.forEach(category => {
-    const filteredProducts = productList.filter(product => product.category.toLowerCase() === category.node.name.toLowerCase());
     createPage({
       path: `/productos/${category.node.name.toLowerCase()}`,
       component: path.resolve(`./src/pages/productos/[category].tsx`),
       context: {
         static_categoryName: category.node.name,
-        static_products: filteredProducts.map(p => ({...p})),
       },
     });
   });

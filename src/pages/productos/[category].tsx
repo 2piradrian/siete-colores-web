@@ -10,12 +10,11 @@ import * as style from './style.module.css';
 type Props = {
     pageContext: {
       static_categoryName: string;
-      static_products: any[];
     };
 };
 
 export default function ProductosPage({ pageContext }: Props) {
-    const { static_categoryName, static_products } = pageContext;
+    const { static_categoryName } = pageContext;
     const { loading, products, subCategories, filters, handleFormChange, updateFilters, clearFilters, addProduct, totalPages, prevPage, nextPage } = useViewModel();
 
     return (
@@ -31,11 +30,7 @@ export default function ProductosPage({ pageContext }: Props) {
                 subCategories={subCategories}
             />
 			<PageSelector currentPage={filters.page} totalPages={totalPages} prevPage={prevPage} nextPage={nextPage} />
-            { loading ?
-                <ProductList loading={loading} list={static_products} onAdd={addProduct} />
-                :
-                <ProductList loading={loading} list={products} onAdd={addProduct} />
-            }
+            <ProductList loading={loading} list={products} onAdd={addProduct} />
 			<PageSelector currentPage={filters.page} totalPages={totalPages} prevPage={prevPage} nextPage={nextPage} />
 			<Toaster />
         </section>
