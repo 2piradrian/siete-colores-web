@@ -16,9 +16,9 @@ export default function ItemList({ product, editQuantity }: Props) {
 	return (
 		<div className={style.container}>
 			<div className={style.bigDivisor}>
-				<img src={`/assets/product-images/${product.code}.jpg`} loading="lazy" alt={product.name} onError={({ currentTarget }) => {
+				<img src={`/assets/product-images/${product.code}.webp`} loading="lazy" alt={product.name} onError={({ currentTarget }) => {
             	    currentTarget.onerror = null;
-            	    currentTarget.src= "/assets/images/no-image.jpg";
+            	    currentTarget.src= "/assets/images/no-image.webp";
             	}} />
 				<div className={style.textDivisor}>
 					<h3>

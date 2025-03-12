@@ -15,9 +15,9 @@ export default function ItemCard({ product, onAdd }: Props) {
 	return (
 		<article className={style.box}>
 			<Link to={`/detalles/${product.code}`}>
-				<img src={`/assets/product-images/${product.code}.jpg`} loading="lazy" alt={product.name} onError={({ currentTarget }) => {
+				<img src={`/assets/product-images/${product.code}.webp`} loading="lazy" alt={product.name} onError={({ currentTarget }) => {
             	    currentTarget.onerror = null;
-            	    currentTarget.src= "/assets/images/no-image.jpg";
+            	    currentTarget.src= "/assets/images/no-image.webp";
             	}} />
 			</Link>
 			<div className={style.articleDescriptor}>
