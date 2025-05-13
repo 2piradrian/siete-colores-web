@@ -17,7 +17,7 @@ export default function ItemCard({ product, onAdd }: Props) {
 			<Link to={`/detalles/${product.code}`}>
 				<img src={`/assets/product-images/${product.code}.webp`} loading="lazy" alt={product.name} onError={({ currentTarget }) => {
             	    currentTarget.onerror = null;
-            	    currentTarget.src= "/assets/images/no-image.webp";
+            	    currentTarget.src= "/assets/images/no-image.jpg";
             	}} />
 			</Link>
 			<div className={style.articleDescriptor}>

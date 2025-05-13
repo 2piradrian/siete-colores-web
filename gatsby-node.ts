@@ -1,7 +1,7 @@
+import path from "path";
 import { ProductEntity } from './src/domain/entity/product';
-const path = require("path");
 
-exports.createPages = async ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions }: {graphql: any, actions: any}) => {
   const { createPage } = actions;
 
   const categoriesResult = await graphql(`
@@ -42,11 +42,11 @@ exports.createPages = async ({ graphql, actions }) => {
   const categories = categoriesResult.data.allCategoriesJson.edges;
   const products = productsResult.data.allProductsJson.edges;
 
-  const productList = products.map(product => {
+  const productList = products.map((product: any) => {
     return ProductEntity.fromObject({...product.node});
   });
 
-  categories.forEach(category => {
+  categories.forEach((category: any) => {
     createPage({
       path: `/productos/${category.node.name.toLowerCase()}`,
       component: path.resolve(`./src/pages/productos/[category].tsx`),
@@ -56,7 +56,7 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 
-  productList.forEach(product => {
+  productList.forEach((product: any) => {
     createPage({
       path: `/detalles/${product.code}`,
       component: path.resolve(`./src/pages/detalles/[code].tsx`),

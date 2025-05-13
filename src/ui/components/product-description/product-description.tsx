@@ -17,7 +17,7 @@ export default function ProductDescription({ product, addProduct }: Props) {
             <article className={style.descriptionContainer}>
                 <img src={`/assets/product-images/${product.code}.webp`} loading="lazy" alt={product.name} onError={({ currentTarget }) => {
             	    currentTarget.onerror = null;
-            	    currentTarget.src= "/assets/images/no-image.webp";
+            	    currentTarget.src= "/assets/images/no-image.jpg";
             	}} />
                 <div className={style.textContainer}>
                     <h1 className={style.title}>{product.name}</h1>
