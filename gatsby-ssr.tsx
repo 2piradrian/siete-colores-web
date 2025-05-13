@@ -14,5 +14,5 @@ export const wrapRootElement = ({ element }: { element: React.ReactNode }) => {
 };
 
 export const onRenderBody = ({ setHtmlAttributes }) => {
-  setHtmlAttributes({ lang: 'en-GB' });
+  setHtmlAttributes({ lang: 'es-AR' });
 };
