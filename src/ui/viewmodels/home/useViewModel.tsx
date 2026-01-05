@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { ProductEntity } from "../../../domain";
-import { useRepositories } from "../../../core";
 import toast from "react-hot-toast";
+import { useRepositories } from "../../../core";
+import { ProductEntity } from "../../../domain";
 
 export default function useViewModel() {
     const { productsRepository, cartRepository } = useRepositories();
@@ -21,7 +21,7 @@ export default function useViewModel() {
     const fetch = async () => {
         setLoading(true);
         try {
-            const news = await productsRepository.getNews(12);
+            const news = await productsRepository.getNews(36);
             setNews(news);
 
             const offerts = await productsRepository.getWithDiscount();
