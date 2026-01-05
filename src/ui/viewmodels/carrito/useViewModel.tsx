@@ -102,7 +102,7 @@ Subtotal: ${priceFormatter(subtotal)}
 
 Envío: ${shippingText} ${shippingCost > 0 ? `(${priceFormatter(shippingCost)})` : ""}
 
-Total: ${priceFormatter(subtotal + shippingCost)}`;
+Total: ${priceFormatter(subtotal + shippingCost)} (a confirmar)`;
 
         return `https://api.whatsapp.com/send?phone=543512742036&text=${encodeURI(text)}`;
 
