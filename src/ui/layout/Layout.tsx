@@ -1,23 +1,22 @@
 import React from "react";
-import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
+import Header from "../components/header/header";
+import "../style/global.css";
 import useViewModel from "../viewmodels/layout/useViewModel";
-import { Toaster } from "react-hot-toast";
 import * as style from './style.module.css';
-import "../style/global.css"
 
 type Props = {
 	children: React.ReactNode;
 };
 
 export default function Layout({ children }: Props) {
-	const { categories, categorySelected } = useViewModel(); 
+	const { categories, categorySelected } = useViewModel();
 
 	return (
 		<>
-			<Header 
-				categories={categories} 
-				categorySelected={categorySelected} 
+			<Header
+				categories={categories}
+				categorySelected={categorySelected}
 			/>
 			<main className={style.layoutContainer}>
 				{children}
