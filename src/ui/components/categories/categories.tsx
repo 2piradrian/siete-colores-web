@@ -1,12 +1,12 @@
+import { Link } from '@gatsbyjs/reach-router';
 import React from 'react';
 import Subtitle from '../subtitle/subtitle';
-import { Link } from '@gatsbyjs/reach-router';
 import * as style from "./style.module.css";
 
 export default function Categories() {
     return (
         <section className={style.container}>
-             <div className={style.subtitle}>
+            <div className={style.subtitle}>
                 <Subtitle subtitle="Categorías" />
             </div>
             <div className={style.categories}>
@@ -33,6 +33,9 @@ export default function Categories() {
                 </Link>
                 <Link to="/productos/moldes" aria-label='moldes'>
                     <img src="/assets/images/categories/moldes.webp" alt="Moldes" />
+                </Link>
+                <Link to="/productos/totebags" aria-label='totebags'>
+                    <img src="/assets/images/categories/totebags.webp" alt="Totebags" />
                 </Link>
             </div>
         </section>
