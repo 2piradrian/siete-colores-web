@@ -1,6 +1,6 @@
 import React from "react";
+import { CategoryEntity, Filters } from "../../../domain";
 import MainButton from "../main-button/main-button";
-import { Filters } from "../../../domain";
 import * as style from "./style.module.css";
 
 type Props = {
@@ -18,23 +18,23 @@ export default function SearchBar({ filters, handleFormChange, updateFilters, cl
 			<form className={style.form} onSubmit={updateFilters}>
 				<div className={style.inputContainer}>
 					<label htmlFor="words">Buscar:</label>
-					<input 
-						type="text" 
+					<input
+						type="text"
 						key={filters.words}
-						name="words" 
-						placeholder={`Buscar ${filters.category ? filters.category : "productos"}`} 
-						defaultValue={filters.words} 
+						name="words"
+						placeholder={`Buscar ${CategoryEntity.denormalize(filters.category || "")}`}
+						defaultValue={filters.words}
 					/>
 				</div>
 				<div className={style.selectorContainer}>
 					<div className={style.selector}>
 						<label htmlFor="subcategory">Subcategoría:</label>
-						<select 
+						<select
 							name="subcategory"
 							key={filters.subcategory}
 							onChange={handleFormChange}
-							value={filters.subcategory} 
-							className={style.select} 
+							value={filters.subcategory}
+							className={style.select}
 						>
 							<option value="Todos">Todos</option>
 							{subCategories.map((subCategory, index) => (
@@ -44,12 +44,12 @@ export default function SearchBar({ filters, handleFormChange, updateFilters, cl
 					</div>
 					<div className={style.selector}>
 						<label htmlFor="sort">Ordenar por:</label>
-						<select 
-							name="sort" 
+						<select
+							name="sort"
 							key={filters.sort}
 							onChange={handleFormChange}
-							value={filters.sort} 
-							className={style.select} 
+							value={filters.sort}
+							className={style.select}
 						>
 							<option>Sin orden</option>
 							<option>Menor Precio</option>

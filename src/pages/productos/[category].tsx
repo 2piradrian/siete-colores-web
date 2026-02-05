@@ -1,5 +1,6 @@
 import React from 'react';
 import { Toaster } from 'react-hot-toast';
+import { CategoryEntity } from '../../domain';
 import PageSelector from '../../ui/components/page-selector/page-selector';
 import ProductList from '../../ui/components/product-list/product-list';
 import SearchBar from '../../ui/components/search-bar/search-bar';
@@ -14,13 +15,12 @@ type Props = {
 };
 
 export default function ProductosPage({ pageContext }: Props) {
-    const { static_categoryName } = pageContext;
     const { loading, products, subCategories, filters, handleFormChange, updateFilters, clearFilters, addProduct, totalPages, prevPage, nextPage } = useViewModel();
 
     return (
         <section className={style.container}>
             <h1 className={style.title}>
-                {`Estás viendo ${static_categoryName}`}
+                {`Estás viendo ${CategoryEntity.denormalize(filters.category || "")}`}
             </h1>
             <SearchBar
                 filters={filters}

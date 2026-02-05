@@ -1,7 +1,8 @@
 import path from "path";
+import { CategoryEntity } from "./src/domain";
 import { ProductEntity } from './src/domain/entity/product';
 
-exports.createPages = async ({ graphql, actions }: {graphql: any, actions: any}) => {
+exports.createPages = async ({ graphql, actions }: { graphql: any, actions: any }) => {
   const { createPage } = actions;
 
   const categoriesResult = await graphql(`
@@ -43,12 +44,12 @@ exports.createPages = async ({ graphql, actions }: {graphql: any, actions: any})
   const products = productsResult.data.allProductsJson.edges;
 
   const productList = products.map((product: any) => {
-    return ProductEntity.fromObject({...product.node});
+    return ProductEntity.fromObject({ ...product.node });
   });
 
   categories.forEach((category: any) => {
     createPage({
-      path: `/productos/${category.node.name.toLowerCase()}`,
+      path: `/productos/${CategoryEntity.normalize(category.node.name)}`,
       component: path.resolve(`./src/pages/productos/[category].tsx`),
       context: {
         static_categoryName: category.node.name,
@@ -61,7 +62,7 @@ exports.createPages = async ({ graphql, actions }: {graphql: any, actions: any})
       path: `/detalles/${product.code}`,
       component: path.resolve(`./src/pages/detalles/[code].tsx`),
       context: {
-        static_product: {...product},
+        static_product: { ...product },
       },
     });
   });
