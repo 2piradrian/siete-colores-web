@@ -1,15 +1,15 @@
 import React from 'react';
-import SearchBar from '../../ui/components/search-bar/search-bar';
-import useViewModel from '../../ui/viewmodels/productos/useViewModel';
-import ProductList from '../../ui/components/product-list/product-list';
-import PageSelector from '../../ui/components/page-selector/page-selector';
-import { SEO } from '../../ui/components/seo/seo';
 import { Toaster } from 'react-hot-toast';
+import PageSelector from '../../ui/components/page-selector/page-selector';
+import ProductList from '../../ui/components/product-list/product-list';
+import SearchBar from '../../ui/components/search-bar/search-bar';
+import { SEO } from '../../ui/components/seo/seo';
+import useViewModel from '../../ui/viewmodels/productos/useViewModel';
 import * as style from './style.module.css';
 
 type Props = {
     pageContext: {
-      static_categoryName: string;
+        static_categoryName: string;
     };
 };
 
@@ -20,19 +20,19 @@ export default function ProductosPage({ pageContext }: Props) {
     return (
         <section className={style.container}>
             <h1 className={style.title}>
-                {`Estás viendo ${loading ? static_categoryName : filters.category}`} 
+                {`Estás viendo ${static_categoryName}`}
             </h1>
-            <SearchBar 
+            <SearchBar
                 filters={filters}
                 handleFormChange={handleFormChange}
                 updateFilters={updateFilters}
                 clearFilters={clearFilters}
                 subCategories={subCategories}
             />
-			<PageSelector currentPage={filters.page} totalPages={totalPages} prevPage={prevPage} nextPage={nextPage} />
+            <PageSelector currentPage={filters.page} totalPages={totalPages} prevPage={prevPage} nextPage={nextPage} />
             <ProductList loading={loading} list={products} onAdd={addProduct} />
-			<PageSelector currentPage={filters.page} totalPages={totalPages} prevPage={prevPage} nextPage={nextPage} />
-			<Toaster />
+            <PageSelector currentPage={filters.page} totalPages={totalPages} prevPage={prevPage} nextPage={nextPage} />
+            <Toaster />
         </section>
     );
 }

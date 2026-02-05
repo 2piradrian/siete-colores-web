@@ -1,4 +1,5 @@
 import { LocationProvider } from "@gatsbyjs/reach-router";
+import React from "react";
 import { RepositoriesProvider } from './src/core/provider/RepositoryProvider';
 import Layout from "./src/ui/layout/Layout";
 

@@ -32,7 +32,7 @@ export default function Header({ categories, categorySelected }: Props) {
 						<Link
 							to={`/productos/${CategoryEntity.normalize(category.toLowerCase())}`}
 							key={index}
-							className={(categorySelected === category.toLowerCase()) ? style.categorySelected : style.category}
+							className={(categorySelected === CategoryEntity.normalize(category.toLowerCase())) ? style.categorySelected : style.category}
 						>
 							{category}
 						</Link>
