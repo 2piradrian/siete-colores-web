@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/footer/footer";
 import Header from "../components/header/header";
+import { SEO } from "../components/seo/seo";
 import "../style/global.css";
 import useViewModel from "../viewmodels/layout/useViewModel";
 import * as style from './style.module.css';
@@ -14,6 +15,7 @@ export default function Layout({ children }: Props) {
 
 	return (
 		<>
+			<SEO />
 			<Header
 				categories={categories}
 				categorySelected={categorySelected}
