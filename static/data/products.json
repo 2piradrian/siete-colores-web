@@ -5978,26 +5978,6 @@
         "available": true
     },
     {
-        "_id": "660a07e41ae8925f2a37db79",
-        "code": "A461",
-        "name": "OJO",
-        "price": 1290,
-        "size": "50mm",
-        "category": "Sellos",
-        "__v": 2,
-        "keywords": [
-            "mistico",
-            "tarot",
-            "luna"
-        ],
-        "createdAt": "2024-10-20 17:41:11.641000",
-        "subcategories": [
-            "Artesan\u00edas"
-        ],
-        "description": "",
-        "available": true
-    },
-    {
         "_id": "660a08001ae8925f2a37db7c",
         "code": "A156",
         "name": "NUMEROS",
@@ -12609,7 +12589,7 @@
     {
         "_id": "675b6a39d9209430fb74bd43",
         "code": "A566",
-        "name": "REGLA",
+        "name": "REGLAS NIVELADORAS 5 MM",
         "price": 3550,
         "size": "280mm x 5mm",
         "category": "Herramientas",
@@ -12633,7 +12613,7 @@
     {
         "_id": "675b7068d9209430fb74bd79",
         "code": "A567",
-        "name": "REGLA",
+        "name": "REGLAS NIVELADORAS 10 MM",
         "price": 5630,
         "size": "280mm x 10mm",
         "category": "Herramientas",
@@ -12658,7 +12638,7 @@
     {
         "_id": "675b70d8d9209430fb74bd80",
         "code": "A568",
-        "name": "REGLA",
+        "name": "REGLAS NIVELADORAS 15 MM",
         "price": 7710,
         "size": "280mm x 10mm",
         "category": "Herramientas",
@@ -16327,24 +16307,6 @@
         "__v": 0
     },
     {
-        "_id": "68b76149e9a9505185d97b01",
-        "code": "A746",
-        "name": "CRUZ",
-        "price": 1280,
-        "size": "63mm x 87mm",
-        "category": "Cortantes",
-        "subcategories": [
-            "Comuni\u00f3n"
-        ],
-        "description": "",
-        "keywords": [
-            "cruz comunion bautismo"
-        ],
-        "available": true,
-        "createdAt": "2025-09-02 21:27:37.733000",
-        "__v": 0
-    },
-    {
         "_id": "68b7622fe9a9505185d97b07",
         "code": "A747",
         "name": "LLAMA",
@@ -17948,6 +17910,711 @@
         ],
         "available": true,
         "createdAt": "2025-12-30 00:06:43.348000",
+        "__v": 0
+    },
+    {
+        "_id": "69654bc13c1d3e2c95afdad2",
+        "code": "A833",
+        "name": "ARBOL",
+        "price": 1100,
+        "size": "34 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Artesan\u00edas",
+            "Aros",
+            "Flores/Plantas"
+        ],
+        "description": "",
+        "keywords": [
+            "arbol de la vida"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 19:30:09.731000",
+        "__v": 0
+    },
+    {
+        "_id": "69654dac3c1d3e2c95afdad8",
+        "code": "A834",
+        "name": "BOTELLA",
+        "price": 1870,
+        "size": "59 mm x 91 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "San Valent\u00edn",
+            "Varios"
+        ],
+        "description": "",
+        "keywords": [
+            "botella san balentin dia de los enamorados"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 19:38:20.507000",
+        "__v": 0
+    },
+    {
+        "_id": "69654e123c1d3e2c95afdade",
+        "code": "A835",
+        "name": "CALENDARIO",
+        "price": 3740,
+        "size": "92 mm x 99 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "San Valent\u00edn"
+        ],
+        "description": "",
+        "keywords": [
+            "calendario san valentin dia de los enamorados"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 19:40:02.518000",
+        "__v": 0
+    },
+    {
+        "_id": "69654e8b3c1d3e2c95afdae4",
+        "code": "A836",
+        "name": "CORAZON",
+        "price": 2890,
+        "size": "99 mm x 89 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "San Valent\u00edn",
+            "Artesan\u00edas",
+            "Formas"
+        ],
+        "description": "",
+        "keywords": [
+            "corazon flores san valentin dia de los enamorados"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 19:42:03.142000",
+        "__v": 0
+    },
+    {
+        "_id": "69654eec3c1d3e2c95afdaea",
+        "code": "A837",
+        "name": "CORAZON",
+        "price": 3230,
+        "size": "100 mm x 90 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Artesan\u00edas",
+            "Formas",
+            "San Valent\u00edn"
+        ],
+        "description": "",
+        "keywords": [
+            "mandala corazon san valentin dia de los enamorados"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 19:43:40.798000",
+        "__v": 0
+    },
+    {
+        "_id": "69654fd23c1d3e2c95afdaf0",
+        "code": "A838",
+        "name": "ESTRELLAS DE MAR",
+        "price": 4250,
+        "size": "65 mm / 56 mm / 72 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Artesan\u00edas",
+            "Mar"
+        ],
+        "description": "",
+        "keywords": [
+            "mar estrellas de mar"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 19:47:30.302000",
+        "__v": 0
+    },
+    {
+        "_id": "696550683c1d3e2c95afdaf6",
+        "code": "A839",
+        "name": "FECHA CORAZON",
+        "price": 2550,
+        "size": "120 mm x 72 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "San Valent\u00edn"
+        ],
+        "description": "",
+        "keywords": [
+            "san valentin dia de los enamorados corazon flecha"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 19:50:00.287000",
+        "__v": 0
+    },
+    {
+        "_id": "696551793c1d3e2c95afdafc",
+        "code": "A840",
+        "name": "LLAVE",
+        "price": 1870,
+        "size": "65 mm x 86 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Varios",
+            "San Valent\u00edn"
+        ],
+        "description": "",
+        "keywords": [
+            "san valentin llave dia de los enamorados"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 19:54:33.423000",
+        "__v": 0
+    },
+    {
+        "_id": "696551c83c1d3e2c95afdb02",
+        "code": "A841",
+        "name": "LOVE",
+        "price": 2550,
+        "size": "77 mm x 85 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "San Valent\u00edn"
+        ],
+        "description": "",
+        "keywords": [
+            "san valentin dia de los enamorados love"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 19:55:52.913000",
+        "__v": 0
+    },
+    {
+        "_id": "6965521f3c1d3e2c95afdb08",
+        "code": "A842",
+        "name": "LUNA",
+        "price": 2550,
+        "size": "71 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Artesan\u00edas"
+        ],
+        "description": "",
+        "keywords": [
+            "luna"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 19:57:19.731000",
+        "__v": 0
+    },
+    {
+        "_id": "696552603c1d3e2c95afdb0e",
+        "code": "A843",
+        "name": "LUNA",
+        "price": 3740,
+        "size": "107 mm x 108 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Artesan\u00edas"
+        ],
+        "description": "",
+        "keywords": [
+            "luna mandala"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 19:58:24.983000",
+        "__v": 0
+    },
+    {
+        "_id": "696552c03c1d3e2c95afdb14",
+        "code": "A844",
+        "name": "MAR",
+        "price": 3570,
+        "size": "VARIOS",
+        "category": "Cortantes",
+        "subcategories": [
+            "Aros",
+            "Animales",
+            "Artesan\u00edas",
+            "Mar"
+        ],
+        "description": "",
+        "keywords": [
+            "mar"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 20:00:00.438000",
+        "__v": 0
+    },
+    {
+        "_id": "6965533b3c1d3e2c95afdb1a",
+        "code": "A845",
+        "name": "MARIPOSAS",
+        "price": 2550,
+        "size": "67 mm x 90 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Animales",
+            "Artesan\u00edas",
+            "Varios"
+        ],
+        "description": "",
+        "keywords": [
+            "mariposa tarot"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 20:02:03.872000",
+        "__v": 0
+    },
+    {
+        "_id": "696553b83c1d3e2c95afdb20",
+        "code": "A846",
+        "name": "PECES",
+        "price": 1100,
+        "size": "31 mm x 21 mm / 29 mm x 22 mm",
+        "category": "Sellos",
+        "subcategories": [
+            "Animales",
+            "Aros",
+            "Artesan\u00edas",
+            "Mar"
+        ],
+        "description": "",
+        "keywords": [
+            "mar pez peces"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 20:04:08.302000",
+        "__v": 0
+    },
+    {
+        "_id": "6965540c3c1d3e2c95afdb26",
+        "code": "A847",
+        "name": "RELOJ",
+        "price": 2040,
+        "size": "48 mm x 93 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "San Valent\u00edn"
+        ],
+        "description": "",
+        "keywords": [
+            "reloj de arena san valentin dia de los enamorados"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 20:05:32.671000",
+        "__v": 0
+    },
+    {
+        "_id": "696554bb3c1d3e2c95afdb2c",
+        "code": "A848",
+        "name": "GLOBO DE TEXTO",
+        "price": 2550,
+        "size": "150 mm x68 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "San Valent\u00edn"
+        ],
+        "description": "",
+        "keywords": [
+            "san valentin dia de los enamorados globo de texto"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 20:08:27.573000",
+        "__v": 0
+    },
+    {
+        "_id": "696554fe3c1d3e2c95afdb32",
+        "code": "A849",
+        "name": "SOBRE",
+        "price": 3060,
+        "size": "98 mm x 88 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "San Valent\u00edn"
+        ],
+        "description": "",
+        "keywords": [
+            "sobre dia de los enamorados san valentin"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 20:09:34.535000",
+        "__v": 0
+    },
+    {
+        "_id": "6965554f3c1d3e2c95afdb38",
+        "code": "A850",
+        "name": "SOL Y LUNA",
+        "price": 3570,
+        "size": "98 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Artesan\u00edas"
+        ],
+        "description": "",
+        "keywords": [
+            "sol luna"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 20:10:55.231000",
+        "__v": 0
+    },
+    {
+        "_id": "696555813c1d3e2c95afdb3e",
+        "code": "A851",
+        "name": "SOL",
+        "price": 5270,
+        "size": "113 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Artesan\u00edas"
+        ],
+        "description": "",
+        "keywords": [
+            "sol"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 20:11:45.359000",
+        "__v": 0
+    },
+    {
+        "_id": "696557063c1d3e2c95afdb52",
+        "code": "A852",
+        "name": "SOL Y LUNA",
+        "price": 2550,
+        "size": "69 mm x 71 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Artesan\u00edas"
+        ],
+        "description": "",
+        "keywords": [
+            "sol luna"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 20:18:14.224000",
+        "__v": 0
+    },
+    {
+        "_id": "696557ae3c1d3e2c95afdb58",
+        "code": "A853",
+        "name": "YIN YANG",
+        "price": 1100,
+        "size": "39 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Artesan\u00edas",
+            "Aros"
+        ],
+        "description": "",
+        "keywords": [
+            "yin yang"
+        ],
+        "available": true,
+        "createdAt": "2026-01-12 20:21:02.887000",
+        "__v": 0
+    },
+    {
+        "_id": "69659d913c1d3e2c95afdb5e",
+        "code": "A854",
+        "name": "BOLA DE BOLICHE",
+        "price": 2550,
+        "size": "76 mm",
+        "category": "Cortantes",
+        "subcategories": [],
+        "description": "",
+        "keywords": [
+            "bola de espejos bola de boliche"
+        ],
+        "available": true,
+        "createdAt": "2026-01-13 01:19:13.190000",
+        "__v": 0
+    },
+    {
+        "_id": "69659de33c1d3e2c95afdb64",
+        "code": "A855",
+        "name": "MARIPOSAS",
+        "price": 2300,
+        "size": "30 mm",
+        "category": "Sellos",
+        "subcategories": [
+            "Animales",
+            "Insectos"
+        ],
+        "description": "",
+        "keywords": [
+            "mariposas mariposa"
+        ],
+        "available": true,
+        "createdAt": "2026-01-13 01:20:35.860000",
+        "__v": 0
+    },
+    {
+        "_id": "69755b0a5a797d10387bfa01",
+        "code": "A856",
+        "name": "MARCO",
+        "price": 2040,
+        "size": "157 mm x 135 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Artesan\u00edas",
+            "Formas"
+        ],
+        "description": "",
+        "keywords": [
+            "marco cuadro altar"
+        ],
+        "available": true,
+        "createdAt": "2026-01-24 23:51:38.450000",
+        "__v": 0
+    },
+    {
+        "_id": "69755b485a797d10387bfa07",
+        "code": "A857",
+        "name": "MARCO",
+        "price": 2040,
+        "size": "156 mm x 123 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Artesan\u00edas",
+            "Formas"
+        ],
+        "description": "",
+        "keywords": [
+            "cuadro marco altar"
+        ],
+        "available": true,
+        "createdAt": "2026-01-24 23:52:40.663000",
+        "__v": 0
+    },
+    {
+        "_id": "69755bb25a797d10387bfa0d",
+        "code": "A858",
+        "name": "PORTA SAHUMERIO",
+        "price": 5780,
+        "size": "73 mm x 193 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Artesan\u00edas"
+        ],
+        "description": "",
+        "keywords": [
+            "porta sahumerio"
+        ],
+        "available": true,
+        "createdAt": "2026-01-24 23:54:26.567000",
+        "__v": 0
+    },
+    {
+        "_id": "69755c0e5a797d10387bfa13",
+        "code": "A859",
+        "name": "PORTA SAHUMERIO",
+        "price": 5780,
+        "size": "73 mm x 193 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Artesan\u00edas"
+        ],
+        "description": "",
+        "keywords": [
+            "porta sahumerio"
+        ],
+        "available": true,
+        "createdAt": "2026-01-24 23:55:58.553000",
+        "__v": 0
+    },
+    {
+        "_id": "69755c6c5a797d10387bfa19",
+        "code": "A860",
+        "name": "PORTA SAHUMERIO",
+        "price": 5780,
+        "size": "73 mm x 193 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Artesan\u00edas"
+        ],
+        "description": "",
+        "keywords": [
+            "porta sahumerio"
+        ],
+        "available": true,
+        "createdAt": "2026-01-24 23:57:32.092000",
+        "__v": 0
+    },
+    {
+        "_id": "69755d495a797d10387bfa26",
+        "code": "A861",
+        "name": "PORTA SAHUMERIO",
+        "price": 5780,
+        "size": "73 mm x 193 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Artesan\u00edas"
+        ],
+        "description": "",
+        "keywords": [
+            "porta sahumerio"
+        ],
+        "available": true,
+        "createdAt": "2026-01-25 00:01:13.241000",
+        "__v": 0
+    },
+    {
+        "_id": "69755db75a797d10387bfa2c",
+        "code": "A862",
+        "name": "COMBO PORTA SAHUMERIO X 4",
+        "price": 17700,
+        "size": "73 mm x 193 mm",
+        "category": "Cortantes",
+        "subcategories": [
+            "Artesan\u00edas"
+        ],
+        "description": "",
+        "keywords": [
+            "combo porta sahumerio"
+        ],
+        "available": true,
+        "createdAt": "2026-01-25 00:03:03.841000",
+        "__v": 0
+    },
+    {
+        "_id": "69755f2f5a797d10387bfa37",
+        "code": "A863",
+        "name": "SELLO MISTICO",
+        "price": 2550,
+        "size": "55 mm x 107 mm",
+        "category": "Sellos",
+        "subcategories": [
+            "Artesan\u00edas"
+        ],
+        "description": "",
+        "keywords": [
+            "mistico hongos tarot"
+        ],
+        "available": true,
+        "createdAt": "2026-01-25 00:09:19.746000",
+        "__v": 0
+    },
+    {
+        "_id": "69838520bf87bb3cb2b72ded",
+        "code": "D001",
+        "name": "TOTE BAG",
+        "price": 5500,
+        "size": "300 mm x 300 mm",
+        "category": "Tote Bags",
+        "subcategories": [],
+        "description": "Tote bags de lienzo prelavado con estampado en vinilo/DTF. Resistentes y pr\u00e1cticas, ideales para llevar tus herramientas al taller o acompa\u00f1arte en tu d\u00eda a d\u00eda. Cuentan con asas de cinta hilera, c\u00f3modas y duraderas.",
+        "keywords": [
+            "bolsa de tela tote bag"
+        ],
+        "available": true,
+        "createdAt": "2026-02-04 17:42:56.659000",
+        "__v": 0
+    },
+    {
+        "_id": "6983854ebf87bb3cb2b72df3",
+        "code": "D002",
+        "name": "TOTE BAG",
+        "price": 5500,
+        "size": "300 mm x 300 mm",
+        "category": "Tote Bags",
+        "subcategories": [],
+        "description": "Tote bags de lienzo prelavado con estampado en vinilo/DTF. Resistentes y pr\u00e1cticas, ideales para llevar tus herramientas al taller o acompa\u00f1arte en tu d\u00eda a d\u00eda. Cuentan con asas de cinta hilera, c\u00f3modas y duraderas.",
+        "keywords": [
+            "tote bag bolsa de tela"
+        ],
+        "available": true,
+        "createdAt": "2026-02-04 17:43:42.096000",
+        "__v": 0
+    },
+    {
+        "_id": "69838578bf87bb3cb2b72df9",
+        "code": "D003",
+        "name": "TOTE BAG",
+        "price": 5500,
+        "size": "300mm x 300mm",
+        "category": "Tote Bags",
+        "subcategories": [],
+        "description": "Tote bags de lienzo prelavado con estampado en vinilo/DTF. Resistentes y pr\u00e1cticas, ideales para llevar tus herramientas al taller o acompa\u00f1arte en tu d\u00eda a d\u00eda. Cuentan con asas de cinta hilera, c\u00f3modas y duraderas.",
+        "keywords": [
+            "tote bag bolsa de tela"
+        ],
+        "available": true,
+        "createdAt": "2026-02-04 17:44:24.792000",
+        "__v": 0
+    },
+    {
+        "_id": "6983870c3f888b055eda3eda",
+        "code": "D004",
+        "name": "TOTE BAG",
+        "price": 5500,
+        "size": "300mm x 300mm",
+        "category": "Tote Bags",
+        "subcategories": [],
+        "description": "Tote bags de lienzo prelavado con estampado en vinilo/DTF. Resistentes y pr\u00e1cticas, ideales para llevar tus herramientas al taller o acompa\u00f1arte en tu d\u00eda a d\u00eda. Cuentan con asas de cinta hilera, c\u00f3modas y duraderas.",
+        "keywords": [
+            "tote bag bolsa de tela"
+        ],
+        "available": true,
+        "createdAt": "2026-02-04 17:51:08.714000",
+        "__v": 0
+    },
+    {
+        "_id": "6983873d3f888b055eda3ee0",
+        "code": "D005",
+        "name": "TOTE BAG",
+        "price": 5500,
+        "size": "300mm x 300mm",
+        "category": "Tote Bags",
+        "subcategories": [],
+        "description": "Tote bags de lienzo prelavado con estampado en vinilo/DTF. Resistentes y pr\u00e1cticas, ideales para llevar tus herramientas al taller o acompa\u00f1arte en tu d\u00eda a d\u00eda. Cuentan con asas de cinta hilera, c\u00f3modas y duraderas.",
+        "keywords": [
+            "tote bag bolsa de mano"
+        ],
+        "available": true,
+        "createdAt": "2026-02-04 17:51:57.494000",
+        "__v": 0
+    },
+    {
+        "_id": "698387823f888b055eda3ee6",
+        "code": "D006",
+        "name": "TOTE BAG",
+        "price": 5500,
+        "size": "300mm x 300mm",
+        "category": "Tote Bags",
+        "subcategories": [],
+        "description": "Tote bags de lienzo prelavado con estampado en vinilo/DTF. Resistentes y pr\u00e1cticas, ideales para llevar tus herramientas al taller o acompa\u00f1arte en tu d\u00eda a d\u00eda. Cuentan con asas de cinta hilera, c\u00f3modas y duraderas.",
+        "keywords": [
+            "tote bag bolsa de mano"
+        ],
+        "available": true,
+        "createdAt": "2026-02-04 17:53:06.817000",
+        "__v": 0
+    },
+    {
+        "_id": "698387b63f888b055eda3eec",
+        "code": "D007",
+        "name": "TOTE BAG",
+        "price": 5500,
+        "size": "300mm x 300mm",
+        "category": "Tote Bags",
+        "subcategories": [],
+        "description": "Tote bags de lienzo prelavado con estampado en vinilo/DTF. Resistentes y pr\u00e1cticas, ideales para llevar tus herramientas al taller o acompa\u00f1arte en tu d\u00eda a d\u00eda. Cuentan con asas de cinta hilera, c\u00f3modas y duraderas.",
+        "keywords": [
+            "tote bag bolsa de tela"
+        ],
+        "available": true,
+        "createdAt": "2026-02-04 17:53:58.870000",
+        "__v": 0
+    },
+    {
+        "_id": "698387dd3f888b055eda3ef2",
+        "code": "D008",
+        "name": "TOTE BAG",
+        "price": 5500,
+        "size": "300mm X 300mm",
+        "category": "Tote Bags",
+        "subcategories": [],
+        "description": "Tote bags de lienzo prelavado con estampado en vinilo/DTF. Resistentes y pr\u00e1cticas, ideales para llevar tus herramientas al taller o acompa\u00f1arte en tu d\u00eda a d\u00eda. Cuentan con asas de cinta hilera, c\u00f3modas y duraderas.",
+        "keywords": [
+            "tote bag bolsa de tela"
+        ],
+        "available": true,
+        "createdAt": "2026-02-04 17:54:37.014000",
         "__v": 0
     }
 ]

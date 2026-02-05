@@ -1,4 +1,4 @@
-import { Filters, ProductEntity, ProductsDataSourceI } from "../../../domain";
+import { CategoryEntity, Filters, ProductEntity, ProductsDataSourceI } from "../../../domain";
 import { PaginatedProducts } from "../../../domain/type/paginated-products";
 
 export class ProductsJsonDataSource implements ProductsDataSourceI {
@@ -8,7 +8,7 @@ export class ProductsJsonDataSource implements ProductsDataSourceI {
     private normalizeFilters(filters: Filters): Filters {
         const normalizedFilters: Filters = {
             words: filters.words?.toLowerCase().trim() || undefined,
-            category: filters.category === "Todos" ? undefined : filters.category?.toLowerCase(),
+            category: filters.category === "Todos" || !filters.category ? undefined : CategoryEntity.denormalize(filters.category.toLowerCase()),
             subcategory: filters.subcategory === "Todos" ? undefined : filters.subcategory?.toLowerCase(),
             sort: filters.sort === "Sin Orden" ? undefined : filters.sort?.toLowerCase(),
             page: filters.page || 1,

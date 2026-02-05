@@ -34,8 +34,8 @@ export default function Categories() {
                 <Link to="/productos/moldes" aria-label='moldes'>
                     <img src="/assets/images/categories/moldes.webp" alt="Moldes" />
                 </Link>
-                <Link to="/productos/totebags" aria-label='totebags'>
-                    <img src="/assets/images/categories/totebags.webp" alt="Totebags" />
+                <Link to="/productos/tote_bags" aria-label='totebags'>
+                    <img src="/assets/images/categories/tote_bags.webp" alt="Tote Bags" />
                 </Link>
             </div>
         </section>

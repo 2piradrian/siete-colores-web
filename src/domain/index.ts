@@ -10,4 +10,4 @@ export * from './repository/categories';
 export * from './repository/product';
 export * from './repository/subcategories';
 export * from './type/filters';
-export * from './type/products-page';
+

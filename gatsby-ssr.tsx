@@ -1,7 +1,6 @@
-import React from "react";
-import Layout from "./src/ui/layout/Layout";
-import { RepositoriesProvider } from './src/core/provider/RepositoryProvider';
 import { LocationProvider } from "@gatsbyjs/reach-router";
+import { RepositoriesProvider } from './src/core/provider/RepositoryProvider';
+import Layout from "./src/ui/layout/Layout";
 
 export const wrapRootElement = ({ element }: { element: React.ReactNode }) => {
   return (
@@ -13,6 +12,6 @@ export const wrapRootElement = ({ element }: { element: React.ReactNode }) => {
   );
 };
 
-export const onRenderBody = ({ setHtmlAttributes }) => {
+export const onRenderBody = ({ setHtmlAttributes }: { setHtmlAttributes: (attributes: Record<string, string>) => void }) => {
   setHtmlAttributes({ lang: 'es-AR' });
 };
