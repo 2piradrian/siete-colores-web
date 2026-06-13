@@ -81,6 +81,12 @@
 	font-size: 30px;
 }
 
+.transferPrice {
+	font-size: 20px;
+	color: var(--main);
+	font-weight: 600;
+}
+
 .oldPrice{
 	font-size: 24px;
 	text-decoration: line-through;

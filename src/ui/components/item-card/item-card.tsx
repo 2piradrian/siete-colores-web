@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { ProductEntity } from "../../../domain";
 import { priceFormatter } from "../../../core";
+import { PriceCalculator } from "../../../core/utils/PriceCalculator";
 import MainButton from "../main-button/main-button";
 import * as style from "./style.module.css";
 
@@ -11,6 +12,8 @@ type Props = {
 };
 
 export default function ItemCard({ product, onAdd }: Props) {
+	const currentPrice = product.offertPrice ?? product.price;
+	const transferPrice = PriceCalculator.calculateTransferPrice(currentPrice);
 
 	return (
 		<article className={style.box}>
@@ -39,6 +42,7 @@ export default function ItemCard({ product, onAdd }: Props) {
 				  	) : (
 				  	  <p className={style.price}>{priceFormatter(product.price)}</p>
 				  	)}
+					<p className={style.transferPrice}>{priceFormatter(transferPrice)} c/ transfer.</p>
 				</div>
 				<MainButton isActive={product.available} type="button" styles={style.addProduct} onClick={() => onAdd(product)}>
 					Comprar

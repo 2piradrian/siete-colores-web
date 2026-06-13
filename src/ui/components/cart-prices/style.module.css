@@ -82,6 +82,25 @@
 	text-align: end;
 }
 
+.transferContainer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-top: 10px;
+}
+
+.transferPrice {
+	font-size: 20px;
+	color: var(--main);
+	font-weight: 700;
+}
+
+.transferLegend {
+	font-size: 14px;
+	color: var(--main);
+}
+
 .ship {
 	width: 100%;
 	text-align: end;

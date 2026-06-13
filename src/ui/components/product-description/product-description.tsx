@@ -1,6 +1,7 @@
 import React from "react";
 import { ProductEntity } from "../../../domain";
 import { priceFormatter } from "../../../core";
+import { PriceCalculator } from "../../../core/utils/PriceCalculator";
 import MainButton from "../main-button/main-button";
 import ProductText from "../product-text/product-text";
 import * as style from "./style.module.css";
@@ -11,6 +12,8 @@ type Props = {
 }
 
 export default function ProductDescription({ product, addProduct }: Props) {
+    const currentPrice = product.offertPrice ?? product.price;
+    const transferPrice = PriceCalculator.calculateTransferPrice(currentPrice);
 
     return (
         <div className={style.container}>
@@ -37,6 +40,7 @@ export default function ProductDescription({ product, addProduct }: Props) {
 				  	            ) : (
 				  	              <p className={style.price}>{priceFormatter(product.price)}</p>
 				  	            )}
+                            <p className={style.transferPrice}>{priceFormatter(transferPrice)} abonando con transferencia</p>
                         </div>
                         <div className={style.buttonContainer}>
                             <MainButton isActive={product.available} type="button" onClick={() => addProduct(product)}>

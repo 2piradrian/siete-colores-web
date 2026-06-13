@@ -1,5 +1,6 @@
 import React from "react";
 import { priceFormatter } from "../../../core";
+import { PriceCalculator } from "../../../core/utils/PriceCalculator";
 import * as style from "./style.module.css";
 
 type Props = {
@@ -11,6 +12,7 @@ type Props = {
 };
 
 export default function CartPrices({ subtotal, shippingCost, selectedShipping, setSelectedShipping, total }: Props) {
+	const transferTotal = PriceCalculator.calculateTransferPrice(total);
 
 	return (
 		<div className={style.container}>
@@ -39,6 +41,10 @@ export default function CartPrices({ subtotal, shippingCost, selectedShipping, s
 				<div className={style.priceContainer}>
 					<p className={style.title}>Total:</p>
 					<p className={style.price}>{priceFormatter(total)}</p>
+				</div>
+				<div className={style.transferContainer}>
+					<p className={style.transferPrice}>{priceFormatter(transferTotal)}</p>
+					<p className={style.transferLegend}>Pagando con transferencia ({PriceCalculator.TRANSFER_DISCOUNT_PERCENTAGE}% off)</p>
 				</div>
 			</div>
 		</div>
