@@ -9,7 +9,7 @@ import * as style from "./style.module.css";
 
 export default function CarritoPage() {
 
-    const { products, editQuantity, subtotal, getOrder, selectedShipping, setSelectedShipping, shippingCost, total } = useViewModel();
+    const { products, editQuantity, subtotal, getOrder, selectedShipping, setSelectedShipping, shippingCost, paymentMethod, setPaymentMethod, total } = useViewModel();
 
     return (
         <section className={style.container}>
@@ -19,6 +19,8 @@ export default function CarritoPage() {
                 shippingCost={shippingCost}
                 selectedShipping={selectedShipping}
                 setSelectedShipping={setSelectedShipping}
+                paymentMethod={paymentMethod}
+                setPaymentMethod={setPaymentMethod}
                 total={total}
             />
             <CartButtons products={products} getOrder={getOrder} />

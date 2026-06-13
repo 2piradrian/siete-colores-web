@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { priceFormatter, useRepositories } from "../../../core";
+import { PriceCalculator } from "../../../core/utils/PriceCalculator";
 import { ProductEntity } from "../../../domain";
 
 export interface Shipping {
@@ -20,6 +21,7 @@ export default function useViewModel() {
     const [shippings, setShippings] = useState<Shipping[]>([]);
     const [selectedShipping, setSelectedShipping] = useState<string>("none");
     const [shippingCost, setShippingCost] = useState(0);
+    const [paymentMethod, setPaymentMethod] = useState<string>("transfer");
     /* --- ----- --- */
 
     useEffect(() => {
@@ -91,6 +93,16 @@ export default function useViewModel() {
 
         const shippingText = selectedShipping === "none" ? "A convenir" : (selectedShipping === "branch" ? "Retiro en sucursal" : "Envío a domicilio");
 
+        const paymentMethodText = {
+            "transfer": `Transferencia (${PriceCalculator.TRANSFER_DISCOUNT_PERCENTAGE}% off)`,
+            "cash": "Efectivo",
+            "debit": "Débito",
+            "credit": "Crédito"
+        }[paymentMethod] || "Transferencia";
+
+        const finalSubtotal = paymentMethod === "transfer" ? PriceCalculator.calculateTransferPrice(subtotal) : subtotal;
+        const total = finalSubtotal + shippingCost;
+
         const text = `Hola, me gustaría consultar por los siguientes articulos
 
     		${products?.map((products: ProductEntity) => { return `\n${products.name} (${products.code}) x (${products.quantity}un.)\n` }).join("")}
@@ -102,7 +114,9 @@ Subtotal: ${priceFormatter(subtotal)}
 
 Envío: ${shippingText} ${shippingCost > 0 ? `(${priceFormatter(shippingCost)})` : ""}
 
-Total: ${priceFormatter(subtotal + shippingCost)} (a confirmar)`;
+Forma de pago: ${paymentMethodText}
+
+Total: ${priceFormatter(total)} (a confirmar)`;
 
         return `https://api.whatsapp.com/send?phone=543512742036&text=${encodeURI(text)}`;
 
@@ -117,6 +131,8 @@ Total: ${priceFormatter(subtotal + shippingCost)} (a confirmar)`;
         selectedShipping,
         setSelectedShipping,
         shippingCost,
+        paymentMethod,
+        setPaymentMethod,
         total: subtotal + shippingCost
     };
 }
