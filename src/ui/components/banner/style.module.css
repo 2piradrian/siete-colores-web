@@ -1,0 +1,15 @@
+.banner {
+    background-color: var(--alternative);
+    color: var(--main);
+    text-align: center;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    width: 100%;
+    position: fixed;
+    top: 110px;
+    z-index: 999;
+}

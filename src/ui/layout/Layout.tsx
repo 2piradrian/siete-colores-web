@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/footer/footer";
 import Header from "../components/header/header";
+import Banner from "../components/banner/Banner";
 import { SEO } from "../components/seo/seo";
 import "../style/global.css";
 import useViewModel from "../viewmodels/layout/useViewModel";
@@ -20,6 +21,7 @@ export default function Layout({ children }: Props) {
 				categories={categories}
 				categorySelected={categorySelected}
 			/>
+			<Banner />
 			<main className={style.layoutContainer}>
 				{children}
 			</main>
