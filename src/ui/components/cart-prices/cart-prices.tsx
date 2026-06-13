@@ -68,6 +68,13 @@ export default function CartPrices({ subtotal, shippingCost, selectedShipping, s
 						</p>
 					</div>
 				)}
+				{paymentMethod === "credit" && (
+					<div className={style.transferContainer}>
+						<p className={style.infoLegend}>
+							El pago con tarjeta de crédito puede tener recargos o intereses.
+						</p>
+					</div>
+				)}
 			</div>
 		</div>
 	);

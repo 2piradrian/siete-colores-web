@@ -97,8 +97,15 @@
 }
 
 .transferLegend {
-	font-size: 14px;
+	font-size: 18px;
+	font-weight: 600;
 	color: var(--main);
+}
+
+.infoLegend {
+	font-size: 14px;
+	color: var(--contrast);
+	opacity: 0.8;
 }
 
 .ship {
